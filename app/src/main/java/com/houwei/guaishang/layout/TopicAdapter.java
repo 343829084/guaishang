@@ -38,6 +38,7 @@ import com.houwei.guaishang.bean.PraiseBean;
 import com.houwei.guaishang.bean.TopicBean;
 import com.houwei.guaishang.easemob.EaseConstant;
 import com.houwei.guaishang.easemob.PreferenceManager;
+import com.houwei.guaishang.event.LoginSuccessEvent;
 import com.houwei.guaishang.layout.PictureGridLayout.RedPacketClickListener;
 import com.houwei.guaishang.manager.FaceManager;
 import com.houwei.guaishang.sp.DataStorage;
@@ -58,6 +59,8 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.qiniu.android.utils.StringUtils;
 import com.tbruyelle.rxpermissions2.RxPermissions;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -385,11 +388,17 @@ public class TopicAdapter extends BaseAdapter {
             public void galb() {
                 DataStorage.putCurrentTopicId(bean.getTopicId());
                 orderBuyOrNextPage(bean,true);
+                if (refreshImpl != null){
+                    refreshImpl.refreshAdapter();
+                }
             }
 
             @Override
             public void goChatView() {
                 DataStorage.putCurrentTopicId(bean.getTopicId());
+                if (refreshImpl != null){
+                    refreshImpl.refreshAdapter();
+                }
                 // TODO: 2018/4/21 跳转到聊天页面
                 Intent intent = new Intent(mContext, OrderChatActivity.class);
                 List<OffersBean.OfferBean> offerPriceList = bean.getOfferPrice();
@@ -419,11 +428,15 @@ public class TopicAdapter extends BaseAdapter {
 
             @Override
             public void doNothing() {
+
             }
 
             @Override
             public void chatAlone() {
                 DataStorage.putCurrentTopicId(bean.getTopicId());
+                if (refreshImpl != null){
+                    refreshImpl.refreshAdapter();
+                }
                 Intent intent = new Intent(mContext, OrderChatActivity.class);
                 ArrayList<OffersBean.OfferBean> tempList = new ArrayList<>();
                 OffersBean.OfferBean  tempBean = new OffersBean.OfferBean();
@@ -750,6 +763,8 @@ public class TopicAdapter extends BaseAdapter {
         this.onTopicBeanBaojiaClickListener = onTopicBeanBaojiaClickListener;
     }
 
+
+
     //按钮闪烁动画
     private void startFlick( View view ){
 
@@ -782,7 +797,16 @@ public class TopicAdapter extends BaseAdapter {
         }
         view.setBackground(mContext.getResources().getDrawable(R.drawable.topic_order_bg));
         view.clearAnimation( );
+    }
 
+    private RefreshImpl refreshImpl;
+
+    public void setRefreshImpl(RefreshImpl refreshImpl) {
+        this.refreshImpl = refreshImpl;
+    }
+
+    public interface RefreshImpl{
+        void refreshAdapter();
     }
 
 }

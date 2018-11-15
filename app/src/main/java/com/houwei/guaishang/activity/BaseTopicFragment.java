@@ -22,6 +22,7 @@ import com.houwei.guaishang.database.entity.HomeTopicCacheDataDao;
 import com.houwei.guaishang.easemob.PreferenceManager;
 import com.houwei.guaishang.event.LoginSuccessEvent;
 import com.houwei.guaishang.event.LogouSuccess;
+import com.houwei.guaishang.event.RefreshTopicEvent;
 import com.houwei.guaishang.layout.PictureGridLayout;
 import com.houwei.guaishang.layout.PraiseTextView;
 import com.houwei.guaishang.layout.RedPacketDialog;
@@ -117,6 +118,12 @@ public abstract class BaseTopicFragment extends BaseFragment implements
 						}
 					});
 
+					activity.adapter.setRefreshImpl(new TopicAdapter.RefreshImpl() {
+						@Override
+						public void refreshAdapter() {
+							refresh();
+						}
+					});
 					
 					activity.adapter.setOnRedPacketClickListener(new PictureGridLayout.RedPacketClickListener() {
 						
@@ -676,6 +683,11 @@ public abstract class BaseTopicFragment extends BaseFragment implements
 	}
 	@Subscribe(threadMode = ThreadMode.MAIN)
 	public void on3EventMainThread(LogouSuccess event){
+		refresh();
+	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void on3EventMainThread(RefreshTopicEvent event){
 		refresh();
 	}
 }
