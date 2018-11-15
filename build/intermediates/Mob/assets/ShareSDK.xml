@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+<SinaWeibo Id="1" SortId="1" AppKey="3090269003" AppSecret="653c037675439bce9a9e98fc914d3b85" ShareByAppClient="true" Enable="true" RedirectUrl="https://api.weibo.com/oauth2/default.html" />
+<TencentWeibo Id="2" SortId="2" AppKey="801307650" AppSecret="ae36f4ee3946e1cbb98d6965b0b2ff5c" Enable="true" RedirectUri="http://sharesdk.cn" />
+<Douban Enable="false" />
+<QZone Id="3" SortId="3" AppId="1105597476" AppKey="bVjMPctb0kEDgsWj" ShareByAppClient="true" BypassApproval="false" Enable="true" />
+<Renren Enable="false" />
+<KaiXin Enable="false" />
+<Facebook Enable="false" />
+<Twitter Enable="false" />
+<Evernote Enable="false" />
+<FourSquare Enable="false" />
+<GooglePlus Enable="false" />
+<Instagram Enable="false" />
+<LinkedIn Enable="false" />
+<Tumblr Enable="false" />
+<Email Enable="false" />
+<ShortMessage Enable="false" />
+<Wechat Id="4" SortId="4" AppId="wx36d2317425abaf8f" AppSecret="84e58199d081f5f1258a61702e049ba5" userName="gh_afb25ac019c9" path="pages/index/index.html?id=1" BypassApproval="false" Enable="true" />
+<WechatMoments Id="5" SortId="5" AppId="wx36d2317425abaf8f" AppSecret="84e58199d081f5f1258a61702e049ba5" BypassApproval="false" Enable="true" />
+<QQ Id="7" SortId="7" AppId="1105597476" AppKey="bVjMPctb0kEDgsWj" ShareByAppClient="true" BypassApproval="false" Enable="true" />
+<Instapaper Enable="false" />
+<Pocket Enable="false" />
+<YouDao Enable="false" />
+<Pinterest Enable="false" />
+<Flickr Enable="false" />
+<Dropbox Enable="false" />
+<VKontakte Enable="false" />
+<WechatFavorite Id="6" SortId="6" AppId="wx36d2317425abaf8f" AppSecret="84e58199d081f5f1258a61702e049ba5" BypassApproval="false" Enable="true" />
+<Yixin Enable="false" />
+<YixinMoments Enable="false" />
+<Mingdao Enable="false" />
+<Line Enable="false" />
+<WhatsApp Enable="false" />
+<KakaoTalk Enable="false" />
+<KakaoStory Enable="false" />
+<FacebookMessenger Enable="false" />
+<Alipay Enable="false" />
+<AlipayMoments Enable="false" />
+<Dingding Enable="false" />
+<Youtube Enable="false" />
+<Meipai Enable="false" />
+<Telegram Enable="false" />
+<Cmcc Enable="false" />
+<Reddit Enable="false" />
+</DevInfor>
