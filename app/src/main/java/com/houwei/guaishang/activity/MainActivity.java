@@ -413,6 +413,8 @@ public class MainActivity extends MainHuanXinActivity implements UserStateChange
 			}
 //          显示主题片段           假
 			showTopicFragment = false;
+
+			readPhoneAndMessage();
 		}
 	}
 
