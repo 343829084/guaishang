@@ -51,6 +51,7 @@ public class HomeOrderGridAdapter extends BaseAdapter  {
         //16: 是父控件(viewpager)左右padding之和16dp
         float leftAndRightPadding = Utils.dip2px(mContext, 16);
 
+
         column = getCount() >= 3 ? 3 : getCount();
 //        int lines = getCount() / 3 + (getCount() % 3 > 0 ? 1 : 0);
 //        lines = lines > 3 ? 3 : lines;
