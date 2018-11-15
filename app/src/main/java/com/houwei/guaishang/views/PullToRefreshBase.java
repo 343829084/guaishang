@@ -678,7 +678,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout {
 		// Loading View Strings
 		String pullToRefreshLabel = context.getString(R.string.pull_to_refresh_pull_label);
 		String refreshingLabel = context.getString(R.string.pull_to_refresh_refreshing_label);
-		String releaseToRefreshLabel = context.getString(R.string.pull_to_refresh_release_label);
+		String releaseToRefreshLabel = context.getString(R.string.pull_to_refresh_pull_label);
 
 		// Add Loading Views
 		if (mMode == MODE_PULL_DOWN_TO_REFRESH || mMode == MODE_BOTH) {

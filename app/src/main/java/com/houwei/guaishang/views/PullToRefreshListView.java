@@ -116,7 +116,7 @@ public class PullToRefreshListView extends PullToRefreshAdapterViewBase<ListView
 		// Loading View Strings
 		String pullLabel = context.getString(R.string.pull_to_refresh_pull_label);
 		String refreshingLabel = context.getString(R.string.pull_to_refresh_refreshing_label);
-		String releaseLabel = context.getString(R.string.pull_to_refresh_release_label);
+		String releaseLabel = context.getString(R.string.pull_to_refresh_pull_label);
 
 		// Get Styles from attrs
 		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.AppStorePullToRefresh);
