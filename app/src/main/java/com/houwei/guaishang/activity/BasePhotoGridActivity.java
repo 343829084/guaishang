@@ -62,7 +62,7 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 	// 压缩后的临时路径
 	public ArrayList<String> thumbPictures = new ArrayList<String>();
 //	仅展示使用
-	public ArrayList<String> thumbPicturesShow = new ArrayList<String>();
+//	public ArrayList<String> thumbPicturesShow = new ArrayList<String>();
 	private static final int REQUEST_PICK = 0;
 
 	@Override
@@ -152,14 +152,9 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 						//清除上次的 压缩图
 						clearCurreantThumbList();
 						//重新显示这次选择的
-						int size = tempThumbPictures.size();
-						for (int i = 0; i < size; i++) {
-							if (i % 2 == 0){
-								thumbPicturesShow.add(tempThumbPictures.get(i));
-							}
-						}
+
 						thumbPictures.addAll(0, tempThumbPictures);
-						PhotoReleaseGridAdapter adapter = new PhotoReleaseGridAdapter(thumbPicturesShow,BasePhotoGridActivity.this);
+						PhotoReleaseGridAdapter adapter = new PhotoReleaseGridAdapter(thumbPictures,BasePhotoGridActivity.this);
 						gridView.setAdapter(adapter);
 					}
 				});

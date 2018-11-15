@@ -21,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.baidu.tts.tools.SharedPreferencesUtils;
@@ -30,6 +31,7 @@ import com.easemob.EMNotifierEvent;
 import com.easemob.chat.EMChatManager;
 import com.github.jdsjlzx.ItemDecoration.GridItemDecoration;
 import com.github.jdsjlzx.interfaces.OnItemClickListener;
+import com.github.jdsjlzx.interfaces.OnItemLongClickListener;
 import com.github.jdsjlzx.recyclerview.LRecyclerView;
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter;
 import com.houwei.guaishang.R;
@@ -65,6 +67,8 @@ import com.houwei.guaishang.tools.VoiceUtils;
 import com.houwei.guaishang.util.AvatarChangeUtil;
 import com.houwei.guaishang.util.LoginJumperUtil;
 import com.houwei.guaishang.view.CircleImageView;
+import com.houwei.guaishang.widget.PsiDialog;
+import com.houwei.guaishang.widget.ScrollViewRecycleView;
 import com.luck.picture.lib.PictureSelector;
 import com.luck.picture.lib.entity.LocalMedia;
 import com.luck.picture.lib.tools.PictureFileUtils;
@@ -105,7 +109,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
     private TextView mMoneyTv, mTradeCountTv;
     private TextView mPhoneTv, mMobilePhoneTv, mAddressTv, mBankTv, mAccountTv, mAuthenticationTv;
     private ToggleButton toggleButton;
-    private LRecyclerView recyclerView;
+    private ScrollViewRecycleView recyclerView;
     private GridMeAdapter mAdapter;
     private LRecyclerViewAdapter lRecyclerViewAdapter;
 //    private Dialog mChangeHeadDialog;
@@ -114,7 +118,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
     private List<LocalMedia> selectList1 = new ArrayList<>();
     private List<LocalMedia> selectList2 = new ArrayList<>();
     private List<LocalMedia> selectList3 = new ArrayList<>();//只处理页面相关的
-    private List<LocalMedia> selectList4= new ArrayList<>();//保存本地图片的列表
+//    private List<LocalMedia> selectList4= new ArrayList<>();//保存本地图片的列表
     private MyUserBeanManager myUserBeanManager;
 
     private MyHandler handler = new MyHandler(getActivity());
@@ -331,7 +335,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
         mTradeCountTv = (TextView) getView().findViewById(R.id.tv_trade_count);
         mTradeCountTv.setOnClickListener(this);
 
-        recyclerView = (LRecyclerView) getView().findViewById(R.id.recycle_view);
+        recyclerView = (ScrollViewRecycleView) getView().findViewById(R.id.recycle_view);
         initProgressDialog(false, null);
         initRcycle();
 //          开关按钮
@@ -455,6 +459,48 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                 }
             }
         });
+        lRecyclerViewAdapter.setOnItemLongClickListener(new OnItemLongClickListener() {
+            @Override
+            public void onItemLongClick(View view, int position) {
+                showDialog(selectList3.get(position),position);
+            }
+        });
+    }
+
+    private void showDialog(final LocalMedia media, final int position){
+        final PsiDialog dialog = new PsiDialog(getActivity(),"确定删除?");
+        dialog.setOnButtonClickListener(new PsiDialog.OnButtonClickListener() {
+            @Override
+            public void onNegativeButtonClick(View view) {
+                dialog.dismiss();
+            }
+
+            @Override
+            public void onPositiveButtonClick(View view) {
+                List<LocalMedia> selectList4= new ArrayList<>();
+                for (int i = 0; i < selectList3.size(); i++) {
+                    LocalMedia media = selectList3.get(i);
+                    if (!TextUtils.isEmpty(media.getPath())) {
+                        media.setPath(AvatarChangeUtil.findOriginalUrl(media.getPath()));
+                        selectList4.add(media);
+                    }
+                }
+                if (selectList4.contains(media)){
+                    selectList4.remove(media);
+                }
+                selectList3.clear();
+                selectList3.addAll(selectList4);
+                if (mAdapter != null) {
+                    mAdapter.clear();
+                    lRecyclerViewAdapter.notifyDataSetChanged();
+                    mAdapter.setDataList(selectList3);
+                    recyclerView.refresh();
+                }
+                dialog.dismiss();
+
+            }
+        },"取消 ","确定");
+        dialog.show();
     }
 
     public void showBottomPopupWin() {

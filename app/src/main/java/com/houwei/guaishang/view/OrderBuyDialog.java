@@ -137,7 +137,7 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
                     robPrice = bean.getRobbingPrice();
                 }
                 if (money < robPrice) {
-                    goToRechargeActivity();
+                    goToRechargeActivity(robPrice);
                 } else {
                     if (callBack != null){
                         callBack.call();
@@ -192,12 +192,14 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
 
                     }
                 };
-                String content = "分享免费抢单";
+                String content = "怪商抢单-管件抢单神器！";
                 String url = HttpUtil.SHARE_TOPIC_IP + bean.getTopicId();
                 ShareUtil2.shareToWXmomentsForOrderBuy(mContext,content,url,"",platformActionListener);
                 break;
             case R.id.tv_recharge:
-                goToRechargeActivity();
+                if (bean != null) {
+                    goToRechargeActivity(bean.getRobbingPrice());
+                }
                 break;
             case R.id.fl_container:
                 break;
@@ -205,8 +207,9 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
         dismiss();
     }
 
-    private void goToRechargeActivity() {
+    private void goToRechargeActivity(float robPrice) {
         Intent intent = new Intent(mContext, RechargeDialogActivity.class);
+        intent.putExtra("robPrice",robPrice);
         mContext.startActivity(intent);
     }
 

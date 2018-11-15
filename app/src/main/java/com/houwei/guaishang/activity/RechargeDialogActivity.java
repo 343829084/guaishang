@@ -30,11 +30,12 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
 
     private String  to_memberid;
     private long money = 1;
-
+    private int robPrice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_dialog_recharge);
+        robPrice = (int) getIntent().getFloatExtra("robPrice",1);
         initView();
     }
 
@@ -83,6 +84,10 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
         findViewById(R.id.fl_container).setOnClickListener(this);
         findViewById(R.id.ll_ali).setOnClickListener(this);
         findViewById(R.id.ll_wx).setOnClickListener(this);
+
+
+        etInput.setText(String.valueOf(robPrice));
+        tvMoneyCount.setText(String.valueOf(robPrice * 1L));
     }
 
     @Override

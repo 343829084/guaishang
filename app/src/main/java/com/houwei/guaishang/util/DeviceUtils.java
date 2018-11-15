@@ -28,5 +28,7 @@ public class DeviceUtils {
         int height = context.getResources().getDisplayMetrics().heightPixels;
         return height;
     }
+
+
 }
 
