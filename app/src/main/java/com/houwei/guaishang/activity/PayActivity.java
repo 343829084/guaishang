@@ -217,12 +217,27 @@ public class PayActivity extends PayBaseActivity implements View.OnClickListener
 	public void onClick(View v) {
 		switch (v.getId()) {
 			case R.id.iv_dongdong:
+				dongdon_cb.setChecked(true);
+				alipay_cb.setChecked(false);
+				weixin_cb.setChecked(false);
+				customer_cb.setChecked(false);
+				offline_cb.setChecked(false);
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_DONGDONG);
 				break;
 			case R.id.iv_customer:
+				customer_cb.setChecked(true);
+				alipay_cb.setChecked(false);
+				dongdon_cb.setChecked(false);
+				weixin_cb.setChecked(false);
+				offline_cb.setChecked(false);
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_CUSTOMER);
 				break;
 			case R.id.iv_offline:
+				offline_cb.setChecked(true);
+				alipay_cb.setChecked(false);
+				dongdon_cb.setChecked(false);
+				customer_cb.setChecked(false);
+				weixin_cb.setChecked(false);
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_OFFLINE);
 				break;
 			case R.id.alipay_cb:
