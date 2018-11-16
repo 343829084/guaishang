@@ -44,7 +44,6 @@ public class UserBean implements Serializable {
 	private String address;
 	private String gudingPhone;
 
-
 	public AvatarBean getAvatar() {
 		return avatar;
 	}

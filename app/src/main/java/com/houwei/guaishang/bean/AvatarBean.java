@@ -11,6 +11,7 @@ public class AvatarBean implements Serializable{
 	private static final long serialVersionUID = -6693823233242834286L;
 	private String original;
 	private String small;
+	private String imgkey;
 	public String getOriginal() {
 		return original;
 	}
@@ -43,5 +44,13 @@ public class AvatarBean implements Serializable{
 	}
 	public boolean isEmpty(){
 	    return original==null || original.equals("");
+	}
+
+	public String getImgkey() {
+		return imgkey;
+	}
+
+	public void setImgkey(String imgkey) {
+		this.imgkey = imgkey;
 	}
 }

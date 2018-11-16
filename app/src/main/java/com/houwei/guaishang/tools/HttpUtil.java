@@ -40,7 +40,7 @@ public class HttpUtil {
 	// http请求时候的md5加密用的秘钥，开发者（包括android，ios，php）请自行统一修改，以确保app网络安全
 	public static final String SIG_KEY = "iTopic2015";
 
-	public static final String SHARE_TOPIC_IP = "http://www.guaishangfaming.com/share/topic?id=";
+	public static final String SHARE_TOPIC_IP = "http://a.app.qq.com/o/simple.jsp?pkgname=com.houwei.guaishang";
 //	public static final String SHARE_TOPIC_IP = "http://zd.liexianghudong.com/index.php/share/topic?id=";
 
 	//微信支付key

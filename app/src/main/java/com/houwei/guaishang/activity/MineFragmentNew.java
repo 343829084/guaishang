@@ -36,15 +36,21 @@ import com.github.jdsjlzx.recyclerview.LRecyclerView;
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter;
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.adapter.GridMeAdapter;
+import com.houwei.guaishang.bean.AvatarBean;
 import com.houwei.guaishang.bean.CommentPushBean;
 import com.houwei.guaishang.bean.FansPushBean;
 import com.houwei.guaishang.bean.FloatResponse;
+import com.houwei.guaishang.bean.HisInfoResponse;
+import com.houwei.guaishang.bean.HisUserBean;
 import com.houwei.guaishang.bean.IntResponse;
+import com.houwei.guaishang.bean.MyInfoResponse;
+import com.houwei.guaishang.bean.PictureBean;
 import com.houwei.guaishang.bean.StringResponse;
 import com.houwei.guaishang.bean.UserBean;
 import com.houwei.guaishang.data.DBReq;
 import com.houwei.guaishang.easemob.PreferenceManager;
 import com.houwei.guaishang.event.BrandSelectEvent;
+import com.houwei.guaishang.event.LoginSuccessEvent;
 import com.houwei.guaishang.event.LogouSuccess;
 import com.houwei.guaishang.event.UpdateMoneyEvent;
 import com.houwei.guaishang.inter.DeleteInter;
@@ -66,6 +72,7 @@ import com.houwei.guaishang.tools.ToastUtils;
 import com.houwei.guaishang.tools.VoiceUtils;
 import com.houwei.guaishang.util.AvatarChangeUtil;
 import com.houwei.guaishang.util.LoginJumperUtil;
+import com.houwei.guaishang.util.MinePictureUtil;
 import com.houwei.guaishang.view.CircleImageView;
 import com.houwei.guaishang.widget.PsiDialog;
 import com.houwei.guaishang.widget.ScrollViewRecycleView;
@@ -86,6 +93,7 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MineFragmentNew extends BaseFragment implements OnClickListener,
         UserStateChangeListener, OnMyActionMessageGetListener,
@@ -182,19 +190,18 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                                 String res = "";
                                 UserBean ub = getITopicApplication()
                                         .getMyUserBeanManager().getInstance();
-                                List<StringResponse.PictureBean> lists = retMap.getPictures();
+                                ArrayList<PictureBean> lists = (ArrayList<PictureBean>) retMap.getPictures();
                                 if (lists.isEmpty()) {
                                     return;
                                 }
-//                                res = ub.getPicture();
-                                for (StringResponse.PictureBean bean : lists) {
+
+                                for (PictureBean bean : lists) {
                                     res = res + bean.getOriginal()+",";
                                 }
                                 if (res.endsWith(",")) {
                                     res = res.substring(0, res.length() - 1);
                                 }
                                 SPUtils.put(getActivity(), "gridimage", res);
-
 
                                 ub.setPicture(res);
                                 getITopicApplication()
@@ -212,11 +219,41 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                     break;
                 case NETWORK_SUCCESS_DATA_ERROR:
                     break;
+
+                case BaseActivity.NETWORK_OTHER:
+                    final MyInfoResponse response = (MyInfoResponse) msg.obj;
+                    String res2="";
+                    if (response.isSuccess()) {
+                        HisUserBean bean = response.getData();
+                        List<AvatarBean> picture = bean.getPicture();
+                        UserBean ub = getITopicApplication()
+                                .getMyUserBeanManager().getInstance();
+
+                        for (AvatarBean avatarBean : picture) {
+                            MinePictureUtil.add(HttpUtil.IP_NOAPI+avatarBean.getOriginal(),avatarBean.getImgkey());
+                            res2 = res2 + avatarBean.getOriginal()+",";
+                        }
+                        if (res2.endsWith(",")) {
+                            res2 = res2.substring(0, res2.length() - 1);
+                        }
+                        SPUtils.put(getActivity(), "gridimage", res2);
+
+                        ub.setPicture(res2);
+//                        ub.setPicture(picture);
+                        getITopicApplication()
+                                .getMyUserBeanManager().storeUserInfo(ub);
+                        getITopicApplication()
+                                .getMyUserBeanManager()
+                                .notityUserInfoChanged(ub);
+                    }
+                    break;
                 default:
                     break;
             }
         }
     }
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -231,6 +268,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
         initView();
         initData();
         initListener();
+       new Thread(inforun).start();
     }
 
     @Override
@@ -465,6 +503,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                 showDialog(selectList3.get(position),position);
             }
         });
+
     }
 
     private void showDialog(final LocalMedia media, final int position){
@@ -490,12 +529,18 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                 }
                 selectList3.clear();
                 selectList3.addAll(selectList4);
+                LocalMedia localMedia = new LocalMedia();
+                localMedia.setPath("");
+                selectList3.add(localMedia);
                 if (mAdapter != null) {
                     mAdapter.clear();
                     lRecyclerViewAdapter.notifyDataSetChanged();
                     mAdapter.setDataList(selectList3);
                     recyclerView.refresh();
                 }
+
+                deletePic(MinePictureUtil.get(media.getPath()));
+//                new Thread(inforun).start();
                 dialog.dismiss();
 
             }
@@ -723,6 +768,32 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
 //        });
     }
 
+    private Runnable inforun = new Runnable() {
+
+        public void run() {
+            // TODO Auto-generated method stub
+            MyInfoResponse response = null;
+            try {
+                Map<String, String> data = new HashMap<String, String>();
+                data.put("memberid",getUserID());
+                data.put("userid", getUserID());
+                response = JsonParser.getMyInfoResponse(HttpUtil
+                        .getMsg(HttpUtil.IP + "user/profile?"
+                                + HttpUtil.getData(data)));
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            if (response != null) {
+                handler.sendMessage(handler.obtainMessage(
+                        BaseActivity.NETWORK_OTHER, response));
+            } else {
+                handler.sendEmptyMessage(BaseActivity.NETWORK_FAIL);
+            }
+        }
+    };
+
+
     private String getUserInfoStr(int resId, String str) {
         if (TextUtils.isEmpty(str)) {
             return getActivity().getResources().getString(resId, "--");
@@ -894,7 +965,22 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
             }
         }
     }
+    private void deletePic(String imgkey){
+        OkGo.<String>post(HttpUtil.IP + "user/delproimg")
+                .params("userid", UserUtil.getUserInfo().getUserId())
+                .params("imgkey", imgkey)
+                .execute(new StringCallback() {
+                    @Override
+                    public void onSuccess(Response<String> response) {
 
+                    }
+                    @Override
+                    public void onError(Response<String> response) {
+                        super.onError(response);
+                        ToastUtils.toastForShort(getActivity(),"删除图片失败");
+                    }
+                });
+    }
     private void uploadAvatar(String path){
         OkGo.<String>post(HttpUtil.IP + "user/modify")
                 .params("userid", UserUtil.getUserInfo().getUserId())
@@ -1059,12 +1145,17 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
+    public void on3EventMainThread(LoginSuccessEvent event){
+        new Thread(inforun).start();
+    }
+    @Subscribe(threadMode = ThreadMode.MAIN)
     public void on3EventMainThread(LogouSuccess event){
         getITopicApplication()
                 .getMyUserBeanManager().storeUserInfo(null);
         getITopicApplication()
                 .getMyUserBeanManager()
                 .notityUserInfoChanged(null);
+
     }
 
 }

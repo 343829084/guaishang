@@ -46,30 +46,39 @@ public class StringResponse implements Serializable{
 		return code == 1;
 	}
 
-	public class PictureBean {
-
-		/**
-		 * original : /media/topic/photo/2017-10-20/0aeabae3857810de.600_900.png
-		 * small : /media/topic/photo/2017-10-20/0aeabae3857810de.small.png
-		 */
-
-		private String original;
-		private String small;
-
-		public String getOriginal() {
-			return original;
-		}
-
-		public void setOriginal(String original) {
-			this.original = original;
-		}
-
-		public String getSmall() {
-			return small;
-		}
-
-		public void setSmall(String small) {
-			this.small = small;
-		}
-	}
+//	public class PictureBean {
+//
+//		/**
+//		 * original : /media/topic/photo/2017-10-20/0aeabae3857810de.600_900.png
+//		 * small : /media/topic/photo/2017-10-20/0aeabae3857810de.small.png
+//		 */
+//
+//		private String original;
+//		private String small;
+//		private String imgkey;
+//
+//		public String getOriginal() {
+//			return original;
+//		}
+//
+//		public void setOriginal(String original) {
+//			this.original = original;
+//		}
+//
+//		public String getSmall() {
+//			return small;
+//		}
+//
+//		public void setSmall(String small) {
+//			this.small = small;
+//		}
+//
+//		public String getImgkey() {
+//			return imgkey;
+//		}
+//
+//		public void setImgkey(String imgkey) {
+//			this.imgkey = imgkey;
+//		}
+//	}
 }

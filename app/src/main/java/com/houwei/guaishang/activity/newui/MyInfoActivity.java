@@ -30,6 +30,7 @@ import com.houwei.guaishang.activity.BaseActivity;
 import com.houwei.guaishang.activity.BasePhotoGridActivity;
 import com.houwei.guaishang.adapter.GridMeAdapter;
 import com.houwei.guaishang.bean.MyInfoBean;
+import com.houwei.guaishang.bean.PictureBean;
 import com.houwei.guaishang.bean.StringResponse;
 import com.houwei.guaishang.bean.UserBean;
 import com.houwei.guaishang.inter.DeleteInter;
@@ -133,11 +134,11 @@ public class MyInfoActivity extends BaseActivity implements DeleteInter {
                                 break;
                             case GRID_TYPE:
                                 String res = "";
-                                List<StringResponse.PictureBean> lists = retMap.getPictures();
+                                List<PictureBean> lists = retMap.getPictures();
                                 if (lists.isEmpty()) {
                                     return;
                                 }
-                                for (StringResponse.PictureBean bean : lists) {
+                                for (PictureBean bean : lists) {
                                     res = res + HttpUtil.IP_NOAPI + bean.getSmall() + ",";
                                 }
                                 if (res.endsWith(",")) {

@@ -23,6 +23,7 @@ import com.houwei.guaishang.bean.MissionProgressResponse;
 import com.houwei.guaishang.bean.MissionlogListResponse;
 import com.houwei.guaishang.bean.ModifyResponse;
 import com.houwei.guaishang.bean.MoneylogListResponse;
+import com.houwei.guaishang.bean.MyInfoResponse;
 import com.houwei.guaishang.bean.NameIDBean;
 import com.houwei.guaishang.bean.NearMemberListResponse;
 import com.houwei.guaishang.bean.PraiseResponse;
@@ -158,6 +159,10 @@ public class JsonParser {
 	}
 	public static HisInfoResponse getHisInfoResponse(String json) {
 		HisInfoResponse response = JsonUtil.getObject(json, HisInfoResponse.class);
+		return response;
+	}
+	public static MyInfoResponse getMyInfoResponse(String json) {
+		MyInfoResponse response = JsonUtil.getObject(json, MyInfoResponse.class);
 		return response;
 	}
 	public static HomeInfoResponse getHomeInfoResponse(String json) {
