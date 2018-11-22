@@ -24,6 +24,7 @@ import com.houwei.guaishang.bean.TopicBean;
 import com.houwei.guaishang.event.UpdateMoneyEvent;
 import com.houwei.guaishang.tools.HttpUtil;
 import com.houwei.guaishang.tools.ShareUtil2;
+import com.houwei.guaishang.tools.ToastUtils;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
@@ -161,24 +162,25 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
                 PlatformActionListener platformActionListener = new PlatformActionListener() {
                     @Override
                     public void onComplete(Platform platform, int i, HashMap<String, Object> hashMap) {
-                        OkGo.<String>post(HttpUtil.IP + "user/modify")
-                                .params("userid", activity.getUserID())
-                                .params("topicid", bean.getTopicId())
-                                .params("event", "is_share")
-                                .params("value", "1")
-                                .execute(new StringCallback() {
-                                    @Override
-                                    public void onSuccess(Response<String> response) {
-                                        if (callBack != null){
-                                            callBack.call();
-                                        }
-                                        EventBus.getDefault().post(new UpdateMoneyEvent());
-                                    }
-                                    @Override
-                                    public void onError(Response<String> response) {
-                                        super.onError(response);
-                                    }
-                                });
+                        ToastUtils.toastForLong(mContext,"分享成功");
+//                        OkGo.<String>post(HttpUtil.IP + "user/modify")
+//                                .params("userid", activity.getUserID())
+//                                .params("topicid", bean.getTopicId())
+//                                .params("event", "is_share")
+//                                .params("value", "1")
+//                                .execute(new StringCallback() {
+//                                    @Override
+//                                    public void onSuccess(Response<String> response) {
+//                                        if (callBack != null){
+//                                            callBack.call();
+//                                        }
+//                                        EventBus.getDefault().post(new UpdateMoneyEvent());
+//                                    }
+//                                    @Override
+//                                    public void onError(Response<String> response) {
+//                                        super.onError(response);
+//                                    }
+//                                });
 
                     }
 

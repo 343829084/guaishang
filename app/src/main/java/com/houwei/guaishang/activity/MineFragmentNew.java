@@ -209,7 +209,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
                                 getITopicApplication()
                                         .getMyUserBeanManager()
                                         .notityUserInfoChanged(ub);
-
+                                new Thread(inforun).start();
                                 break;
                         }
 

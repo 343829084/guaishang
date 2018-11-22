@@ -222,6 +222,7 @@ public class PayActivity extends PayBaseActivity implements View.OnClickListener
 				weixin_cb.setChecked(false);
 				customer_cb.setChecked(false);
 				offline_cb.setChecked(false);
+				payType = PAY_TYPE_DONGDONG;
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_DONGDONG);
 				break;
 			case R.id.iv_customer:
@@ -230,6 +231,7 @@ public class PayActivity extends PayBaseActivity implements View.OnClickListener
 				dongdon_cb.setChecked(false);
 				weixin_cb.setChecked(false);
 				offline_cb.setChecked(false);
+				payType = PAY_TYPE_CUSTOMER;
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_CUSTOMER);
 				break;
 			case R.id.iv_offline:
@@ -238,6 +240,7 @@ public class PayActivity extends PayBaseActivity implements View.OnClickListener
 				dongdon_cb.setChecked(false);
 				customer_cb.setChecked(false);
 				weixin_cb.setChecked(false);
+				payType = PAY_TYPE_OFFLINE;
 				BitmapSelectorUtil.gotoPic(PayActivity.this, 1, 3, false, false, PAY_TYPE_OFFLINE);
 				break;
 			case R.id.alipay_cb:
@@ -266,7 +269,7 @@ public class PayActivity extends PayBaseActivity implements View.OnClickListener
 				customer_cb.setChecked(false);
 				offline_cb.setChecked(false);
 				payType = PAY_TYPE_DONGDONG;
-				break;
+			break;
 			case R.id.cb_customer:
 			case R.id.ll_customer:
 				customer_cb.setChecked(true);
