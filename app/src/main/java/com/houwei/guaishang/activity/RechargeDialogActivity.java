@@ -12,8 +12,11 @@ import android.widget.TextView;
 
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.bean.event.TopicHomeEvent;
+import com.houwei.guaishang.bean.event.paySuccess;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,6 +38,9 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_dialog_recharge);
+        if (!EventBus.getDefault().isRegistered(this)){
+            EventBus.getDefault().register(this);
+        }
         robPrice = (int) getIntent().getFloatExtra("robPrice",1);
         initView();
     }
@@ -69,6 +75,8 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
             }
         });
 
+        TextView title = (TextView) findViewById(R.id.tv_title);
+        title.setText("支付总额："+robPrice+"元");
         tvMoneyCount = (TextView)findViewById(R.id.tv_dongdong_money_count);
         tvCancle = (TextView) findViewById(R.id.tv_cancle);
         tvConfirm = (TextView) findViewById(R.id.tv_confirm);
@@ -104,6 +112,8 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
                 rbALi.setChecked(false);
                 break;
             case R.id.tv_cancle:
+//                showSuccessTips("支付成功！");
+//                EventBus.getDefault().post(new paySuccess());
                 finish();
                 break;
             case R.id.tv_confirm:
@@ -144,9 +154,13 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
         super.paySuccess();
         progress.dismiss();
         showSuccessTips("支付成功！");
-        EventBus.getDefault().post(new TopicHomeEvent());
-        Intent i = new Intent(RechargeDialogActivity.this, MainActivity.class);
-        startActivity(i);
+        EventBus.getDefault().post(new paySuccess());
+//        Intent i = new Intent(RechargeDialogActivity.this, MainActivity.class);
+//        startActivity(i);
         finish();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(paySuccess event){
     }
 }

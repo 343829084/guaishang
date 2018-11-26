@@ -87,8 +87,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:textColor="#101010"
-                    android:text="抢单支付10个金币"/>
-
+                    android:text="抢单支付10元"/>
                 <TextView
                     android:id="@+id/tv_recharge"
                     android:layout_width="wrap_content"
@@ -98,6 +97,7 @@
                     android:gravity="center"
                     android:textColor="#101010"
                     android:textSize="8sp"
+                    android:visibility="gone"
                     android:text="现有金币--个，点此充值"/>
 
             </LinearLayout>

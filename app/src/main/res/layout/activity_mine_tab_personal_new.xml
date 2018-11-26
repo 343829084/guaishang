@@ -273,6 +273,7 @@
                 <RelativeLayout
                     android:id="@+id/rl_money_count"
                     android:layout_width="match_parent"
+                    android:visibility="gone"
                     android:layout_height="30dp">
 
                     <TextView

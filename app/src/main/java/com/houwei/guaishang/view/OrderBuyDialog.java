@@ -21,6 +21,7 @@ import com.houwei.guaishang.R;
 import com.houwei.guaishang.activity.BaseActivity;
 import com.houwei.guaishang.activity.RechargeDialogActivity;
 import com.houwei.guaishang.bean.TopicBean;
+import com.houwei.guaishang.bean.event.paySuccess;
 import com.houwei.guaishang.event.UpdateMoneyEvent;
 import com.houwei.guaishang.tools.HttpUtil;
 import com.houwei.guaishang.tools.ShareUtil2;
@@ -30,6 +31,8 @@ import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.HashMap;
 
@@ -91,7 +94,9 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
         View view = getLayoutInflater().inflate(R.layout.view_dialog_order_buy,
                 null);
         setContentView(view);
-
+        if (!EventBus.getDefault().isRegistered(this)){
+            EventBus.getDefault().register(this);
+        }
         //一定要在setContentView之后调用，否则无效
         getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
@@ -109,7 +114,7 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
         if (money >= 0) {
             tvRecharge.setText("现有余额"+money+"元，点此充值");
         }
-        tvPay.setText("抢单支付"+bean.getRobbingPrice()+"个金币");
+        tvPay.setText("抢单支付"+bean.getRobbingPrice()+"元");
 
         rbShare = (CheckBox) view.findViewById(R.id.rb_share);
         rbShare.setSelected(true);
@@ -137,23 +142,27 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
                 if (bean != null) {
                     robPrice = bean.getRobbingPrice();
                 }
-                if (money < robPrice) {
-                    goToRechargeActivity(robPrice);
-                } else {
-                    if (callBack != null){
-                        callBack.call();
-                    }
-//                    Intent i=new Intent(activity, TopicDetailActivity.class);
-//                    i.putExtra("TopicBean", bean);
-//                    i.putExtra("position", 0);
-//                    i.putExtra("needPay", Integer.valueOf(bean.getIsOffer()));
-//                    activity.startActivity(i);
-//                    Intent i = new Intent();
-//                    i.putExtra("TopicBean", bean);
-//                    i.putExtra("position", 0);
-//                    ((BaseActivity)mContext).jumpToChatActivityCom(bean,0,bean.getMemberId(),
-//                            bean.getMemberName(), bean.getMemberAvatar(), EaseConstant.CHATTYPE_SINGLE,true);
-                }
+                goToRechargeActivity(robPrice);
+//                if (bean != null) {
+//                    robPrice = bean.getRobbingPrice();
+//                }
+//                if (money < robPrice) {
+//                    goToRechargeActivity(robPrice);
+//                } else {
+//                    if (callBack != null){
+//                        callBack.call();
+//                    }
+////                    Intent i=new Intent(activity, TopicDetailActivity.class);
+////                    i.putExtra("TopicBean", bean);
+////                    i.putExtra("position", 0);
+////                    i.putExtra("needPay", Integer.valueOf(bean.getIsOffer()));
+////                    activity.startActivity(i);
+////                    Intent i = new Intent();
+////                    i.putExtra("TopicBean", bean);
+////                    i.putExtra("position", 0);
+////                    ((BaseActivity)mContext).jumpToChatActivityCom(bean,0,bean.getMemberId(),
+////                            bean.getMemberName(), bean.getMemberAvatar(), EaseConstant.CHATTYPE_SINGLE,true);
+//                }
                 break;
             case R.id.ll_share:
             case R.id.rb_share:
@@ -163,24 +172,24 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
                     @Override
                     public void onComplete(Platform platform, int i, HashMap<String, Object> hashMap) {
                         ToastUtils.toastForLong(mContext,"分享成功");
-//                        OkGo.<String>post(HttpUtil.IP + "user/modify")
-//                                .params("userid", activity.getUserID())
-//                                .params("topicid", bean.getTopicId())
-//                                .params("event", "is_share")
-//                                .params("value", "1")
-//                                .execute(new StringCallback() {
-//                                    @Override
-//                                    public void onSuccess(Response<String> response) {
-//                                        if (callBack != null){
-//                                            callBack.call();
-//                                        }
+                        OkGo.<String>post(HttpUtil.IP + "user/modify")
+                                .params("userid", activity.getUserID())
+                                .params("topicid", bean.getTopicId())
+                                .params("event", "is_share")
+                                .params("value", "1")
+                                .execute(new StringCallback() {
+                                    @Override
+                                    public void onSuccess(Response<String> response) {
+                                        if (callBack != null){
+                                            callBack.call();
+                                        }
 //                                        EventBus.getDefault().post(new UpdateMoneyEvent());
-//                                    }
-//                                    @Override
-//                                    public void onError(Response<String> response) {
-//                                        super.onError(response);
-//                                    }
-//                                });
+                                    }
+                                    @Override
+                                    public void onError(Response<String> response) {
+                                        super.onError(response);
+                                    }
+                                });
 
                     }
 
@@ -226,4 +235,12 @@ public class OrderBuyDialog extends Dialog implements OnClickListener {
     public interface  FinishCallBack{
         void call();
     }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(paySuccess event){
+        if (callBack != null){
+            callBack.call();
+        }
+    }
+
 }
