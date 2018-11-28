@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\548515c4646d97233a0d397ae26df7a50f87ed65\output\jars\libs\ShareSDK-Core-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="54bfc2ca21eded2101b7eaa9b800cb3d0eaeacd9">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Core-3.4.0_7c9cf38fd34016d735387c1b92b41bb7cd3b3383\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\libammsdk.jar"
         jumboMode="false"
         optimize="true"
@@ -30,12 +39,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-TencentWeibo\3.4.0\f7c0ed900df1e21da030d7e06c7ea91860cf1708\ShareSDK-TencentWeibo-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7c0ed900df1e21da030d7e06c7ea91860cf1708">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-TencentWeibo-3.4.0_c69705d3a8e5929a7e816c4040d02a6be3c90560\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\nineoldandroids-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
         <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_c07c8cef84efcaa6ff3c216eea514b438738dd2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Favorite\3.4.0\65993423336564383e2aaaf09a90aeec663ac175\ShareSDK-Wechat-Favorite-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="65993423336564383e2aaaf09a90aeec663ac175">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Favorite-3.4.0_8badef081b7df6128578050669dc7491b51f2031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\548515c4646d97233a0d397ae26df7a50f87ed65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5afdaf989cba6d6d2c896227738aba74d42ead1a">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53a0868898e12cc7618f95318a73cf46a8915552\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,6 +138,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat\3.4.0\db9dfcfe29f831d11bc1e8e427918f195195761a\ShareSDK-Wechat-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="db9dfcfe29f831d11bc1e8e427918f195195761a">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-3.4.0_233e56de2404d6af328726e97f1d2df6be393370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar"
         jumboMode="false"
         optimize="true"
@@ -117,6 +162,60 @@
         revision="25.0.3"
         sha1="111169c43b8a601f571585f75d998e6027e48ff4">
         <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2_e53a473e54c25717e352956a6d67dfaa9649034c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\89b2287f10302f15aa00b69f16e95f3608adf7d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="04d891aa5781b8c8b71a90d60a19942a85e0bdfc">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_666b3f41c34660583b285b6a4d41a108cf215b0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-QZone\3.4.0\c3f50176a1195263c694f6cd2617e0a5ffda0337\ShareSDK-QZone-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c3f50176a1195263c694f6cd2617e0a5ffda0337">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-QZone-3.4.0_16e299b36949f04c6f9c9020f9f1aa52a3f5fe29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-SinaWeibo\3.4.0\7a67ea0394e8aa4a8351879fda1f95947bed6fc1\ShareSDK-SinaWeibo-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7a67ea0394e8aa4a8351879fda1f95947bed6fc1">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-SinaWeibo-3.4.0_7c0cca2b67523ccd3885559b2ff3abb0d24441d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Moments\3.4.0\382d68c0988f15675bf12a0b4c8fd11226bfa33c\ShareSDK-Wechat-Moments-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="382d68c0988f15675bf12a0b4c8fd11226bfa33c">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Moments-3.4.0_aa76e0ca9e2ff068c8375b1cfe878f896657a739\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-QQ\3.4.0\fd3451584a4d8123090e2e13c66925973a3d01f9\ShareSDK-QQ-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fd3451584a4d8123090e2e13c66925973a3d01f9">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-QQ-3.4.0_14e680f8ec30d9a991f8a95a46b4cdb38240f84b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Core\3.4.0\fbbccfdc611f4fb2895af1ed2a9f71f61e766dba\ShareSDK-Wechat-Core-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fbbccfdc611f4fb2895af1ed2a9f71f61e766dba">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Core-3.4.0_bf6154cac549d7dd65afb73c25f7b49d8b0f5f59\classes.dex" />
     </item>
     <item
         is-multidex="true"
