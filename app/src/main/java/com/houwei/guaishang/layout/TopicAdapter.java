@@ -25,6 +25,7 @@ import com.github.jdsjlzx.interfaces.OnItemClickListener;
 import com.github.jdsjlzx.recyclerview.LRecyclerView;
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter;
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.TopicManager;
 import com.houwei.guaishang.activity.BaseActivity;
 import com.houwei.guaishang.activity.Constant;
 import com.houwei.guaishang.activity.OrderChatActivity;
@@ -386,7 +387,8 @@ public class TopicAdapter extends BaseAdapter {
         holder.order_btn.setFloatBtnClickListener(new FloatButton.FloatBtnClickListener() {
             @Override
             public void galb() {
-                DataStorage.putCurrentTopicId(bean.getTopicId());
+                TopicManager.g().addTopic(bean.getTopicId());
+//                DataStorage.putCurrentTopicId(bean.getTopicId());
                 orderBuyOrNextPage(bean,true);
                 if (refreshImpl != null){
                     refreshImpl.refreshAdapter();
@@ -395,7 +397,8 @@ public class TopicAdapter extends BaseAdapter {
 
             @Override
             public void goChatView() {
-                DataStorage.putCurrentTopicId(bean.getTopicId());
+                TopicManager.g().addTopic(bean.getTopicId());
+//                DataStorage.putCurrentTopicId(bean.getTopicId());
                 if (refreshImpl != null){
                     refreshImpl.refreshAdapter();
                 }
@@ -433,7 +436,8 @@ public class TopicAdapter extends BaseAdapter {
 
             @Override
             public void chatAlone() {
-                DataStorage.putCurrentTopicId(bean.getTopicId());
+                TopicManager.g().addTopic(bean.getTopicId());
+//                DataStorage.putCurrentTopicId(bean.getTopicId());
                 if (refreshImpl != null){
                     refreshImpl.refreshAdapter();
                 }

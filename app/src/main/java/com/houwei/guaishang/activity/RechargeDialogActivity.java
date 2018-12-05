@@ -92,7 +92,7 @@ public class RechargeDialogActivity extends RechargeBaseActivity implements View
         findViewById(R.id.fl_container).setOnClickListener(this);
         findViewById(R.id.ll_ali).setOnClickListener(this);
         findViewById(R.id.ll_wx).setOnClickListener(this);
-
+        rbWX.setChecked(true);
 
         etInput.setText(String.valueOf(robPrice));
         tvMoneyCount.setText(String.valueOf(robPrice * 1L));

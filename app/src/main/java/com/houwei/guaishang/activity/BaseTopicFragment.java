@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.houwei.guaishang.MessageEvent;
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.TopicManager;
 import com.houwei.guaishang.bean.FloatResponse;
 import com.houwei.guaishang.bean.IntResponse;
 import com.houwei.guaishang.bean.PraiseResponse;
@@ -45,6 +46,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -285,17 +287,34 @@ public abstract class BaseTopicFragment extends BaseFragment implements
 	}
 	private void resetListOrderFinal() {
 		if (list == null || list.size() == 0) return;
-		String topicId = DataStorage.getCurrentTopicId();
+//		String topicId = DataStorage.getCurrentTopicId();
+		ArrayList<String> nativeTopics = TopicManager.g().getList();//本地存的排序订单列表
 		ArrayList<TopicBean> beans = new ArrayList<>();
-		for (int i = 0; i < list.size(); i++) {
-			TopicBean bean = list.get(i);
-			if (bean.getTopicId().equals(topicId)) {
-				beans.add(bean);
-				list.remove(i);
-				i--;
+		if (nativeTopics != null && nativeTopics.size() > 0) {
+			Collections.reverse(nativeTopics);
+			for (String s : nativeTopics) {
+				for (TopicBean bean : list) {
+					if (bean.getTopicId().equals(s)) {
+						beans.add(bean);
+//						list.remove(bean);
+					}
+				}
 			}
 		}
-		list.addAll(0,beans);
+//		if (nativeTopics != null && nativeTopics.size() > 0) {
+//			for (int i = 0; i < this.list.size(); i++) {
+//				TopicBean bean = this.list.get(i);
+//				for (int j = 0; j < nativeTopics.size(); j++) {
+//					if (bean.getTopicId().equals(nativeTopics.get(j))) {
+//						beans.add(bean);
+//						this.list.remove(i);
+//						i--;
+//					}
+//				}
+//			}
+//		}
+		list.removeAll(beans);
+		this.list.addAll(0,beans);
 	}
 
 	;
