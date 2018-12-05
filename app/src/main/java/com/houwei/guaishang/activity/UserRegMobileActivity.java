@@ -71,7 +71,8 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 	private ScrollView scrollView;
 	private LinearLayout ll_register, ll_login;
 	private Button registerBt, loginBt;
-	private EditText phone_et, check_pw_et, passward_et;
+	private EditText phone_et, check_pw_et;
+	private static EditText passward_et;
 	private EditText user_name_et, user_pw_et;
 	private TextView find_passward_tv;
 	private Button check_pw_get_btn;
@@ -230,6 +231,7 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 					HashMap<String,String> phoneMap = (HashMap<String, String>) data;
 					Intent i = new Intent(activity,UserRegInfoPersonalActivity.class);
 					i.putExtra("mobile",  phoneMap.get("phone"));
+					i.putExtra("psw",passward_et.getText().toString());
 					activity.startActivity(i);
 //					accountRegister(activity);
 				} else if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE || event == SMSSDK.EVENT_GET_VOICE_VERIFICATION_CODE){

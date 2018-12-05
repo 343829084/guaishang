@@ -51,6 +51,7 @@ public class UserRegInfoPersonalActivity extends UserRegInfoBaseActivity impleme
 	private String currentPhotoUrl;
 	private EditText user_name_et,password_et;
 	private String mobile;
+	private String psw;
 
 	private MyHandler handler = new MyHandler(this);
 	private RxPermissions rxPermissions;
@@ -150,6 +151,7 @@ public class UserRegInfoPersonalActivity extends UserRegInfoBaseActivity impleme
 		
 		currentSexBean = new NameIDBean("0", "未填");
 		mobile = getIntent().getStringExtra("mobile");
+		psw = getIntent().getStringExtra("psw");
 		user_name_et = (EditText) findViewById(R.id.realname_et);
 		user_icon = (ImageView) findViewById(R.id.user_head);
 		password_et = (EditText) findViewById(R.id.password_et);
@@ -171,10 +173,10 @@ public class UserRegInfoPersonalActivity extends UserRegInfoBaseActivity impleme
 					return;
 				}
 				
-				if (password_et.getText().toString().trim().equals("")) {
-					AnimationYoYo.shakeView(findViewById(R.id.password_ll));
-					return;
-				}
+//				if (password_et.getText().toString().trim().equals("")) {
+//					AnimationYoYo.shakeView(findViewById(R.id.password_ll));
+//					return;
+//				}
 				
 				progress.show();
 				new Thread(run).start();
@@ -267,7 +269,7 @@ public class UserRegInfoPersonalActivity extends UserRegInfoBaseActivity impleme
 			try {
 				HashMap<String, String> data = new HashMap<String, String>();
 				data.put("mobile", mobile);
-				data.put("password", password_et.getText().toString().trim());
+				data.put("password", psw);
 				data.put("name", user_name_et.getText().toString().trim());
 				data.put("avatar", currentPhotoUrl);
 				data.put("sex", currentSexBean.getId());

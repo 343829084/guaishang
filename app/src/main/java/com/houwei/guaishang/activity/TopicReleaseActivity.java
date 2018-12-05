@@ -30,11 +30,13 @@ import com.flyco.dialog.listener.OnOperItemClickL;
 import com.flyco.dialog.widget.NormalListDialog;
 import com.google.gson.reflect.TypeToken;
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.TopicManager;
 import com.houwei.guaishang.activity.newui.ReleaseActivity;
 import com.houwei.guaishang.bean.BaseBean;
 import com.houwei.guaishang.bean.BaseResponse;
 import com.houwei.guaishang.bean.IndustryBean;
 import com.houwei.guaishang.bean.LocationBean;
+import com.houwei.guaishang.bean.ReleaseTopicResponse;
 import com.houwei.guaishang.bean.UserBean;
 import com.houwei.guaishang.data.Contants;
 import com.houwei.guaishang.easemob.EaseEmojicon;
@@ -104,7 +106,7 @@ public class TopicReleaseActivity extends BasePhotoGridActivity implements
 
 			switch (msg.what) {
 			case NETWORK_SUCCESS_DATA_RIGHT:
-				BaseResponse retMap = (BaseResponse) msg.obj;
+				ReleaseTopicResponse retMap = (ReleaseTopicResponse) msg.obj;
 				if (retMap.isSuccess()) {
 					activity.hideKeyboard();
 					UserBean ub = activity.getITopicApplication().getMyUserBeanManager()
@@ -118,7 +120,7 @@ public class TopicReleaseActivity extends BasePhotoGridActivity implements
 					intent.putExtra("brand",brand);
 					activity.setResult(RELEASE_SUCCESS,intent);
 					activity.finish();
-
+					TopicManager.g().addTopic(retMap.getData());
 				} else {
 					activity.showErrorToast(retMap.getMessage());
 				}
@@ -402,7 +404,7 @@ public class TopicReleaseActivity extends BasePhotoGridActivity implements
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
-			BaseResponse response = null;
+			ReleaseTopicResponse response = null;
 			try {
 				HashMap<String, String> data = new HashMap<String, String>();
 				data.put("userid", TopicReleaseActivity.this.getUserID());
@@ -418,7 +420,8 @@ public class TopicReleaseActivity extends BasePhotoGridActivity implements
 				}
 				
 				// 一次http请求将所有图片+参数上传
-				response = JsonParser.getBaseResponse(HttpUtil.upload(data, thumbPictures,HttpUtil.IP + "topic/release"));
+				response = JsonParser.getTopicReleaseResponse(HttpUtil.upload(data, thumbPictures,HttpUtil.IP + "topic/release"));
+
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

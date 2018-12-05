@@ -27,6 +27,7 @@ import com.houwei.guaishang.bean.MyInfoResponse;
 import com.houwei.guaishang.bean.NameIDBean;
 import com.houwei.guaishang.bean.NearMemberListResponse;
 import com.houwei.guaishang.bean.PraiseResponse;
+import com.houwei.guaishang.bean.ReleaseTopicResponse;
 import com.houwei.guaishang.bean.SearchResponse;
 import com.houwei.guaishang.bean.SearchedMemberListResponse;
 import com.houwei.guaishang.bean.StringResponse;
@@ -202,7 +203,10 @@ public class JsonParser {
 		BaseResponse rr = JsonUtil.getObject(json, BaseResponse.class);
 		return rr;
 	}
-	
+	public static ReleaseTopicResponse getTopicReleaseResponse(String json) {
+		ReleaseTopicResponse rr = JsonUtil.getObject(json, ReleaseTopicResponse.class);
+		return rr;
+	}
 	public static MissionProgressResponse getMissionProgressResponse(String json) {
 		MissionProgressResponse rr = JsonUtil.getObject(json, MissionProgressResponse.class);
 		return rr;

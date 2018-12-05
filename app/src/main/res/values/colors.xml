@@ -38,7 +38,7 @@
        <drawable name="green_press_drawable">#159987</drawable>
     
      <drawable name="black_rect">#353535</drawable>
-    <drawable name="black_press_drawable">#000000</drawable>
+    <drawable name="black_press_drawable">#4577dc</drawable>
      <drawable name="pink_light_drawable">#e6e6fa</drawable>
     
      <color name="orange_transparent">#ccF46533</color>

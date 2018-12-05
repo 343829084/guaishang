@@ -16,19 +16,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23604702-0041-4034-b7da-2ac39306513a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/TopicManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/ReleaseTopicResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/RechargeDialogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/RechargeDialogActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/user_reg_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/user_reg_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,137 +86,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JPushReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/JPushReceiver.java">
+      <file leaf-file-name="TopicReleaseActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="448" column="68" selection-start-line="448" selection-start-column="68" selection-end-line="448" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuanXinManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/manager/HuanXinManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="299">
+              <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
               <folding>
-                <element signature="e#2941#3100#0" expanded="true" />
-                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#7872#8003#0" expanded="true" />
+                <element signature="e#8002#8003#0" expanded="true" />
+                <element signature="e#8050#9657#0" expanded="true" />
+                <element signature="e#9078#9459#0" expanded="true" />
+                <element signature="e#9458#9459#0" expanded="true" />
+                <element signature="e#9656#9657#0" expanded="true" />
+                <element signature="e#9692#9915#0" expanded="true" />
+                <element signature="e#9914#9915#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
+      <file leaf-file-name="activity_user_reg_info_personal.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="439" column="67" selection-start-line="439" selection-start-column="67" selection-end-line="439" selection-end-column="67" />
+            <state relative-caret-position="364">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRegInfoPersonalActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="282" selection-start-line="282" selection-end-line="282" />
               <folding>
-                <element signature="e#23944#25495#0" expanded="true" />
-                <element signature="e#25494#25495#0" expanded="true" />
+                <element signature="e#5425#5887#0" expanded="true" />
+                <element signature="e#5886#5887#0" expanded="true" />
+                <element signature="e#8024#8954#0" expanded="true" />
+                <element signature="e#8222#8238#0" expanded="true" />
+                <element signature="e#8953#8954#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/TopicManager.java">
+      <file leaf-file-name="UserRegMobileActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="-4373">
+              <caret line="234" column="46" selection-start-line="234" selection-start-column="46" selection-end-line="234" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchedMemberListResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/SearchedMemberListResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonUtil.java">
+      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="343">
+              <caret line="206" column="79" selection-start-line="206" selection-start-column="79" selection-end-line="206" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/HttpUtil.java">
+      <file leaf-file-name="BaseResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/BaseResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="279" selection-start-line="279" selection-end-line="279" />
+            <state relative-caret-position="75">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/sp/DataStorage.java">
+      <file leaf-file-name="ReleaseTopicResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/ReleaseTopicResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTopicFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="295" column="40" lean-forward="true" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+            <state relative-caret-position="450">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
-                <element signature="e#11058#11059#0" expanded="true" />
-                <element signature="e#11075#11076#0" expanded="true" />
-                <element signature="e#11053#11223#0" expanded="true" />
-                <element signature="e#11222#11223#0" expanded="true" />
-                <element signature="e#12033#12607#0" expanded="true" />
-                <element signature="e#12606#12607#0" expanded="true" />
-                <element signature="e#12669#14787#0" expanded="true" />
-                <element signature="e#14786#14787#0" expanded="true" />
-                <element signature="e#15524#16443#0" expanded="true" />
-                <element signature="e#16442#16443#0" expanded="true" />
-                <element signature="e#17009#17010#0" expanded="true" />
-                <element signature="e#17038#17039#0" expanded="true" />
-                <element signature="e#17134#17135#0" expanded="true" />
-                <element signature="e#17177#17178#0" expanded="true" />
-                <element signature="e#18298#18299#0" expanded="true" />
-                <element signature="e#18335#18336#0" expanded="true" />
-                <element signature="e#21024#21025#0" expanded="true" />
-                <element signature="e#21039#21040#0" expanded="true" />
-                <element signature="e#20952#21817#0" expanded="true" />
-                <element signature="e#21816#21817#0" expanded="true" />
-                <element signature="e#22058#22059#0" expanded="true" />
-                <element signature="e#22074#22075#0" expanded="true" />
-                <element signature="e#22169#22170#0" expanded="true" />
-                <element signature="e#22185#22186#0" expanded="true" />
-                <element signature="e#22286#22287#0" expanded="true" />
-                <element signature="e#22302#22303#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Andorid/sdk/Sdk/sources/android-25/java/util/Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="446" column="23" selection-start-line="446" selection-start-column="23" selection-end-line="446" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -231,10 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>recyclerView</find>
-      <find>PictureSelector</find>
-      <find>上传成功</find>
-      <find>mAdapter</find>
       <find>selectList1</find>
       <find>holder.order_count</find>
       <find>llPay</find>
@@ -261,6 +233,10 @@
       <find>callBack</find>
       <find>tv_title</find>
       <find>支付总</find>
+      <find>发布</find>
+      <find>完善</find>
+      <find>mobile</find>
+      <find>tvConfirm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2752,7 +2728,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/AvatarBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyUserBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyInfoResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PayActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_dialog_order_buy.xml" />
@@ -2764,6 +2739,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/TopicManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/ReleaseTopicResponse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java" />
       </list>
     </option>
   </component>
@@ -2841,6 +2824,43 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="guaishang" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="guaishang" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable-xhdpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -3143,39 +3163,45 @@
       <option name="project" value="LOCAL" />
       <updated>1543398618853</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="订单首页重新排序">
+      <created>1544000276257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544000276257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.3293348" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.23009814" />
-      <window_info id="Structure" order="1" sideWeight="0.2406504" side_tool="true" visible="true" weight="0.17857143" />
+      <window_info id="Structure" order="1" sideWeight="0.24099723" side_tool="true" visible="true" weight="0.17857143" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3805889" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21264994" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.3763326" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.64379084" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33369684" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7593496" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75900275" visible="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Compute Code Lines" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2857143" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.16577825" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33369684" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.16577825" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3763326" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3235,26 +3261,27 @@
     <MESSAGE value="删除图片" />
     <MESSAGE value="页面交互" />
     <MESSAGE value="修bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修bug" />
+    <MESSAGE value="订单首页重新排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单首页重新排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>392</line>
+          <line>394</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>404</line>
+          <line>406</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>420</line>
+          <line>422</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -3269,12 +3296,6 @@
           <line>621</line>
           <properties />
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>425</line>
-          <properties />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
@@ -3380,7 +3401,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java</url>
-          <line>151</line>
+          <line>152</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -3392,7 +3413,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java</url>
-          <line>177</line>
+          <line>178</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -3440,7 +3461,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java</url>
-          <line>164</line>
+          <line>165</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
@@ -3456,85 +3477,38 @@
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
+          <line>428</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="62" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/StringResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/HomeInfoResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/newui/MyInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/HisRootFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="78" column="75" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/HisInfoResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/UserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyUserBean.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyInfoResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/HisUserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="235" column="28" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/AvatarBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/manager/MyUserBeanManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -3549,13 +3523,6 @@
           <folding>
             <element signature="e#1130#1131#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3175">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
@@ -3849,10 +3816,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_release.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_release_new2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="249" column="43" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="295" column="40" lean-forward="true" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+        <state relative-caret-position="188">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
           <folding>
             <element signature="e#11058#11059#0" expanded="true" />
             <element signature="e#11075#11076#0" expanded="true" />
@@ -3882,6 +3869,103 @@
             <element signature="e#22302#22303#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/SearchedMemberListResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/ReleaseTopicResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="206" column="79" selection-start-line="206" selection-start-column="79" selection-end-line="206" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+          <folding>
+            <element signature="e#7872#8003#0" expanded="true" />
+            <element signature="e#8002#8003#0" expanded="true" />
+            <element signature="e#8050#9657#0" expanded="true" />
+            <element signature="e#9078#9459#0" expanded="true" />
+            <element signature="e#9458#9459#0" expanded="true" />
+            <element signature="e#9656#9657#0" expanded="true" />
+            <element signature="e#9692#9915#0" expanded="true" />
+            <element signature="e#9914#9915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+          <folding>
+            <element signature="e#5425#5887#0" expanded="true" />
+            <element signature="e#5886#5887#0" expanded="true" />
+            <element signature="e#8024#8954#0" expanded="true" />
+            <element signature="e#8222#8238#0" expanded="true" />
+            <element signature="e#8953#8954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4373">
+          <caret line="234" column="46" selection-start-line="234" selection-start-column="46" selection-end-line="234" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/user_reg_photo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

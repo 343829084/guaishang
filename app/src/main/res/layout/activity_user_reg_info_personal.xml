@@ -28,7 +28,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/my_bg"
                 android:gravity="center"
                 android:padding="30dp" >
 
@@ -42,11 +41,14 @@
             
              <View
                 style="@style/LineStyle"
-                android:layout_marginTop="14dp" />
+                android:layout_marginTop="14dp"
+                 android:visibility="gone"
+                 />
 
              <LinearLayout
                  android:id="@+id/password_ll"
                   style="@style/MemoBodyLinearLayoutStyle"
+                 android:visibility="gone"
             android:paddingLeft="18dp">
 
                 <TextView
@@ -64,6 +66,7 @@
             </LinearLayout>
             
                 <View
+                    android:visibility="gone"
                 style="@style/LineStyle"/>
              
              
@@ -94,11 +97,14 @@
 
             <View
                 style="@style/LineStyle"
-                android:layout_marginTop="14dp" />
+                android:layout_marginTop="14dp"
+                android:visibility="gone"
+                />
 
             <LinearLayout
                 android:id="@+id/age_ll"
                      android:paddingLeft="18dp"
+                android:visibility="gone"
                  style="@style/MemoBodyLinearLayoutClickStyle" >
 
                 <TextView
@@ -114,11 +120,14 @@
             </LinearLayout>
 
             <View 
-                style="@style/LineStyle" />
+                style="@style/LineStyle"
+                android:visibility="gone"
+                />
 
              <LinearLayout
                 android:id="@+id/sex_ll"
                      android:paddingLeft="18dp"
+                 android:visibility="gone"
                  style="@style/MemoBodyLinearLayoutClickStyle" >
 
                 <TextView
@@ -134,7 +143,9 @@
             </LinearLayout>
 
 
-            <View style="@style/LineStyle" />
+            <View style="@style/LineStyle"
+                android:visibility="gone"
+                />
 
             <Button
                 android:id="@+id/reg_btn"
