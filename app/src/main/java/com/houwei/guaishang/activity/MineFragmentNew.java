@@ -48,6 +48,7 @@ import com.houwei.guaishang.bean.PictureBean;
 import com.houwei.guaishang.bean.StringResponse;
 import com.houwei.guaishang.bean.UserBean;
 import com.houwei.guaishang.data.DBReq;
+import com.houwei.guaishang.debug.DebugActivity;
 import com.houwei.guaishang.easemob.PreferenceManager;
 import com.houwei.guaishang.event.BrandSelectEvent;
 import com.houwei.guaishang.event.LoginSuccessEvent;
@@ -269,6 +270,7 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
         initData();
         initListener();
        new Thread(inforun).start();
+
     }
 
     @Override
@@ -404,7 +406,13 @@ public class MineFragmentNew extends BaseFragment implements OnClickListener,
         VInfoView.setOnClickListener(this);
 
         getView().findViewById(R.id.image_add).setOnClickListener(this);
-
+        getView().findViewById(R.id.debug).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),DebugActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void iniToggleBtn(boolean isChecked) {

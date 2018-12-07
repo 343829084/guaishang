@@ -2,6 +2,7 @@ package com.houwei.guaishang.debug;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.houwei.guaishang.R;
@@ -9,6 +10,7 @@ import com.houwei.guaishang.activity.BaseActivity;
 import com.houwei.guaishang.easemob.EaseConstant;
 import com.houwei.guaishang.huanxin.ChatActivity;
 import com.houwei.guaishang.huanxin.ChatInfo;
+import com.houwei.guaishang.huanxin.HuanXinUtil;
 import com.houwei.guaishang.view.ProgressView;
 
 import butterknife.BindView;
@@ -33,6 +35,12 @@ public class DebugActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         progress.setProgress(12);
+        findViewById(R.id.test_chat).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HuanXinUtil.g().getUnReadCount("724");
+            }
+        });
     }
 
     @OnClick(R.id.test_icon)

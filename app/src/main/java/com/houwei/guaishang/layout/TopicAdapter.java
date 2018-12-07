@@ -40,6 +40,7 @@ import com.houwei.guaishang.bean.TopicBean;
 import com.houwei.guaishang.easemob.EaseConstant;
 import com.houwei.guaishang.easemob.PreferenceManager;
 import com.houwei.guaishang.event.LoginSuccessEvent;
+import com.houwei.guaishang.huanxin.HuanXinUtil;
 import com.houwei.guaishang.layout.PictureGridLayout.RedPacketClickListener;
 import com.houwei.guaishang.manager.FaceManager;
 import com.houwei.guaishang.sp.DataStorage;
@@ -231,16 +232,21 @@ public class TopicAdapter extends BaseAdapter {
                     startFlick(holder.orderBtn_bg);
                 }else {
 //                                       数值
+                    int unReadCount = 0;
                     for (int i = 0; i < size; i++) {
 //                              头像      报价     获取   获取头像
                         String avatar = offerPrice.get(i).getAvatar();
-
+                       unReadCount = unReadCount + HuanXinUtil.g().getUnReadCount(offerPrice.get(i).getOfferId());
                         if (!mIconList.contains(avatar)) {
                             mIconList.add(avatar);
                         }
                     }
-                    holder.order_count.setVisibility( View.VISIBLE);
-                    holder.order_count.setText(mIconList.size() + "");
+                    if (unReadCount > 0) {
+                        holder.order_count.setVisibility(View.VISIBLE);
+                        holder.order_count.setText(unReadCount + "");
+                    }else {
+                        holder.order_count.setVisibility(View.GONE);
+                    }
 //                                      自己发的单状态
                     holder.order_btn.setStatu(2);
                     if (!StringUtils.isNullOrEmpty(UserUtil.getUserInfo().getAvatar())) {
@@ -263,7 +269,13 @@ public class TopicAdapter extends BaseAdapter {
 //                stopFlick(holder.order_btn);
                 stopFlick(holder.orderBtn_bg);
             }else if (Integer.valueOf(Integer.valueOf(bean.getIsOffer())) == 1){
-                holder.order_count.setVisibility(View.GONE);
+                int unReadCount = HuanXinUtil.g().getUnReadCount(bean.getMemberId());
+                if (unReadCount > 0){
+                    holder.order_count.setVisibility(View.VISIBLE);
+                    holder.order_count.setText(unReadCount+"");
+                }else {
+                    holder.order_count.setVisibility(View.GONE);
+                }
                 holder.order_btn.setPublishMemberHeadUrl(bean.getMemberAvatar().getSmall());
 //                                   已抢状态
                 holder.order_btn.setStatu(4);

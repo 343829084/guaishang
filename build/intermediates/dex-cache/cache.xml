@@ -39,21 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-TencentWeibo\3.4.0\f7c0ed900df1e21da030d7e06c7ea91860cf1708\ShareSDK-TencentWeibo-3.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f7c0ed900df1e21da030d7e06c7ea91860cf1708">
-        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-TencentWeibo-3.4.0_c69705d3a8e5929a7e816c4040d02a6be3c90560\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\nineoldandroids-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
         <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_c07c8cef84efcaa6ff3c216eea514b438738dd2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-TencentWeibo\3.4.0\f7c0ed900df1e21da030d7e06c7ea91860cf1708\ShareSDK-TencentWeibo-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7c0ed900df1e21da030d7e06c7ea91860cf1708">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-TencentWeibo-3.4.0_c69705d3a8e5929a7e816c4040d02a6be3c90560\classes.dex" />
     </item>
     <item
         is-multidex="true"

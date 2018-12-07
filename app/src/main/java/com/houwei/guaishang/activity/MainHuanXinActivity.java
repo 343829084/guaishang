@@ -34,7 +34,9 @@ import com.houwei.guaishang.R;
 import com.houwei.guaishang.easemob.DemoHelper;
 import com.houwei.guaishang.easemob.EaseCommonUtils;
 import com.houwei.guaishang.easemob.EaseConstant;
+import com.houwei.guaishang.event.LoginSuccessEvent;
 import com.houwei.guaishang.event.LogouSuccess;
+import com.houwei.guaishang.event.RefreshTopicEvent;
 import com.houwei.guaishang.sp.UserUtil;
 import com.houwei.guaishang.tools.LogUtil;
 import com.houwei.guaishang.tools.ShareSDKUtils;
@@ -84,6 +86,10 @@ public class MainHuanXinActivity extends BaseActivity implements
 		if (savedInstanceState != null
 				&& savedInstanceState.getBoolean(
 						Constant.ACCOUNT_REMOVED, false)) {
+
+			if (!EventBus.getDefault().isRegistered(this)){
+				EventBus.getDefault().register(this);
+			}
 			// 防止被移除后，没点确定按钮然后按了home键，长期在后台又进app导致的crash
 			// 三个fragment里加的判断同理
 			getITopicApplication().getHuanXinManager().logout(null);
@@ -178,6 +184,7 @@ public class MainHuanXinActivity extends BaseActivity implements
 	}
 
 	private void refreshUI() {
+		EventBus.getDefault().post(new RefreshTopicEvent());
 		runOnUiThread(new Runnable() {
 			public void run() {
 
@@ -220,7 +227,9 @@ public class MainHuanXinActivity extends BaseActivity implements
 		}
 
 		unregisterBroadcastReceiver();
-
+		if (EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().unregister(this);
+		}
 	}
 
 	/**

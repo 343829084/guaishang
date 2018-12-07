@@ -25,5 +25,14 @@
             android:id="@+id/progress"
             android:layout_width="match_parent"
             android:layout_height="50dp" />
+
+
+        <TextView
+            android:id="@+id/test_chat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="测试_获取聊天信息"
+            android:gravity="center"
+            />
     </LinearLayout>
 </ScrollView>

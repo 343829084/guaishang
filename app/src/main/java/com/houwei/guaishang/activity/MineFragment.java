@@ -149,6 +149,7 @@ public class MineFragment extends BaseFragment implements OnClickListener,
 				startActivity(intent);
 			}
 		});
+
 	}
 
 	protected void initListener() {

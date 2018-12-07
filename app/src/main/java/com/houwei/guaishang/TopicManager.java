@@ -1,9 +1,11 @@
 package com.houwei.guaishang;
 
 import com.houwei.guaishang.sp.DataStorage;
+import com.houwei.guaishang.sp.UserUtil;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * create by lei on 2018/12/5/005
@@ -13,12 +15,15 @@ public class TopicManager {
 
     private static ArrayList<String> topicList;//需要本地排序的订单列表
 
+    private static HashMap<String,ArrayList<String>> topicMap;
+
     private static class SingleInstance{
         private static TopicManager topicManager = new TopicManager();
     }
 
     public TopicManager() {
         topicList = new ArrayList<>();
+        topicMap = new HashMap<>();
     }
 
     public static TopicManager g(){
@@ -37,6 +42,7 @@ public class TopicManager {
             topicList.remove(topic);
         }
         topicList.add(topic);
+//        topicMap.put(UserUtil.getUserInfo().getUserId(),topicList);
         saveList();
     }
 
