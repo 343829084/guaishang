@@ -155,14 +155,24 @@
                                 android:layout_alignParentTop="true"
                                 android:background="@drawable/bg_float_btn_d31c20"
                                 android:gravity="center"
-                                android:text="6"
                                 android:textColor="#101010"
                                 android:textSize="8dp" />
                         </RelativeLayout>
                     </RelativeLayout>
 
                 </LinearLayout>
-
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/bg_shape_progress"
+                    android:visibility="gone"
+                    />
                 <com.houwei.guaishang.view.ProgressView
                     android:id="@+id/bar_status"
                     android:layout_width="match_parent"
@@ -170,7 +180,8 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="10dp"
-                    android:visibility="gone" />
+                    android:visibility="gone"
+                    />
                 <TextView
                     android:id="@+id/tv_count"
                     android:layout_width="wrap_content"
@@ -200,6 +211,7 @@
                         android:paddingBottom="@dimen/dp5"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
+                        android:visibility="gone"
                         >
                         <TextView
                             android:id="@+id/price"

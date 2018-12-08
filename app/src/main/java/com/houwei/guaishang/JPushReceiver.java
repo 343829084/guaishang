@@ -8,8 +8,13 @@ import android.util.Log;
 
 import com.houwei.guaishang.activity.MainActivity;
 import com.houwei.guaishang.activity.TopicHomeFragment;
+import com.houwei.guaishang.bean.PushInfo;
+import com.houwei.guaishang.event.RefreshTopicEvent;
 import com.houwei.guaishang.tools.ApplicationProvider;
+import com.houwei.guaishang.tools.JsonUtil;
 import com.houwei.guaishang.tools.VoiceUtils;
+
+import org.greenrobot.eventbus.EventBus;
 
 import cn.jpush.android.api.JPushInterface;
 
@@ -29,11 +34,17 @@ public class JPushReceiver extends BroadcastReceiver {
         if (JPushInterface.ACTION_MESSAGE_RECEIVED.equals(intent.getAction())) {
             String content = "";
             content = bundle.getString(JPushInterface.EXTRA_MESSAGE);
-            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(content);
+            PushInfo pushInfo = JsonUtil.getObject(content, PushInfo.class);
+            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(pushInfo.getContent());
+            TopicManager.g().addTopic(String.valueOf(pushInfo.getTopicId()));
+            EventBus.getDefault().post(new RefreshTopicEvent());
         } else if (JPushInterface.ACTION_NOTIFICATION_RECEIVED.equals(intent.getAction())) {
             String content = "";
             content = bundle.getString(JPushInterface.EXTRA_ALERT);
-            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(content);
+            PushInfo pushInfo = JsonUtil.getObject(content, PushInfo.class);
+            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(pushInfo.getContent());
+            TopicManager.g().addTopic(String.valueOf(pushInfo.getTopicId()));
+            EventBus.getDefault().post(new RefreshTopicEvent());
         } else if (JPushInterface.ACTION_NOTIFICATION_OPENED.equals(intent.getAction())) {
             Log.d(TAG, "用户点击打开了通知");
             // 在这里可以自己写代码去定义用户点击后的行为

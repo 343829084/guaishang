@@ -17,6 +17,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.TextView.BufferType;
@@ -157,6 +158,7 @@ public class TopicAdapter extends BaseAdapter {
             holder.ratingBar.setNumStars(4);
             holder.progressView = (ProgressView) convertView.findViewById(R.id.bar_status);
             holder.VProdectLayout = (LinearLayout) convertView.findViewById(R.id.product_layout);
+            holder.progressBar = (ProgressBar) convertView.findViewById(R.id.progress_bar);
             holder.price = (TextView) convertView.findViewById(R.id.price);
             holder.time = (TextView) convertView.findViewById(R.id.time);
 //            holder.chat_btn = (Button) convertView.findViewById(R.id.chat_btn);
@@ -174,9 +176,13 @@ public class TopicAdapter extends BaseAdapter {
             holder.ratingBar.setVisibility(View.VISIBLE);
             holder.progressView.setVisibility(View.GONE);
             holder.VProdectLayout.setVisibility(View.GONE);
+//            if (Integer.valueOf(bean.getNowRob()) > 0) {
+//                holder.progressBar.setVisibility(View.VISIBLE);
+//            }
         }else {
 //           已订单
 //           付款     付款     基   获取付款
+//            holder.progressBar.setVisibility(View.GONE);
             Payment payment = bean.getPayment();
             if (payment != null){
 //                      打款进度                          可见
@@ -208,6 +214,8 @@ public class TopicAdapter extends BaseAdapter {
 //                进度       整数                获取当前值
             int progress = Integer.valueOf(bean.getNowRob());
 //               进度    最大
+
+            holder.progressBar.setProgress(progress/max);
             if(progress==max){
 //                      订单 按钮     已结束状态
                 holder.order_btn.setStatu(3);
@@ -649,6 +657,7 @@ public class TopicAdapter extends BaseAdapter {
 //        private LRecyclerView recyclerView;
         private ProgressView progressView;
         private LinearLayout VProdectLayout;
+        private ProgressBar progressBar;
         private TextView price,time;
         private FloatButton order_btn;
         private TextView order_count;
