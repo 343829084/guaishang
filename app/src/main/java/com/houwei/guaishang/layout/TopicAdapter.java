@@ -244,7 +244,7 @@ public class TopicAdapter extends BaseAdapter {
                     for (int i = 0; i < size; i++) {
 //                              头像      报价     获取   获取头像
                         String avatar = offerPrice.get(i).getAvatar();
-                       unReadCount = unReadCount + HuanXinUtil.g().getUnReadCount(offerPrice.get(i).getOfferId());
+                       unReadCount = unReadCount + HuanXinUtil.g().getUnReadCount(offerPrice.get(i).getOfferId(),bean.getTopicId());
                         if (!mIconList.contains(avatar)) {
                             mIconList.add(avatar);
                         }
@@ -277,7 +277,7 @@ public class TopicAdapter extends BaseAdapter {
 //                stopFlick(holder.order_btn);
                 stopFlick(holder.orderBtn_bg);
             }else if (Integer.valueOf(Integer.valueOf(bean.getIsOffer())) == 1){
-                int unReadCount = HuanXinUtil.g().getUnReadCount(bean.getMemberId());
+                int unReadCount = HuanXinUtil.g().getUnReadCount(bean.getMemberId(),bean.getTopicId());
                 if (unReadCount > 0){
                     holder.order_count.setVisibility(View.VISIBLE);
                     holder.order_count.setText(unReadCount+"");
@@ -293,7 +293,7 @@ public class TopicAdapter extends BaseAdapter {
                 holder.order_count.setVisibility(View.GONE);
 //                                  抢单状态
                 holder.order_btn.setStatu(1);
-//                startFlick(holder.order_btn);
+//                startFlick(holder.order_btn)
                 startFlick(holder.orderBtn_bg);
             }
         } catch (Exception e) {
@@ -446,6 +446,7 @@ public class TopicAdapter extends BaseAdapter {
                 intent.putExtra(OrderChatActivity.OrderId,bean.getTopicId());
                 intent.putExtra(OrderChatActivity.Brand,bean.getBrand());
                 intent.putExtra(OrderChatActivity.ALONE,false);
+                intent.putExtra(OrderChatActivity.TopicId,bean.getTopicId());
                 mContext.startActivity(intent);
             }
 
@@ -474,6 +475,7 @@ public class TopicAdapter extends BaseAdapter {
                 intent.putExtra(OrderChatActivity.OrderId,bean.getTopicId());
                 intent.putExtra(OrderChatActivity.Brand,bean.getBrand());
                 intent.putExtra(OrderChatActivity.ALONE,true);
+                intent.putExtra(OrderChatActivity.TopicId,bean.getTopicId());
                 mContext.startActivity(intent);
             }
         });
@@ -556,6 +558,7 @@ public class TopicAdapter extends BaseAdapter {
                                     intent.putExtra(OrderChatActivity.Brand,bean.getBrand());
                                     intent.putExtra(OrderChatActivity.ALONE,true);
                                     intent.putExtra(OrderChatActivity.ShouldOffer,true);
+                                    intent.putExtra(OrderChatActivity.TopicId,bean.getTopicId());
                                     mContext.startActivity(intent);
                                 }
                             }).show();

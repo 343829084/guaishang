@@ -840,6 +840,7 @@ public class ChatBaseActivity extends BaseActivity implements EMEventListener {
 	protected void sendTextMessage(String content) {
 		EMMessage message = EMMessage.createTxtSendMessage(content,
 				toChatUsername);
+		message.setAttribute("topicId",100);
 		sendMessage(message);
 	}
 

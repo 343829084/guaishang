@@ -28,12 +28,13 @@ public class OrderChatViewPagerAdapter extends FragmentPagerAdapter {
     private String brand;
     private boolean alone;
     private boolean shouldOffer;
+    private String topicId;
     public OrderChatViewPagerAdapter(FragmentManager fm, List<OffersBean.OfferBean> offerPriceList) {
         super(fm);
         this.userBeans = offerPriceList;
     }
 
-    public OrderChatViewPagerAdapter(FragmentManager fm, List<OffersBean.OfferBean> userBeans, String sid, String orderId, String brand,boolean alone,boolean shouldOffer) {
+    public OrderChatViewPagerAdapter(FragmentManager fm, List<OffersBean.OfferBean> userBeans, String sid, String orderId, String brand,boolean alone,boolean shouldOffer,String topicId) {
         super(fm);
         this.userBeans = userBeans;
         this.sid = sid;
@@ -41,6 +42,7 @@ public class OrderChatViewPagerAdapter extends FragmentPagerAdapter {
         this.brand = brand;
         this.alone = alone;
         this.shouldOffer = shouldOffer;
+        this.topicId = topicId;
     }
 
     @Override
@@ -69,6 +71,7 @@ public class OrderChatViewPagerAdapter extends FragmentPagerAdapter {
         chatInfo.setBrand(brand);
         chatInfo.setShouldOffer(shouldOffer);
         chatInfo.setOffer_id(offerBean.getId());
+        chatInfo.setTopicId(topicId);
         ChatFragment fragment = ChatFragment.getInstance(chatInfo);
         return fragment;
     }

@@ -26,6 +26,8 @@ public class ChatInfo implements Serializable {
     private String bankNum;
     private boolean shouldOffer;
     private String offer_id;
+    private String topicId;
+
     public ChatInfo() {
     }
 
@@ -148,5 +150,13 @@ public class ChatInfo implements Serializable {
 
     public void setOffer_id(String offer_id) {
         this.offer_id = offer_id;
+    }
+
+    public String getTopicId() {
+        return topicId;
+    }
+
+    public void setTopicId(String topicId) {
+        this.topicId = topicId;
     }
 }

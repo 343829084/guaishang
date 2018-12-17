@@ -38,7 +38,7 @@ public class DebugActivity extends BaseActivity {
         findViewById(R.id.test_chat).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                HuanXinUtil.g().getUnReadCount("724");
+                HuanXinUtil.g().getUnReadCount("724","");
             }
         });
     }

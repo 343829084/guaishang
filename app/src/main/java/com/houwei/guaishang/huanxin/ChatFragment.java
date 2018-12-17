@@ -1077,28 +1077,43 @@ public class ChatFragment extends BaseFragment implements EMEventListener ,MyLoc
     protected void sendTextMessage(String content) {
         EMMessage message = EMMessage.createTxtSendMessage(content,
                 chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
     protected void sendVoiceMessage(String filePath, int length) {
         EMMessage message = EMMessage.createVoiceSendMessage(filePath, length,
                 chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
 
     protected void sendImageMessage(String imagePath) {
         EMMessage message = EMMessage.createImageSendMessage(imagePath, false,
                 chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
     protected void sendLocationMessage(double latitude, double longitude,
                                        String locationAddress) {
         EMMessage message = EMMessage.createLocationSendMessage(latitude,
                 longitude, locationAddress, chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
 
     protected void sendFileMessage(String filePath) {
         EMMessage message = EMMessage.createFileSendMessage(filePath, chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
 
@@ -1113,6 +1128,9 @@ public class ChatFragment extends BaseFragment implements EMEventListener ,MyLoc
         String picPath = com.houwei.guaishang.video.Utils.bitmap2File(bitmap, System.currentTimeMillis()+"");
         int time = (int) (com.houwei.guaishang.video.Utils.getVideoTotalTime(videoPath) / 1000);
         EMMessage message = EMMessage.createVideoSendMessage(videoPath, picPath, time , chatInfo.getHisUserID());
+        if (!TextUtils.isEmpty(chatInfo.getTopicId())) {
+            message.setAttribute("topicId", chatInfo.getTopicId());
+        }
         sendMessage(message);
     }
 

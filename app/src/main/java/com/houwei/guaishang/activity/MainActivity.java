@@ -36,6 +36,7 @@ import com.houwei.guaishang.manager.ITopicApplication;
 import com.houwei.guaishang.manager.MyUserBeanManager;
 import com.houwei.guaishang.manager.MyUserBeanManager.UserStateChangeListener;
 import com.houwei.guaishang.manager.VersionManager.LastVersion;
+import com.houwei.guaishang.service.DaemonService;
 import com.houwei.guaishang.tools.HttpUtil;
 import com.houwei.guaishang.tools.JsonParser;
 import com.houwei.guaishang.tools.VoiceUtils;
@@ -128,8 +129,14 @@ public class MainActivity extends MainHuanXinActivity implements UserStateChange
 //       读取手机和消息
 		readPhoneAndMessage();
 //		ShareSDK.initSDK(this);
-
+		bindServcice();
 	}
+
+	private void bindServcice(){
+		Intent intent = new Intent(this,DaemonService.class);
+		startService(intent);
+	}
+
 //                 初始化视图
 	private void initView() {
 //      应用      主题应用         获取应用
