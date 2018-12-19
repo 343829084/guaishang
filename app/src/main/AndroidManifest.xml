@@ -493,19 +493,19 @@
                 android:resource="@xml/file_paths"/>
         </provider>
 
-        <service
-            android:name=".service.DaemonService"
-            android:enabled="true"
-            android:exported="true"
-            android:process=":daemon_service"
-            />
+        <!--<service-->
+            <!--android:name=".service.DaemonService"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true"-->
+            <!--android:process=":daemon_service"-->
+            <!--/>-->
 
-        <service
-            android:name=".service.CancelNoticeService"
-            android:enabled="true"
-            android:exported="true"
-            android:process=":service"
-            />
+        <!--<service-->
+            <!--android:name=".service.CancelNoticeService"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true"-->
+            <!--android:process=":service"-->
+            <!--/>-->
 
     </application>
 

@@ -16,6 +16,8 @@ import com.houwei.guaishang.tools.VoiceUtils;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.util.ArrayList;
+
 import cn.jpush.android.api.JPushInterface;
 
 /**
@@ -34,15 +36,18 @@ public class JPushReceiver extends BroadcastReceiver {
         if (JPushInterface.ACTION_MESSAGE_RECEIVED.equals(intent.getAction())) {
             String content = "";
             content = bundle.getString(JPushInterface.EXTRA_MESSAGE);
-            PushInfo pushInfo = JsonUtil.getObject(content, PushInfo.class);
-            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(pushInfo.getContent());
+            String topicId = bundle.getString(JPushInterface.EXTRA_EXTRA);
+
+            PushInfo pushInfo = JsonUtil.getObject(topicId, PushInfo.class);
+            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(content);
             TopicManager.g().addTopic(String.valueOf(pushInfo.getTopicId()));
             EventBus.getDefault().post(new RefreshTopicEvent());
         } else if (JPushInterface.ACTION_NOTIFICATION_RECEIVED.equals(intent.getAction())) {
             String content = "";
-            content = bundle.getString(JPushInterface.EXTRA_ALERT);
-            PushInfo pushInfo = JsonUtil.getObject(content, PushInfo.class);
-            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(pushInfo.getContent());
+            content = bundle.getString(JPushInterface.EXTRA_MESSAGE);
+            String topicId = bundle.getString(JPushInterface.EXTRA_EXTRA);
+            PushInfo pushInfo = JsonUtil.getObject(topicId, PushInfo.class);
+            VoiceUtils.getInstance(ApplicationProvider.privode()).speak(content);
             TopicManager.g().addTopic(String.valueOf(pushInfo.getTopicId()));
             EventBus.getDefault().post(new RefreshTopicEvent());
         } else if (JPushInterface.ACTION_NOTIFICATION_OPENED.equals(intent.getAction())) {
