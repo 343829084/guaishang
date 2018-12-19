@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\android-gif-drawable.jar:unspecified@jar">
+  <library name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\android-gif-drawable.jar:unspecified@jar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/app/libs/android-gif-drawable.jar!/" />
     </CLASSES>

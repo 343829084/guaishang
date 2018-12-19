@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.chrisbanes.photoview:library-1.2.4">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/f516780d7ab587e1dca3708e0c8afef80dcf9837/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/f516780d7ab587e1dca3708e0c8afef80dcf9837/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/fc0eb20fb4ff527f5fb97c233be6f55f1bdfc486/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/fc0eb20fb4ff527f5fb97c233be6f55f1bdfc486/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chrisbanes.photoview/library/1.2.4/eb8cba6ac4ad37ff0c9b99cda2c9d80ea407b20d/library-1.2.4-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
