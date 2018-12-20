@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.jdsjlzx:LRecyclerView-1.4.3">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/44ffd3a82859c66ef95c6625d86f69197325fe91/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/44ffd3a82859c66ef95c6625d86f69197325fe91/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/6c0b8679bca1e0e6e778b85b80cfcf51a0f79e08/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6c0b8679bca1e0e6e778b85b80cfcf51a0f79e08/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jdsjlzx/LRecyclerView/1.4.3/765e5a012b8446df8ddb8d41070ef6a5e4ac164a/LRecyclerView-1.4.3-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
