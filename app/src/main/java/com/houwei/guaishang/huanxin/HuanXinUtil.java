@@ -39,9 +39,11 @@ public class HuanXinUtil {
         for (EMMessage msg :
                 allMessages) {
             try {
-                String msgTopicId = msg.getStringAttribute("topicId");
-                if (topicId.equalsIgnoreCase(msgTopicId)){
-                    unreadMsgCount++;
+                if (msg.isUnread()) {
+                    String msgTopicId = msg.getStringAttribute("topicId");
+                    if (topicId.equalsIgnoreCase(msgTopicId)) {
+                        unreadMsgCount++;
+                    }
                 }
             } catch (EaseMobException e) {
                 e.printStackTrace();

@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobTools\2018.1128.1916\2bab1ef89b71f1d5a0643b86a80fca7b4ebb2d36\MobTools-2018.1128.1916.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2bab1ef89b71f1d5a0643b86a80fca7b4ebb2d36">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobTools-2018.1128.1916_84311849aaf76ee8d43143d305f7ead625af4305\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\548515c4646d97233a0d397ae26df7a50f87ed65\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -183,6 +192,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobGUI\2018.1128.1916\867e2517e40aba481010cbed763ff01b2f2ccae1\MobGUI-2018.1128.1916.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="867e2517e40aba481010cbed763ff01b2f2ccae1">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobGUI-2018.1128.1916_2be977a09428fabc093bd37ea2a065ffa49af816\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-SinaWeibo\3.4.0\7a67ea0394e8aa4a8351879fda1f95947bed6fc1\ShareSDK-SinaWeibo-3.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -216,6 +234,15 @@
         revision="25.0.3"
         sha1="fbbccfdc611f4fb2895af1ed2a9f71f61e766dba">
         <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Core-3.4.0_bf6154cac549d7dd65afb73c25f7b49d8b0f5f59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2018.1128.1916\fc39cb8a8e3aaff01c327d6c93ee5f52176f6755\MobCommons-2018.1128.1916.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fc39cb8a8e3aaff01c327d6c93ee5f52176f6755">
+        <dex dex="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2018.1128.1916_977771abfba2a4e18beb9f8bb039516619c3e2c0\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -16,35 +16,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23604702-0041-4034-b7da-2ac39306513a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/CancelNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/DaemonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/PariServiceA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ChatBaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ChatBaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ConversationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ConversationFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupMineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupMineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupPublicDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupPublicDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/HisRootFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/HisRootFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineCustomerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineCustomerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MinePaidActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MinePaidActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TopicAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopicAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="336" column="66" lean-forward="true" selection-start-line="336" selection-start-column="66" selection-end-line="336" selection-end-column="66" />
+            <state relative-caret-position="370">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
               <folding>
                 <element signature="e#15579#16379#0" expanded="true" />
                 <element signature="e#15829#16287#0" expanded="true" />
@@ -116,20 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuanXinUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HuanXinUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="716">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -2746,9 +2716,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java" />
       </list>
     </option>
   </component>
@@ -2865,7 +2835,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="D:/Andorid/sdk/Sdk" />
-    <property name="device.picker.selection" value="860BCMQ22DKG" />
+    <property name="device.picker.selection" value="N8K5T17914003324" />
     <property name="last_opened_file_path" value="D:/Andorid/Psi/android-client" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
@@ -3179,7 +3149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544240185342</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修改聊天信息">
+      <created>1545036587564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545036587564</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3202,19 +3179,19 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.023991276" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.028353326" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.36968374" />
       <window_info id="Captures" order="2" sideWeight="0.49716714" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7452514" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73512906" visible="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.23009814" />
       <window_info anchor="bottom" id="Compute Code Lines" order="7" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.16577825" />
-      <window_info id="Structure" order="1" sideWeight="0.2547486" side_tool="true" visible="true" weight="0.17857143" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.21162046" />
+      <window_info id="Structure" order="1" sideWeight="0.26487094" side_tool="true" visible="true" weight="0.17857143" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -3284,7 +3261,8 @@
     <MESSAGE value="发单记录" />
     <MESSAGE value="环信聊天" />
     <MESSAGE value="极光push" />
-    <option name="LAST_COMMIT_MESSAGE" value="极光push" />
+    <MESSAGE value="修改聊天信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改聊天信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3651,7 +3629,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java</url>
-          <line>50</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
@@ -3779,6 +3757,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3800,6 +3788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3807,6 +3798,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4019,13 +4013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -4035,14 +4022,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="336" column="66" lean-forward="true" selection-start-line="336" selection-start-column="66" selection-end-line="336" selection-end-column="66" />
+        <state relative-caret-position="370">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
           <folding>
             <element signature="e#15579#16379#0" expanded="true" />
             <element signature="e#15829#16287#0" expanded="true" />
             <element signature="e#16286#16287#0" expanded="true" />
             <element signature="e#16378#16379#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
