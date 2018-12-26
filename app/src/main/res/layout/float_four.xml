@@ -45,8 +45,8 @@
             />
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/float_five"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:scaleType="center"
             fresco:roundAsCircle="true"
             android:layout_toRightOf="@+id/float_four"

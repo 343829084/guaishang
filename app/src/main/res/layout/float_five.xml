@@ -13,8 +13,8 @@
         >
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/float_one"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="@dimen/avatar_dimen"
+        android:layout_height="@dimen/avatar_dimen"
         android:scaleType="center"
         fresco:roundAsCircle="true"
         />
@@ -22,20 +22,20 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         >
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/float_two"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
             android:scaleType="center"
             fresco:roundAsCircle="true"
             />
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/float_three"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
             android:scaleType="center"
             fresco:roundAsCircle="true"
             android:layout_toRightOf="@+id/float_two"
@@ -44,24 +44,24 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:gravity="center"
         >
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/float_four"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
             android:scaleType="center"
             fresco:roundAsCircle="true"
             />
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/float_five"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
             android:scaleType="center"
             fresco:roundAsCircle="true"
             android:layout_toRightOf="@+id/float_four"
-            android:layout_marginLeft="-10dp"
+            android:layout_marginLeft="-5dp"
             android:layout_centerInParent="true"
             />
     </RelativeLayout>

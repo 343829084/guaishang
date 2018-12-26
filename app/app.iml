@@ -18,6 +18,7 @@
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../build/intermediates/Mob/assets" />
       </configuration>
     </facet>
   </component>
@@ -61,13 +62,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
@@ -75,6 +69,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
@@ -100,63 +101,61 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.fresco:imagepipeline-1.0.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-idling-resource-2.2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\base_animation.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:annotations:4.2.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-Wechat-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-3.4.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.stetho:stetho:1.3.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-cli:commons-cli:1.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\alipaysdk.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.mob:MobGUI:2018.1128.1916@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\fastjson-1.1.39.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: me.relex:photodraweeview-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\universal-image-loader-1.9.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support.test:rules-0.5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.LuckSiege.PictureSelector:picture_library-v2.1.3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.lzy.net:okrx2-2.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.greenrobot:greendao:3.1.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: SMSSDKGUI-3.0.0:@aar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\alipaysdk.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-QQ:3.4.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-Core-3.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-QZone-3.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\easemobchat_2.2.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\MobTools-2017.0914.1125.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.flyco.dialog:FlycoDialog_Lib-1.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\MobTools-2017.0914.1125.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\open_sdk_r5788_lite.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.zhy:autolayout-1.4.5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:cardview-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-QQ-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.greenrobot:eventbus:3.0.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.tbruyelle.rxpermissions2:rxpermissions-0.9.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:glide:4.2.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-TencentWeibo:3.4.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-Core-3.1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\universal-image-loader-1.9.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.fresco:imagepipeline-base-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.4@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-fragment-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-Wechat-Core-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.lzy.net:okgo-3.0.4" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\open_sdk_r5788_lite.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: javax.annotation:javax.annotation-api:1.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-SinaWeibo-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.hyman:flowlayout-lib-1.1.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.reactivestreams:reactive-streams:1.0.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.umeng.analytics:analytics:6.1.4@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:animated-vector-drawable-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\android-gif-drawable.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\alipayutdid.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\nineoldandroids-2.4.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\wechat-sdk-android-with-mta-1.1.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:disklrucache:4.2.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\alipaysecsdk.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\alipayutdid.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.mob:SDKWrapper:2018.0801.1824@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\beecloud-2.1.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\easemobchat_2.2.6.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\alipaysecsdk.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.jiguang.sdk:jpush-3.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.fresco:fbcore-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-Wechat:3.4.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-Wechat-Moments-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.okhttp3:okhttp:3.8.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.chrisbanes.photoview:library-1.2.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.jiguang.sdk:jcore-1.1.9" level="project" />
@@ -165,51 +164,53 @@
     <orderEntry type="library" exported="" name="Gradle: com.jakewharton:butterknife-8.5.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:OneKeyShare-3.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core-2.2.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-QQ-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.fresco:fresco-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:multidex-1.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-Wechat-Moments:3.4.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\wechat-sdk-android-with-mta-1.1.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-QZone:3.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-Wechat-Core:3.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:gifdecoder:4.2.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:26.0.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\fastjson-1.1.39.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.reactivex.rxjava2:rxjava:2.1.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-Wechat-Core-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support.test:runner-0.5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.android:flexbox-0.2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\nineoldandroids-2.4.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.android.support.test:exposed-instrumentation-api-publish-0.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\beecloud-2.1.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.sharesdk:ShareSDK-Wechat-Favorite:3.4.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\libammsdk.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:design-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\happy-dns-0.2.8.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-utils-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-Wechat-Moments-3.1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\MobCommons-2017.0914.1125.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.LuckSiege.PictureSelector:ucrop-v2.1.3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.jdsjlzx:LRecyclerView-1.4.3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.facebook.fresco:drawee-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\libammsdk.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.makeramen:roundedimageview-2.3.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.jakewharton:butterknife-annotations:8.5.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: SMSSDK-3.0.0:@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.okio:okio:1.13.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\happy-dns-0.2.8.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.greenrobot:greendao-api:3.1.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-Wechat-Favorite-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-compat-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:transition-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-SinaWeibo-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.mob:MobTools:2018.1128.1916@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\android-gif-drawable.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.lzy.net:okserver-2.0.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-Wechat-Favorite-3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.reactivex.rxjava2:rxandroid-2.0.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support.constraint:constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.mob:MobCommons:2018.1128.1916@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\base_animation.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\MobCommons-2017.0914.1125.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.lzy.widget:imagepicker-0.5.5" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\AndroidProject\guaishang\app\libs\ShareSDK-QZone-3.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\libs\ShareSDK-Wechat-3.1.0.jar:unspecified@jar" level="project" />
   </component>
 </module>
