@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.test:rules-0.5">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/7f37a3e5df05ff3bfb442b3193e48cceb61d2256/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/7f37a3e5df05ff3bfb442b3193e48cceb61d2256/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c8ec6067457899db9e4af6ed366d32534cfc21d6/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c8ec6067457899db9e4af6ed366d32534cfc21d6/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-javadoc.jar!/" />

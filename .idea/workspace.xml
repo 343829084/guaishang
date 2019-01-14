@@ -1,59 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
-  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23604702-0041-4034-b7da-2ac39306513a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+    <list default="true" id="b9984587-a524-4aa1-8c31-c92df8144bd5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_BaiduLBS_Android_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_MobCommons_2017_0914_1125_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_MobTools_2017_0914_1125_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_Core_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_QQ_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_QZone_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_SinaWeibo_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_Wechat_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_Wechat_Core_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_Wechat_Favorite_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_ShareSDK_Wechat_Moments_3_1_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_alipaysdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_alipaysecsdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_alipayutdid_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_android_gif_drawable_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_base_animation_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_beecloud_2_1_3_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_com_baidu_tts_2_3_1_20170808_e39ea89_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_easemobchat_2_2_6_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_fastjson_1_1_39_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_happy_dns_0_2_8_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_libammsdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_nineoldandroids_2_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_open_sdk_r5788_lite_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_universal_image_loader_1_9_2_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_DD_app_libs_wechat_sdk_android_with_mta_1_1_6_jar_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_BaiduLBS_Android_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_MobCommons_2017_0914_1125_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_MobTools_2017_0914_1125_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_Core_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_QQ_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_QZone_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_SinaWeibo_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_Wechat_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_Wechat_Core_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_Wechat_Favorite_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_ShareSDK_Wechat_Moments_3_1_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_alipaysdk_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_alipaysecsdk_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_alipayutdid_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_android_gif_drawable_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_base_animation_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_beecloud_2_1_3_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_com_baidu_tts_2_3_1_20170808_e39ea89_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_easemobchat_2_2_6_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_fastjson_1_1_39_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_happy_dns_0_2_8_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_libammsdk_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_nineoldandroids_2_4_0_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_open_sdk_r5788_lite_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_universal_image_loader_1_9_2_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__AndroidProject_guaishang_app_libs_wechat_sdk_android_with_mta_1_1_6_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__SMSSDKGUI_3_0_0__aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__SMSSDKGUI_3_0_0__aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__SMSSDK_3_0_0__aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__SMSSDK_3_0_0__aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jcore_1_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jcore_1_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jpush_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jpush_3_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_OneKeyShare_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_OneKeyShare_3_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_3_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flyco_dialog_FlycoDialog_Lib_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flyco_dialog_FlycoDialog_Lib_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_LuckSiege_PictureSelector_picture_library_v2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_LuckSiege_PictureSelector_picture_library_v2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_LuckSiege_PictureSelector_ucrop_v2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_LuckSiege_PictureSelector_ucrop_v2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_photoview_library_1_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_photoview_library_1_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jdsjlzx_LRecyclerView_1_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jdsjlzx_LRecyclerView_1_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_flexbox_0_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_flexbox_0_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hyman_flowlayout_lib_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hyman_flowlayout_lib_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okgo_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okgo_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okrx2_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okrx2_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okserver_2_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_net_okserver_2_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_widget_imagepicker_0_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lzy_widget_imagepicker_0_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tbruyelle_rxpermissions2_rxpermissions_0_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tbruyelle_rxpermissions2_rxpermissions_0_9_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zhy_autolayout_1_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zhy_autolayout_1_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__me_relex_photodraweeview_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_relex_photodraweeview_1_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/float_five.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/float_five.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/float_four.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/float_four.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/ChatInfoDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/ChatInfoDataDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/DaoMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/DaoMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/DaoSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/DaoSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/HomeTopicCacheDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/database/entity/HomeTopicCacheDataDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/Mob/assets/ShareSDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/Mob/assets/ShareSDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,187 +128,31 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="guaishang" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="guaishang" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="guaishang" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="guaishang" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TopicAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+            <state relative-caret-position="191">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MineFragmentNew.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17200">
-              <caret line="788" column="27" selection-start-line="788" selection-start-column="27" selection-end-line="788" selection-end-column="27" />
+            <state relative-caret-position="-2858">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/HttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlbumActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/AlbumActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="434" column="36" selection-start-line="434" selection-start-column="36" selection-end-line="434" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="float_four.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/float_four.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="float_five.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/float_five.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="49" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuanXinUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12525">
-              <caret line="501" selection-start-line="501" selection-end-line="501" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ll_offline</find>
-      <find>增加10金币</find>
-      <find>llShare</find>
-      <find>NETWORK_SUCCESS_DATA_RIGHT</find>
-      <find>dele</find>
-      <find>.NETWORK_OTHER</find>
-      <find>getapi</find>
-      <find>money</find>
-      <find>callBack</find>
-      <find>tv_title</find>
-      <find>支付总</find>
-      <find>发布</find>
-      <find>完善</find>
-      <find>tvConfirm</find>
-      <find>mobile</find>
-      <find>onme</find>
-      <find>order_btn</find>
-      <find>VProdectLayout</find>
-      <find>progressBar</find>
-      <find>验证码错误</find>
-      <find>Daemon</find>
-      <find>DaemonService</find>
-      <find>发送</find>
-      <find>btn_send</find>
-      <find>mAdapter</find>
-      <find>fragments</find>
-      <find>mViewPager</find>
-      <find>listener</find>
-      <find>chatInfo</find>
-      <find>order_count</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -259,12 +160,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Administrator\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="D:\Andorid\gradle\gradle-4.6-all\gradle-4.6" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.3" />
+        <entry key="$PROJECT_DIR$" value="4.6" />
       </map>
     </option>
     <option name="availableProjects">
@@ -272,14 +173,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="guaishang" />
+              <option name="name" value="DD" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="guaishang" />
+                <option name="name" value="DD" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -302,7 +203,7 @@
                 <option name="name" value="prepareComHymanFlowlayoutLib112Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'guaishang'." />
+                <option name="description" value="Displays the sub-projects of root project 'DD'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -366,10 +267,6 @@
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lint" />
@@ -410,7 +307,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'guaishang'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'DD'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -723,12 +620,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'guaishang'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'DD'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'guaishang'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'DD'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -850,17 +747,17 @@
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'guaishang'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'DD'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'guaishang' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'DD' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="description" value="Initializes a new Gradle build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
@@ -874,7 +771,7 @@
                 <option name="name" value="prepareComAndroidSupportSupportMediaCompat2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'guaishang'." />
+                <option name="description" value="Displays all dependencies declared in root project 'DD'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -968,7 +865,7 @@
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'guaishang'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'DD'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -1046,7 +943,7 @@
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="description" value="Generates Gradle wrapper files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
@@ -1082,10 +979,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1229,7 +1122,7 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'guaishang'." />
+                <option name="description" value="Displays the properties of root project 'DD'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1307,10 +1200,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -2018,10 +1907,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -2194,8 +2079,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2e96c3750f040fb0e48f4346c29b3924fe0dae08/gradle-core-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-code-modifier/3.1.0/c6759cbb22a8578a6092ff2fafa7d95f6a80e798/greendao-code-modifier-3.1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-code-modifier/3.1.0/29b9c81342429391febef246aef070ee2108b16d/greendao-code-modifier-3.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1206.1427/ee91e3014cee65d1c3d75c079edbca352478acc2/MobSDK-Impl-2018.1206.1427-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1206.1427/fffd85c9e265887625ee10571ed40734cd7d2f8b/MobSDK-Impl-2018.1206.1427.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1224.1416/88441811f71786d8b6d9a289785379c0bc8b0992/MobSDK-Impl-2018.1224.1416.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/7de57042a601aa94fabaeebf82a7e707dfa3da93/builder-2.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/cd1759718adfce446c850a616dfac9f5863459a0/builder-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/e9dc20419283dba5d984ee952a48a040c4704ae1/lint-25.3.3-sources.jar" />
@@ -2375,8 +2259,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2e96c3750f040fb0e48f4346c29b3924fe0dae08/gradle-core-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-code-modifier/3.1.0/c6759cbb22a8578a6092ff2fafa7d95f6a80e798/greendao-code-modifier-3.1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-code-modifier/3.1.0/29b9c81342429391febef246aef070ee2108b16d/greendao-code-modifier-3.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1206.1427/ee91e3014cee65d1c3d75c079edbca352478acc2/MobSDK-Impl-2018.1206.1427-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1206.1427/fffd85c9e265887625ee10571ed40734cd7d2f8b/MobSDK-Impl-2018.1206.1427.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mob.sdk/MobSDK-Impl/2018.1224.1416/88441811f71786d8b6d9a289785379c0bc8b0992/MobSDK-Impl-2018.1224.1416.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/7de57042a601aa94fabaeebf82a7e707dfa3da93/builder-2.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/cd1759718adfce446c850a616dfac9f5863459a0/builder-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/e9dc20419283dba5d984ee952a48a040c4704ae1/lint-25.3.3-sources.jar" />
@@ -2543,9 +2426,154 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="guaishang" />
+              <option name="name" value="DD" />
               <option name="projectBuildClasspath">
                 <list>
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/announce" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/antlr" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/base-services" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/base-services-groovy" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/build-cache" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/build-cache-http" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/build-comparison" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/build-init" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/build-option" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/cli" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/code-quality" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/composite-builds" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/core" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/core-api" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/dependency-management" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/diagnostics" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/ear" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/ide" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/ide-native" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/ide-play" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/installation-beacon" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/internal-android-performance-testing" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/internal-integ-testing" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/internal-performance-testing" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/internal-testing" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/ivy" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/jacoco" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/javascript" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/jvm-services" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/language-groovy" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/language-java" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/language-jvm" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/language-native" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/language-scala" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/launcher" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/logging" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/maven" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/messaging" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/model-core" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/model-groovy" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/native" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/osgi" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/persistent-cache" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/platform-base" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/platform-jvm" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/platform-native" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/platform-play" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/plugin-development" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/plugin-use" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/plugins" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/process-services" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/publish" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/reporting" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/resources" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/resources-gcs" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/resources-http" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/resources-s3" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/resources-sftp" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/scala" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/signing" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/test-kit" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/testing-base" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/testing-junit-platform" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/testing-jvm" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/testing-native" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/tooling-api" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/tooling-api-builders" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/version-control" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/workers" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/src/wrapper" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/ant-1.9.9.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-base-services-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-build-option-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-cli-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-core-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-core-api-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-docs-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-launcher-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-logging-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-messaging-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-model-core-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-native-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-process-services-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-resources-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/gradle-wrapper-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="D:/Andorid/gradle/gradle-4.6-all/gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2557,15 +2585,6 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="C:/Users/Psi/android-client" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/BubbleSeekBar" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/CircleProgress" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/GestureLock" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/RecyclerView" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/dapp-wallet-demo" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/walleth" value="PREVIEW" />
-        <entry key="D:/Andorid/Psi/wkcwallet-java" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
@@ -2573,194 +2592,49 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/AvatarBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyUserBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/MyInfoResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PayActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_dialog_order_buy.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/view/OrderBuyDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_dialog_recharge.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/RechargeDialogActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/BaseResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/ReleaseTopicResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_user_reg_info_personal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/TopicManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/debug_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainHuanXinActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mine_tab_personal_new.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/PushInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/JPushReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_shape_progress.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/listitem_topic.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/CancelNoticeService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/DaemonService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/PariServiceA.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ChatBaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseConstant.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupMineActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupPublicDetailsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineCustomerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MinePaidActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ConversationFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/HisRootFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guaishang" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="guaishang" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="DD" type="1abcf292:AndroidViewProjectNode" />
+              <item name="DD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="guaishang" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="guaishang" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="DD" type="1abcf292:AndroidViewProjectNode" />
+              <item name="DD" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DEBUGGABLE_DEVICE" value="meizu-pro_5-860BCMQ22DKG" />
-    <property name="DEBUGGABLE_PROCESS" value="com.houwei.guaishang" />
-    <property name="DEBUGGER_ID" value="Java" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="mine&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.MineFragmentNew&#10;chathe&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/huanxin/ChatHeadHolder.java&#10;topic&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;cha&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java&#10;jp&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/JPushReceiver.java&#10;Main&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java&#10;Userr&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java&#10;push&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/JPushReceiver.java&#10;min&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java&#10;debug&#9;PSI&#9;JAVA://com.houwei.guaishang.debug.DebugActivity&#10;Mine&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/res/layout/activity_mine_tab_personal_new.xml&#10;jpush&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/JPushReceiver.java&#10;topicada&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;topicman&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/TopicManager.java&#10;topi&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;rece&#9;PSI&#9;JAVA://com.houwei.guaishang.JPushReceiver&#10;main&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java&#10;head&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/huanxin/ChatHeadHolder.java&#10;chaac&#9;PSI&#9;JAVA://com.houwei.guaishang.huanxin.ChatActivity&#10;paya&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/PayActivity.java&#10;topich&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.TopicHomeFragment&#10;topada&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;payac&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.PayActivity&#10;User&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java&#10;Userre&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.UserRegMobileActivity&#10;Userlo&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/UserLoginActivity.java&#10;userinfoac&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java&#10;base&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java&#10;his&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.HisRootFragment&#10;http&#9;PSI&#9;JAVA://com.houwei.guaishang.tools.HttpUtil&#10;rele&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java&#10;Topif&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java&#10;top&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;login&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.UserLoginActivity&#10;PictureSelectorAc&#9;PSI&#9;JAVA://com.luck.picture.lib.PictureSelectorActivity&#10;homeada&#9;FILE&#9;file://D:/DD/guaishang-android4.5/guaishang-android4.5/guaishang/app/src/main/java/com/houwei/guaishang/adapter/HomeOrderGridAdapter.java&#10;topre&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.TopicReleaseActivity&#10;prev&#9;PSI&#9;JAVA://com.houwei.guaishang.preview.PreviewActivity" />
+    <property name="SearchEverywhereHistoryKey" value="five&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/res/layout/float_five.xml" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="android.sdk.path" value="D:/Andorid/sdk/Sdk" />
-    <property name="device.picker.selection" value="N8K5T17914003324" />
-    <property name="last_opened_file_path" value="D:/Andorid/Psi/android-client" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.houwei.guaishang.bean" />
-      <recent name="com.houwei.guaishang.widget" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\src\main\res\layout" />
-      <recent name="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\src\main\res\drawable-hdpi" />
-      <recent name="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\src\main\res\drawable-xhdpi" />
-      <recent name="D:\DD\guaishang-android4.5\guaishang-android4.5\guaishang\app\src\main\res\drawable" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2774,7 +2648,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2795,7 +2669,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -2847,56 +2721,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="guaishang:app [assembleDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assembleDebug" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="app" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2919,1000 +2743,73 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-    </configuration>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
-    <list>
-      <item itemvalue="Android App.app" />
-      <item itemvalue="Gradle.guaishang:app [assembleDebug]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.guaishang:app [assembleDebug]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23604702-0041-4034-b7da-2ac39306513a" name="Default" comment="" />
-      <created>1542267335055</created>
+      <changelist id="b9984587-a524-4aa1-8c31-c92df8144bd5" name="Default" comment="" />
+      <created>1545814845457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542267335055</updated>
+      <updated>1545814845457</updated>
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1542269387109</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1542269387109</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix:3 10  11">
-      <created>1542280958758</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1542280958758</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix:获取通讯录问题">
-      <created>1542281256375</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1542281256375</updated>
-    </task>
-    <task id="LOCAL-00004" summary="fix:排序刷新问题">
-      <created>1542281844138</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1542281844138</updated>
-    </task>
-    <task id="LOCAL-00005" summary="删除图片">
-      <created>1542364025582</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1542364025582</updated>
-    </task>
-    <task id="LOCAL-00006" summary="页面交互">
-      <created>1542364496514</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1542364496514</updated>
-    </task>
-    <task id="LOCAL-00007" summary="修bug">
-      <created>1542880200200</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1542880200200</updated>
-    </task>
-    <task id="LOCAL-00008" summary="修bug">
-      <created>1543210944355</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1543210944355</updated>
-    </task>
-    <task id="LOCAL-00009" summary="修bug">
-      <created>1543398618853</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1543398618853</updated>
-    </task>
-    <task id="LOCAL-00010" summary="订单首页重新排序">
-      <created>1544000276257</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1544000276257</updated>
-    </task>
-    <task id="LOCAL-00011" summary="发单记录">
-      <created>1544002907805</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1544002907805</updated>
-    </task>
-    <task id="LOCAL-00012" summary="环信聊天">
-      <created>1544176139332</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1544176139332</updated>
-    </task>
-    <task id="LOCAL-00013" summary="极光push">
-      <created>1544240185342</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1544240185342</updated>
-    </task>
-    <task id="LOCAL-00014" summary="修改聊天信息">
-      <created>1545036587564</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1545036587564</updated>
-    </task>
-    <task id="LOCAL-00015" summary="修改聊天信息">
-      <created>1545277165176</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1545277165176</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.36968374" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.16013072" />
-      <window_info id="Structure" order="1" sideWeight="0.14647378" side_tool="true" visible="true" weight="0.1684435" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50817883" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.4184435" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.39694658" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Captures" order="2" sideWeight="0.49716714" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85352623" visible="true" weight="0.1684435" />
-      <window_info anchor="bottom" id="Compute Code Lines" order="7" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.1076759" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3297491" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.40239912" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test" />
-    <MESSAGE value="fix:3 10  11" />
-    <MESSAGE value="fix:获取通讯录问题" />
-    <MESSAGE value="fix:排序刷新问题" />
-    <MESSAGE value="xialashuaxin" />
-    <MESSAGE value="删除图片" />
-    <MESSAGE value="页面交互" />
-    <MESSAGE value="修bug" />
-    <MESSAGE value="订单首页重新排序" />
-    <MESSAGE value="发单记录" />
-    <MESSAGE value="环信聊天" />
-    <MESSAGE value="极光push" />
-    <MESSAGE value="修改聊天信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改聊天信息" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>394</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>406</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>422</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>170</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/HttpUtil.java</url>
-          <line>621</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>526</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>1079</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>928</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>962</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>956</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>968</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>967</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>510</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>410</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>546</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>529</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>536</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>190</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicFootprintFragment.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>491</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>496</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserLoginActivity.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java</url>
-          <line>152</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/manager/MyUserBeanManager.java</url>
-          <line>144</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java</url>
-          <line>178</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>782</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>794</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>224</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>239</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>976</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/util/MinePictureUtil.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>787</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java</url>
-          <line>151</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java</url>
-          <line>428</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java</url>
-          <line>202</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java</url>
-          <line>267</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegInfoPersonalActivity.java</url>
-          <line>276</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatHeadHolder.java</url>
-          <line>199</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/JPushReceiver.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseChatInputMenu.java</url>
-          <line>180</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ChatBaseActivity.java</url>
-          <line>248</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>611</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>1254</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>1077</line>
-          <properties />
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>185</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>197</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java</url>
-          <line>169</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatActivity.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>443</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>554</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>425</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>419</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java</url>
-          <line>459</line>
-          <properties />
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatManager.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatManager.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="86" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/manager/ITopicApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/manager/HuanXinManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4450">
-          <caret line="229" column="29" selection-start-line="229" selection-start-column="29" selection-end-line="229" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.android/build-cache/a40eb639e992779ed8da9332ab4ac9f2087d10fe/output/jars/libs/jcore-android-1.1.9.jar!/cn/jpush/android/service/DaemonService.class" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/PariServiceA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/JPushReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/PushInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="-2858">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Andorid/sdk/Sdk/sources/android-25/android/app/Service.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14200">
-          <caret line="604" column="22" selection-start-line="604" selection-start-column="22" selection-end-line="604" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/CancelNoticeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/service/DaemonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ease_fragment_chat.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/easemobchat_2.2.6.jar!/com/easemob/chat/EMMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ease_widget_chat_primary_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="127" column="29" lean-forward="true" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseChatPrimaryMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseChatPrimaryMenuBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ease_fragment_top.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964" />
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupMineActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="168" column="120" selection-start-line="168" selection-start-column="120" selection-end-line="168" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GroupPublicDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="101" column="149" selection-start-line="101" selection-start-column="149" selection-end-line="101" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineCustomerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="297" column="107" selection-start-line="297" selection-start-column="107" selection-end-line="297" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MinePaidActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="341" column="109" selection-start-line="341" selection-start-column="109" selection-end-line="341" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ConversationFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="138" column="24" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/HisRootFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="316" column="22" lean-forward="true" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="162" column="16" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ChatBaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="222" column="8" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/OffersBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BaseTopicFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/easemob/EaseChatInputMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3925">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/OrderChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/adapter/OrderChatViewPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2675">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-          <folding>
-            <element signature="e#11451#11452#0" expanded="true" />
-            <element signature="e#11503#11504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatHeadHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4250">
-          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/ChatManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/easemobchat_2.2.6.jar!/com/easemob/chat/EMChatManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="703" column="26" selection-start-line="703" selection-start-column="26" selection-end-line="703" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/debug/DebugActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12525">
-          <caret line="501" selection-start-line="501" selection-end-line="501" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/huanxin/HuanXinUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MineFragmentNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17200">
-          <caret line="788" column="27" selection-start-line="788" selection-start-column="27" selection-end-line="788" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/AlbumActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="434" column="36" selection-start-line="434" selection-start-column="36" selection-end-line="434" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/float_four.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/float_five.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="191">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
