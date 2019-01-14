@@ -42,6 +42,7 @@ import com.houwei.guaishang.tools.JsonParser;
 import com.houwei.guaishang.tools.VoiceUtils;
 import com.houwei.guaishang.util.DeviceCardInfoUtils;
 import com.houwei.guaishang.view.PublishOrderDialog;
+import com.houwei.guaishang.widget.PsiDialog;
 import com.lzy.imagepicker.bean.ImageItem;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
@@ -719,6 +720,22 @@ public class MainActivity extends MainHuanXinActivity implements UserStateChange
 //				} catch (Exception e) {
 //					e.printStackTrace();
 //				}
+			}else {
+				final PsiDialog dialog = new PsiDialog(this,"亲，怪商抢单需要获取手机状态权限才能正常使用呦");
+				dialog.setOnButtonClickListener(new PsiDialog.OnButtonClickListener() {
+					@Override
+					public void onNegativeButtonClick(View view) {
+                        readPhoneAndMessage();
+                        dialog.dismiss();
+					}
+
+					@Override
+					public void onPositiveButtonClick(View view) {
+						dialog.dismiss();
+					    finish();
+					}
+				},"马上开启","关闭");
+				dialog.show();
 			}
 		}
 	}
