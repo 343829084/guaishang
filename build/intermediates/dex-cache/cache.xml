@@ -3,201 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\728009654c4b6386751468677ac5c36c45c8fcf0\output\jars\libs\ShareSDK-Core-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d9103aaf8e8b3262692d3731da6ca248e2ea71b5">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Core-3.4.1_89929364f26f69b309d001e2e7c1e26376ea4e3b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Core\3.4.1\31c84854b532e3cfcd883d890944b89191bcf4a4\ShareSDK-Wechat-Core-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="31c84854b532e3cfcd883d890944b89191bcf4a4">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Core-3.4.1_15a4aeb693366507ae15ba463fd9588205ea2159\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Favorite\3.4.1\bd804b65def54fefdf175baff514a44b9820950d\ShareSDK-Wechat-Favorite-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bd804b65def54fefdf175baff514a44b9820950d">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Favorite-3.4.1_aaf53e0205af598d0e8a4e498d58d34be02239d5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-QZone\3.4.1\f595bc622215b588ce73c9761b7f5799a7367878\ShareSDK-QZone-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f595bc622215b588ce73c9761b7f5799a7367878">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-QZone-3.4.1_8488ad3ac29afe2a9a195b912ec882f9b0f491cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Moments\3.4.1\142bc226cf554ed9b562cbd2a58266809e0ee531\ShareSDK-Wechat-Moments-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="142bc226cf554ed9b562cbd2a58266809e0ee531">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Moments-3.4.1_97cdae7ef86c51a21ed73eabc710bd612b5b7fdd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\f800115e828aa5e5b80e47ed26eec3e8508f2c55\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01f60c93cc24afed12ba3a51e413948ffd179c40\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\universal-image-loader-1.9.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="111169c43b8a601f571585f75d998e6027e48ff4">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2_5313d87dac5fce4da7b209a970ee97ef5cee1b16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\a01ae83eb0e776663793f8ea999f48b630ee145f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0719b842e5963751e55a1901d023684aea9e533c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat\3.4.1\69f5fc24c34a8290e0c234f7906a9a1bccd8366b\ShareSDK-Wechat-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="69f5fc24c34a8290e0c234f7906a9a1bccd8366b">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-3.4.1_3cbfabff9f26c074b47813718d8ed60b707408cc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-SinaWeibo\3.4.1\c9c84b3829ce930e819a0756e16d1a728a078848\ShareSDK-SinaWeibo-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c9c84b3829ce930e819a0756e16d1a728a078848">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-SinaWeibo-3.4.1_47627fece66cc80e7a5f48735bcd41673bf92b93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\93174fe9fb6bd1f25d0d5076abd574afdc6307d1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fb63a3b8457251c63dfc3d68e4832bfd7495ffa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\7dbc921f0a3babc36193c5f07a74f87d53ca744f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1598b2f4c25f3897c943ee26ede8452f77eacfd4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\617e6e7796ebeaa19b844bd82069d15f1204d056\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af39def43edac2b74b2ebf3f0f5f2cd1afc0e81b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\9715c6e4a19c0dfa0c6249ca0b783ae08139563d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f05ef472841da86c5b42cf99abcb3ccd63565e49">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfcffe45094abfa8f17810302a576f67d2e11b3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-TencentWeibo\3.4.1\2358c325f09be2831b710a7c3ca3f56f7a78f716\ShareSDK-TencentWeibo-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2358c325f09be2831b710a7c3ca3f56f7a78f716">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-TencentWeibo-3.4.1_d7ec6280dc6f7c8f941ff9dc6e64acd8a3385c45\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\2a8dc26a0f87d9e266dc95eb56798e9f06195c13\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9d6dae18c7c4cc35249c396dfe935005b36db9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2019.0109.1644\4953e798d70123e2f9caf83ca6624716eae02e3a\MobCommons-2019.0109.1644.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4953e798d70123e2f9caf83ca6624716eae02e3a">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2019.0109.1644_1b2638eaf7e1a2b05891d6ce8ac385f44b2fd010\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\e54717b25e7b6ab1806307328f969a99e09c12b4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_00d07adbb89328032f3e3b3789da6f254fbb23ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\89497ba8efe8358c79c361022d5c4ed9db047eee\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca24fc263c2ce5d10eed56bdc33aab73590e07bb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="99489d834dfda6c1090abc3ab8870093999b8d79">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.baidu.tts_2.3.1.20170808_e39ea89_5321e7597c6bddbb4537e714255d549b341a6fc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\alipaysecsdk.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="7413c074c9edf523050267b93d0875151dc4b644">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaysecsdk_b66ee26bd5812e87e21277fc427b813bd90cb201\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\728009654c4b6386751468677ac5c36c45c8fcf0\output\jars\libs\ShareSDK-Core-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d9103aaf8e8b3262692d3731da6ca248e2ea71b5">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Core-3.4.1_89929364f26f69b309d001e2e7c1e26376ea4e3b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Core\3.4.1\31c84854b532e3cfcd883d890944b89191bcf4a4\ShareSDK-Wechat-Core-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="31c84854b532e3cfcd883d890944b89191bcf4a4">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Core-3.4.1_15a4aeb693366507ae15ba463fd9588205ea2159\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\2ecedd57366715846a4daff75cf57dce9b7b6020\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -246,12 +75,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Favorite\3.4.1\bd804b65def54fefdf175baff514a44b9820950d\ShareSDK-Wechat-Favorite-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd804b65def54fefdf175baff514a44b9820950d">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Favorite-3.4.1_aaf53e0205af598d0e8a4e498d58d34be02239d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-QZone\3.4.1\f595bc622215b588ce73c9761b7f5799a7367878\ShareSDK-QZone-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f595bc622215b588ce73c9761b7f5799a7367878">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-QZone-3.4.1_8488ad3ac29afe2a9a195b912ec882f9b0f491cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\fastjson-1.1.39.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_514f6b5b58a845e1f61bae9569451f9e37368f8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat-Moments\3.4.1\142bc226cf554ed9b562cbd2a58266809e0ee531\ShareSDK-Wechat-Moments-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="142bc226cf554ed9b562cbd2a58266809e0ee531">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Moments-3.4.1_97cdae7ef86c51a21ed73eabc710bd612b5b7fdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\f800115e828aa5e5b80e47ed26eec3e8508f2c55\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01f60c93cc24afed12ba3a51e413948ffd179c40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="111169c43b8a601f571585f75d998e6027e48ff4">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2_5313d87dac5fce4da7b209a970ee97ef5cee1b16\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\a01ae83eb0e776663793f8ea999f48b630ee145f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0719b842e5963751e55a1901d023684aea9e533c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-QQ\3.4.1\f55d98afe752bea1dbf3e1730a46c4a22a35cc9d\ShareSDK-QQ-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -306,6 +189,15 @@
         revision="25.0.3"
         sha1="2bf1e82ecff02f053b2fac0823996fc3289071eb">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_861781d67176d173000916f7965301b3305c8736\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-Wechat\3.4.1\69f5fc24c34a8290e0c234f7906a9a1bccd8366b\ShareSDK-Wechat-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69f5fc24c34a8290e0c234f7906a9a1bccd8366b">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-3.4.1_3cbfabff9f26c074b47813718d8ed60b707408cc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,12 +246,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-SinaWeibo\3.4.1\c9c84b3829ce930e819a0756e16d1a728a078848\ShareSDK-SinaWeibo-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9c84b3829ce930e819a0756e16d1a728a078848">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-SinaWeibo-3.4.1_47627fece66cc80e7a5f48735bcd41673bf92b93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\93174fe9fb6bd1f25d0d5076abd574afdc6307d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fb63a3b8457251c63dfc3d68e4832bfd7495ffa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\easemobchat_2.2.6.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="6cec5fd2dd2e1804a9c54ddedbb848d855b0ea61">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\easemobchat_2.2.6_c9f703e5eab2e8d328cc7b5c6acc9ca91ad26ffe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\7dbc921f0a3babc36193c5f07a74f87d53ca744f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1598b2f4c25f3897c943ee26ede8452f77eacfd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\617e6e7796ebeaa19b844bd82069d15f1204d056\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af39def43edac2b74b2ebf3f0f5f2cd1afc0e81b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -381,12 +309,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2019.0114.1454\3a3993d2ad7da230ebd899954c651d7752924a1b\MobCommons-2019.0114.1454.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3a3993d2ad7da230ebd899954c651d7752924a1b">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2019.0114.1454_83a0b86dbad937c92698e60289332dbb331c63cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9715c6e4a19c0dfa0c6249ca0b783ae08139563d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f05ef472841da86c5b42cf99abcb3ccd63565e49">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfcffe45094abfa8f17810302a576f67d2e11b3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\BaiduLBS_Android.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="a5cdfa8887b52fc79d86c9c81acdb6e9e2a53417">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_d12b8cf6df362abe6ae2ded5e0235432a0ff0b8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-TencentWeibo\3.4.1\2358c325f09be2831b710a7c3ca3f56f7a78f716\ShareSDK-TencentWeibo-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2358c325f09be2831b710a7c3ca3f56f7a78f716">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-TencentWeibo-3.4.1_d7ec6280dc6f7c8f941ff9dc6e64acd8a3385c45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2a8dc26a0f87d9e266dc95eb56798e9f06195c13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9d6dae18c7c4cc35249c396dfe935005b36db9a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -414,6 +387,33 @@
         revision="25.0.3"
         sha1="0c3384f9877b711c3f0b6556ce9ec7f63dc2426e">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaysdk_14e789b6d78aaccf639676388800504ab19dd0f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\e54717b25e7b6ab1806307328f969a99e09c12b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_00d07adbb89328032f3e3b3789da6f254fbb23ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\89497ba8efe8358c79c361022d5c4ed9db047eee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca24fc263c2ce5d10eed56bdc33aab73590e07bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="99489d834dfda6c1090abc3ab8870093999b8d79">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.baidu.tts_2.3.1.20170808_e39ea89_5321e7597c6bddbb4537e714255d549b341a6fc7\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -13,9 +13,10 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.View;
 import android.widget.TextView;
 //查看大图activity
-public class GalleryActivity extends FragmentActivity {
+public class GalleryActivity extends FragmentActivity implements View.OnClickListener {
 	private static final String STATE_POSITION = "STATE_POSITION";
 	public static final String EXTRA_IMAGE_INDEX = "image_index";
 	public static final String EXTRA_IMAGE_URLS = "image_urls";
@@ -23,10 +24,14 @@ public class GalleryActivity extends FragmentActivity {
 	private HackyViewPager mPager;
 	private int pagerPosition;
 
+	private TextView cut,tuya,shuiyin;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_gallery);
+		cut = (TextView) findViewById(R.id.cut);
+		tuya = (TextView) findViewById(R.id.tuya);
+		shuiyin = (TextView) findViewById(R.id.shuiyin);
 
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
 		ArrayList<String> urls = (ArrayList<String>) getIntent().getSerializableExtra(EXTRA_IMAGE_URLS);
@@ -65,11 +70,28 @@ public class GalleryActivity extends FragmentActivity {
 		}
 
 		mPager.setCurrentItem(pagerPosition);
+
+		cut.setOnClickListener(this);
 	}
 
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 		outState.putInt(STATE_POSITION, mPager.getCurrentItem());
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.cut:
+
+				break;
+			case R.id.shuiyin:
+
+				break;
+			case R.id.tuya:
+
+				break;
+		}
 	}
 
 	private class ImagePagerAdapter extends FragmentStatePagerAdapter {
