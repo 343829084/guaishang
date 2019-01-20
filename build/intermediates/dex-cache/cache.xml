@@ -21,15 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobTools\2019.0109.1416\976c155b7538dd28e574bc459538b21ea0cd15d4\MobTools-2019.0109.1416.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="976c155b7538dd28e574bc459538b21ea0cd15d4">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobTools-2019.0109.1416_01cf033530c8000fe49b40940e520c2e62747fe1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\libammsdk.jar"
         jumboMode="false"
         optimize="true"
@@ -57,6 +48,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\Andorid\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_3ac7170883835f97bd1251546214ae1c96e682e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\1cfc5f7899176ca64b6154f9bccacb7ca261ccba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ff19675b8b553dc729769de24baac7c9c28aa6e0">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56be47eac4959d11d305297f016d6cb24f64d2fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\2ecedd57366715846a4daff75cf57dce9b7b6020\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -81,6 +90,15 @@
         revision="25.0.3"
         sha1="bd804b65def54fefdf175baff514a44b9820950d">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\ShareSDK-Wechat-Favorite-3.4.1_aaf53e0205af598d0e8a4e498d58d34be02239d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2019.0119.1621\f735e651f8429eb8be5488e3c2c19fb79da10fd3\MobCommons-2019.0119.1621.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f735e651f8429eb8be5488e3c2c19fb79da10fd3">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2019.0119.1621_a30d92db4d301892e792a3a3ce44e83df8425ffe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,15 +255,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobGUI\2019.0109.1416\d5310b414b574e0fe91b99e554b595a2e543640b\MobGUI-2019.0109.1416.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d5310b414b574e0fe91b99e554b595a2e543640b">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobGUI-2019.0109.1416_26ba5c92ee7ef1ca8616c4ac7ef1584c92dfa2ae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.sharesdk\ShareSDK-SinaWeibo\3.4.1\c9c84b3829ce930e819a0756e16d1a728a078848\ShareSDK-SinaWeibo-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -309,12 +318,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2019.0114.1454\3a3993d2ad7da230ebd899954c651d7752924a1b\MobCommons-2019.0114.1454.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobGUI\2019.0119.1403\b685e7180ce6258c438cbb0048dbc22bc4df38b5\MobGUI-2019.0119.1403.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3a3993d2ad7da230ebd899954c651d7752924a1b">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2019.0114.1454_83a0b86dbad937c92698e60289332dbb331c63cc\classes.dex" />
+        sha1="b685e7180ce6258c438cbb0048dbc22bc4df38b5">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobGUI-2019.0119.1403_33f00acd84528c7aebeb775de5289494d7ce9127\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -423,6 +432,15 @@
         revision="25.0.3"
         sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c0ca4c9d67f27fbb0c10b4403d7015520b19204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobTools\2019.0119.1403\88c8cf8eb0fa905c64dddb5b7927dde5738f8e0a\MobTools-2019.0119.1403.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88c8cf8eb0fa905c64dddb5b7927dde5738f8e0a">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobTools-2019.0119.1403_c553c53bc11eafe99bed43d3effff5360a49c604\classes.dex" />
     </item>
 
 </items>

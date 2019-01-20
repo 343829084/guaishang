@@ -314,6 +314,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize" />
 
+
         <!--
              adjustPan 不对界面参数任何影响
         		adjustResize和默认一样
@@ -333,6 +334,10 @@
             android:screenOrientation="portrait" />
         <activity android:name=".activity.newui.TopicDetailComActivity" />
 
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <!-- <activity -->
         <!-- android:name="cn.smssdk.SMSSDKUIShell" -->
         <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->

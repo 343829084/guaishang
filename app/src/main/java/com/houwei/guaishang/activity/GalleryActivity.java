@@ -1,20 +1,34 @@
 package com.houwei.guaishang.activity;
 
 
+import java.io.File;
 import java.util.ArrayList;
 
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.event.LoginSuccessEvent;
+import com.houwei.guaishang.event.ReFreshPhotoEvent;
+import com.houwei.guaishang.util.FileUtils;
 import com.houwei.guaishang.view.gallery.HackyViewPager;
+import com.yalantis.ucrop.UCrop;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 //查看大图activity
 public class GalleryActivity extends FragmentActivity implements View.OnClickListener {
 	private static final String STATE_POSITION = "STATE_POSITION";
@@ -25,20 +39,25 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 	private int pagerPosition;
 
 	private TextView cut,tuya,shuiyin;
+	private ArrayList<String> urls;
+	private ImagePagerAdapter mAdapter;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_gallery);
+		if (!EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().register(this);
+		}
 		cut = (TextView) findViewById(R.id.cut);
 		tuya = (TextView) findViewById(R.id.tuya);
 		shuiyin = (TextView) findViewById(R.id.shuiyin);
 
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
-		ArrayList<String> urls = (ArrayList<String>) getIntent().getSerializableExtra(EXTRA_IMAGE_URLS);
+		urls = (ArrayList<String>) getIntent().getSerializableExtra(EXTRA_IMAGE_URLS);
 
 
 		mPager = (HackyViewPager) findViewById(R.id.pager);
-		ImagePagerAdapter mAdapter = new ImagePagerAdapter(
+		mAdapter = new ImagePagerAdapter(
 				getSupportFragmentManager(), urls);
 		mPager.setAdapter(mAdapter);
 //		TextView indicator = (TextView) findViewById(R.id.indicator);
@@ -59,6 +78,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 
 			@Override
 			public void onPageSelected(int arg0) {
+				pagerPosition = arg0;
 //				CharSequence text = getString(R.string.viewpager_indicator,
 //						arg0 + 1, mPager.getAdapter().getCount());
 //				indicator.setText(text);
@@ -80,10 +100,26 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 	}
 
 	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		ReFreshPhotoEvent photoEvent = new ReFreshPhotoEvent();
+		photoEvent.setUrls(urls);
+		EventBus.getDefault().post(photoEvent);
+		if (EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().unregister(this);
+		}
+	}
+
+	@Override
 	public void onClick(View v) {
 		switch (v.getId()){
 			case R.id.cut:
-
+				String destinationFileName = FileUtils.getTempDirPath()+ File.separator +"SampleCropImage"+System.currentTimeMillis()+".jpg";
+				File file = new File(destinationFileName);
+				UCrop.of(Uri.parse(urls.get(pagerPosition)), Uri.fromFile(file))
+						.withAspectRatio(16, 9)
+						.withMaxResultSize(500, 500)
+						.start(this);
 				break;
 			case R.id.shuiyin:
 
@@ -114,5 +150,31 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 			return ImageDetailFragment.newInstance(url);
 		}
 
+		@Override
+		public int getItemPosition(Object object) {
+			return POSITION_NONE;
+		}
+
+		@Override
+		public void destroyItem(ViewGroup container, int position, Object object) {
+			super.destroyItem(container, position, object);
+		}
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		if (resultCode == RESULT_OK && requestCode == UCrop.REQUEST_CROP) {
+			final Uri resultUri = UCrop.getOutput(data);
+			Log.d("lei",resultUri.toString());
+			urls.set(pagerPosition,resultUri.toString());
+			mAdapter.notifyDataSetChanged();
+		} else if (resultCode == UCrop.RESULT_ERROR) {
+			final Throwable cropError = UCrop.getError(data);
+		}
+	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void loginSuccess(LoginSuccessEvent event) {
 	}
 }

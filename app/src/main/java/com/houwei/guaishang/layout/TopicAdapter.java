@@ -314,10 +314,13 @@ public class TopicAdapter extends BaseAdapter {
         String url = bean.getCover();
 //        imageLoader.displayImage(url, holder.imgTitle, mContext.getITopicApplication().getOtherManage().getRectDisplayImageOptions());
         if (bean.getPicture() != null && bean.getPicture().size() > 0) {
+            holder.gridView.setVisibility(View.VISIBLE);
             List<AvatarBean> pics = bean.getPicture();
             holder.gridView.setNumColumns(pics.size() >= 3 ? 3 : pics.size());
             HomeOrderGridAdapter adapter = new HomeOrderGridAdapter(mContext, pics);
             holder.gridView.setAdapter(adapter);
+        }else {
+            holder.gridView.setVisibility(View.GONE);
         }
         holder.content.setText("求购： "+faceManager.
                         convertNormalStringToSpannableString(mContext, bean.getContent()),

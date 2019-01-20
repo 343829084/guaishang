@@ -518,7 +518,7 @@ public class HttpUtil {
 	 * @return
 	 * @throws Exception
 	 */
-	public static String upload(Map<String, String> paramsMap,
+	public static String 	upload(Map<String, String> paramsMap,
 			List<String> list, String urlstring, String form_name,
 			String contentType) throws Exception {
 

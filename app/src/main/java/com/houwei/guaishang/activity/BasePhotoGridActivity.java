@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.Gravity;
@@ -30,6 +31,8 @@ import android.widget.LinearLayout;
 import android.widget.ImageView.ScaleType;
 
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.event.ReFreshPhotoEvent;
+import com.houwei.guaishang.event.RefreshTopicEvent;
 import com.houwei.guaishang.layout.PhotoPopupWindow;
 import com.houwei.guaishang.layout.PhotoPopupWindow.SelectPhotoListener;
 import com.houwei.guaishang.tools.BitmapUtil;
@@ -37,6 +40,10 @@ import com.houwei.guaishang.tools.ImageCompress;
 import com.houwei.guaishang.views.UnScrollGridView;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 /**
  * 需要选择 多张图片功能 的界面，继承此类
@@ -72,12 +79,15 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 		if (savedInstanceState != null) {
 			camera_pic_path = savedInstanceState.getString("camera_pic_path");
 		}
+		if (!EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().register(this);
+		}
 	}
 	
 	protected void initView() {
 		thumbPictures.add("" + PICTURE_UPDATE_ICON);
 		gridView = (UnScrollGridView) findViewById(R.id.gridView);
-		gridView.setAdapter(new PhotoReleaseGridAdapter(thumbPictures,this));
+		gridView.setAdapter(new PhotoReleaseGridAdapter(thumbPictures, this));
 
 		gridView.setOnItemClickListener(new OnItemClickListener() {
 
@@ -91,7 +101,11 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 					Intent intent = new Intent(BasePhotoGridActivity.this, GalleryActivity.class);
 					ArrayList<String> urls = new ArrayList<String>();
 					for (String string : selectedPicture) {
-						urls .add("file://"+string);
+						if (string.startsWith("file://")) {
+							urls.add(string);
+						} else {
+							urls.add("file://" + string);
+						}
 					}
 					intent.putExtra(GalleryActivity.EXTRA_IMAGE_URLS, urls);
 					intent.putExtra(GalleryActivity.EXTRA_IMAGE_INDEX, arg2);
@@ -255,6 +269,9 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 		// TODO Auto-generated method stub
 		clearCurreantThumbList();
 		super.onDestroy();
+		if (EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().unregister(this);
+		}
 	}
 	
 	private void clearCurreantThumbList() {
@@ -346,8 +363,14 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 			} else {
 				viewHolder = (MyGridViewHolder) convertView.getTag();
 			}
-			String photoRecourse = thumbPictures.get(position).equals(
-					"" + BasePhotoGridActivity.PICTURE_UPDATE_ICON) ? "drawable://" : "file://";
+            String photoRecourse;
+			if (!TextUtils.isEmpty(thumbPictures.get(position)) && thumbPictures.get(position).startsWith("file:")){
+			    photoRecourse = "";
+            } else {
+                photoRecourse = thumbPictures.get(position).equals(
+                        "" + BasePhotoGridActivity.PICTURE_UPDATE_ICON) ? "drawable://" : "file://";
+            }
+
 			
 			//加号图片 去掉删除按钮
 			viewHolder.delete_btn.setVisibility((thumbPictures.get(position).equals(
@@ -382,6 +405,28 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 	private static class MyGridViewHolder {
 		private ImageView imageView;
 		private View delete_btn;
+	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void refreshPhoto(ReFreshPhotoEvent event){
+		if (event == null){
+			return;
+		}
+
+		ArrayList<String> urls = event.getUrls();
+
+		thumbPictures.clear();
+        for (int i = 0; i < urls.size(); i++) {
+			String s = urls.get(i);
+			if (s.startsWith("file://")){
+				s = s.replace("file://","");
+			}
+			selectedPicture.set(i,s);
+            thumbPictures.add(s);
+        }
+		thumbPictures.add("" + PICTURE_UPDATE_ICON);
+		resetAdapter();
+
 	}
 
 
