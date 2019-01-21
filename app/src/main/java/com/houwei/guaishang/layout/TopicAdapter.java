@@ -147,7 +147,7 @@ public class TopicAdapter extends BaseAdapter {
             holder.gridView = (GridView) convertView.findViewById(R.id.grid_pictures);
             holder.tvCount = (TextView) convertView.findViewById(R.id.tv_count);
             holder.content = (TextView) convertView.findViewById(R.id.content);
-//            holder.header_time = (TextView) convertView.findViewById(R.id.header_time);
+            holder.header_time = (TextView) convertView.findViewById(R.id.header_time);
 //            holder.zan_count_btn = (PraiseTextView) convertView
 //                    .findViewById(R.id.zan_count_btn);
 //                 已定单
@@ -373,6 +373,7 @@ public class TopicAdapter extends BaseAdapter {
         holder.ratingBar.setIsIndicator(true);
         holder.header_location.setText(location);
         holder.header_name.setText(bean.getMemberName());
+        holder.header_time.setText(bean.getTimeString());
 //        holder.header_time.setText(bean.getTimeString());
 //        holder.linearLayoutForListView.setVisibility((bean.getComments() == null || bean.getComments().isEmpty()) ? View.GONE : View.VISIBLE);
 //        holder.linearLayoutForListView.setVisibility(View.GONE);
@@ -654,7 +655,7 @@ public class TopicAdapter extends BaseAdapter {
     }
 
     public static class ViewHolder {
-        private TextView content, header_name,  header_location,tvCount;
+        private TextView content, header_name,  header_location,tvCount,header_time;
         private PraiseTextView zan_count_btn;
         private ImageView avator,imgTitle,imgIndicate,imageMyOrder;
         private GridView gridView;

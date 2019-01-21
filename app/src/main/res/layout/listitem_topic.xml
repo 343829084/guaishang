@@ -63,6 +63,16 @@
                                 android:text="广州用户公司"
                                 android:textColor="#364d9b"
                                 android:textStyle="bold"
+                                android:textSize="14dp"
+                                />
+
+                            <TextView
+                                android:id="@+id/header_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#5f666e"
+                                android:layout_toRightOf="@+id/header_name"
+                                android:layout_marginLeft="10dp"
                                 android:textSize="14dp" />
 
                             <TextView
