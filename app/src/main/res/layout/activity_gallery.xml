@@ -57,12 +57,12 @@
                 android:textSize="14sp"
                 />
             <TextView
-                android:id="@+id/shuiyin"
+                android:id="@+id/mosaic"
                 android:layout_width="@dimen/dp100"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="水印"
+                android:text="马赛克"
                 android:textColor="#ffffff"
                 android:textSize="14sp"
                 />

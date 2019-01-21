@@ -183,4 +183,5 @@ dependencies {
 
     compile 'com.github.yalantis:ucrop:2.2.2'
     compile 'com.github.yalantis:ucrop:2.2.2-native'
+    compile 'com.github.1993hzw:Doodle:5.3'
 }

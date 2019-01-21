@@ -237,6 +237,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\dd5f9308bad1b91e18c5cea5a18568d09056734c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="db8bf15027d974aec48470b9882a3df0bf8c36ec">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9c0fc89467a2e8112bbfa35ada699eac0ac1530\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\b6e1c0c3803cae0394fa6e841a7bb8343c301995\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -315,6 +324,15 @@
         revision="25.0.3"
         sha1="379056fcb09a02bd0db722be359695ad88beb04d">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\wechat-sdk-android-with-mta-1.1.6_eae574ba922049300b0d55ad56f36739cf7bed56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\d2d651aa94de6634780f93f579d08214eea2e7fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="746de80e69436cf0eddbe0fc54c684c99cede24a">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc1f4b1bc9f3411b71edd6a84fc0052a97abc6c0\classes.dex" />
     </item>
     <item
         is-multidex="true"

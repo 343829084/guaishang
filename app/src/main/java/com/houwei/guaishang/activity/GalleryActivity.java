@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.event.LoginSuccessEvent;
+import com.houwei.guaishang.event.OpreratePhotoEvent;
 import com.houwei.guaishang.event.ReFreshPhotoEvent;
 import com.houwei.guaishang.util.FileUtils;
 import com.houwei.guaishang.view.gallery.HackyViewPager;
@@ -20,25 +21,32 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+
+import cn.hzw.doodle.DoodleActivity;
+import cn.hzw.doodle.DoodleParams;
+import cn.hzw.doodle.DoodleView;
 
 //查看大图activity
 public class GalleryActivity extends FragmentActivity implements View.OnClickListener {
 	private static final String STATE_POSITION = "STATE_POSITION";
 	public static final String EXTRA_IMAGE_INDEX = "image_index";
 	public static final String EXTRA_IMAGE_URLS = "image_urls";
-
+	public static final int REQ_CODE_DOODLE = 101;
+	public static final int REQ_CODE_Mosaic= 102;
 	private HackyViewPager mPager;
 	private int pagerPosition;
 
-	private TextView cut,tuya,shuiyin;
+	private TextView cut,tuya,mosaic;
 	private ArrayList<String> urls;
 	private ImagePagerAdapter mAdapter;
 	@Override
@@ -50,7 +58,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 		}
 		cut = (TextView) findViewById(R.id.cut);
 		tuya = (TextView) findViewById(R.id.tuya);
-		shuiyin = (TextView) findViewById(R.id.shuiyin);
+		mosaic = (TextView) findViewById(R.id.mosaic);
 
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
 		urls = (ArrayList<String>) getIntent().getSerializableExtra(EXTRA_IMAGE_URLS);
@@ -92,6 +100,8 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 		mPager.setCurrentItem(pagerPosition);
 
 		cut.setOnClickListener(this);
+		tuya.setOnClickListener(this);
+		mosaic.setOnClickListener(this);
 	}
 
 	@Override
@@ -121,11 +131,37 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 						.withMaxResultSize(500, 500)
 						.start(this);
 				break;
-			case R.id.shuiyin:
-
+			case R.id.mosaic:
+				Intent intent = new Intent(this,MosaicActivity.class);
+				String s = urls.get(pagerPosition);
+				if (s.startsWith("file://")){
+					s = s.replace("file://","");
+				}
+				intent.putExtra("url",s);
+				startActivityForResult(intent,REQ_CODE_Mosaic);
 				break;
 			case R.id.tuya:
 
+				Intent tuyaIntent = new Intent(this,TuyaActivity.class);
+				String url = urls.get(pagerPosition);
+				if (url.startsWith("file://")){
+					url = url.replace("file://","");
+				}
+				tuyaIntent.putExtra("url",url);
+				startActivity(tuyaIntent);
+//				String url = urls.get(pagerPosition);
+//				if (url.startsWith("file://")){
+//					url = url.replace("file://","");
+//				}
+//				DoodleParams params = new DoodleParams();
+//				params.mIsFullScreen = true;
+//				params.mImagePath = url;
+//				params.mIsDrawableOutside = false;
+//				params.mChangePanelVisibilityDelay = 100000000;
+//				// 初始画笔大小
+//				params.mPaintUnitSize = DoodleView.DEFAULT_SIZE;
+//				// 启动涂鸦页面
+//				DoodleActivity.startActivityForResult(this, params, REQ_CODE_DOODLE);
 				break;
 		}
 	}
@@ -171,10 +207,30 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 			mAdapter.notifyDataSetChanged();
 		} else if (resultCode == UCrop.RESULT_ERROR) {
 			final Throwable cropError = UCrop.getError(data);
+		}else if (requestCode == REQ_CODE_DOODLE) {
+			if (data == null) {
+				return;
+			}
+			if (resultCode == DoodleActivity.RESULT_OK) {
+				String path = data.getStringExtra(DoodleActivity.KEY_IMAGE_PATH);
+				if (TextUtils.isEmpty(path)) {
+					return;
+				}
+			} else if (resultCode == DoodleActivity.RESULT_ERROR) {
+				Toast.makeText(getApplicationContext(), "error", Toast.LENGTH_SHORT).show();
+			}
 		}
 	}
 
 	@Subscribe(threadMode = ThreadMode.MAIN)
 	public void loginSuccess(LoginSuccessEvent event) {
+	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void opreratePhotoEvent(OpreratePhotoEvent event) {
+		String url = event.getUrl();
+		url = "file://"+url;
+		urls.set(pagerPosition,url);
+		mAdapter.notifyDataSetChanged();
 	}
 }
