@@ -51,7 +51,9 @@ public class TuyaActivity extends Activity implements View.OnClickListener {
             url = url.replace("file://","");
         }
         bitmap = BitmapFactory.decodeFile(url);
-
+        if (bitmap == null){
+            finish();
+        }
         doodleView = new DoodleView(this, bitmap, new IDoodleListener() {
             @Override
             public void onSaved(IDoodle doodle, Bitmap doodleBitmap, Runnable callback) {
