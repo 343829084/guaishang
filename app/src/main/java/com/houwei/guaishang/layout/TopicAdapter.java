@@ -214,8 +214,9 @@ public class TopicAdapter extends BaseAdapter {
 //                进度       整数                获取当前值
             int progress = Integer.valueOf(bean.getNowRob());
 //               进度    最大
-
-            holder.progressBar.setProgress(progress/max);
+            if (max != 0) {
+                holder.progressBar.setProgress(progress / max);
+            }
             if(progress==max){
 //                      订单 按钮     已结束状态
                 holder.order_btn.setStatu(3);
