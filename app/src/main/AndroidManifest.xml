@@ -341,6 +341,7 @@
 
         <activity android:name=".activity.TuyaActivity"/>
         <activity android:name=".activity.MosaicActivity"/>
+        <activity android:name=".activity.UserBindMobileActivity"/>
         <!-- <activity -->
         <!-- android:name="cn.smssdk.SMSSDKUIShell" -->
         <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->

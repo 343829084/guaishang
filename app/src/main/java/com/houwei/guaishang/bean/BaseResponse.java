@@ -1,6 +1,8 @@
 package com.houwei.guaishang.bean;
 
-public class BaseResponse{
+import java.io.Serializable;
+
+public class BaseResponse implements Serializable {
 	private int code;
 	private String message;
 

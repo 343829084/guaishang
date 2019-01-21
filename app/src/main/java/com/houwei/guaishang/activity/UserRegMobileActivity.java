@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.bean.UserResponse;
 import com.houwei.guaishang.data.DBReq;
+import com.houwei.guaishang.event.BindMobileEvent;
 import com.houwei.guaishang.event.LoginSuccessEvent;
 import com.houwei.guaishang.manager.HuanXinManager;
 import com.houwei.guaishang.sp.UserInfo;
@@ -33,10 +35,13 @@ import com.houwei.guaishang.tools.ShareSDKUtils;
 import com.houwei.guaishang.tools.ShareSDKUtilsReg;
 import com.houwei.guaishang.tools.Utils;
 import com.houwei.guaishang.util.DeviceUtils;
+import com.houwei.guaishang.util.LoginJumperUtil;
 import com.houwei.guaishang.views.AnimationYoYo;
 import com.mob.MobSDK;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -152,53 +157,41 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 			Log.d("CCC","-->"+msg.obj);
 			UserResponse response = (UserResponse) msg.obj;
 			if (response.isSuccess()) {
-
-				// 保存用户信息并开启推送
-				activity.getITopicApplication().getMyUserBeanManager()
-						.storeUserInfoAndNotity(response.getData());
-
-				// 展开数据库
-				DBReq.getInstence(activity.getITopicApplication());
-				activity.progress.show();
-				Log.d("lei","开始登录环信"+System.currentTimeMillis());
-				activity.getITopicApplication().getHuanXinManager().loginHuanXinService(activity, response.getData().getUserid(),response.getData().getName(), activity);
-				UserInfo info = new UserInfo();
-				info.setUserId(response.getData().getUserid());
-				info.setUserName(response.getData().getName());
-				info.setAvatar(response.getData().getAvatar().findOriginalUrl());
-				UserUtil.setUserInfo(info);
-				EventBus.getDefault().post(new LoginSuccessEvent());
+				String mobile = response.getData().getMobile();
+				if (!TextUtils.isEmpty(mobile) && mobile.length() > 0){
+					loginSuccess(activity,response);
+				}else {
+					//绑定手机
+					Intent intent = new Intent(activity,UserBindMobileActivity.class);
+					intent.putExtra("UserResponse",response);
+					activity.startActivity(intent);
+				}
 			} else {
 				activity.progress.dismiss();
 				activity.showErrorToast(response.getMessage());
 			}
 		}
+
 
 		private void registerHandlerNetworkRight(UserRegMobileActivity activity, Message msg) {
 			Log.d("CCC","-->"+msg.obj);
 			UserResponse response = (UserResponse) msg.obj;
 			if (response.isSuccess()) {
-
-				// 保存用户信息并开启推送
-				activity.getITopicApplication().getMyUserBeanManager()
-						.storeUserInfoAndNotity(response.getData());
-
-				// 展开数据库
-				DBReq.getInstence(activity.getITopicApplication());
-				activity.progress.show();
-				activity.getITopicApplication().getHuanXinManager().loginHuanXinService(activity, response.getData().getUserid(),response.getData().getName(), activity);
-				UserInfo info = new UserInfo();
-				info.setUserId(response.getData().getUserid());
-				info.setUserName(response.getData().getName());
-				info.setAvatar(response.getData().getAvatar().getOriginal());
-				UserUtil.setUserInfo(info);
-				EventBus.getDefault().post(new LoginSuccessEvent());
+				String mobile = response.getData().getMobile();
+				if (!TextUtils.isEmpty(mobile) && mobile.length() > 0 && mobile.length() == 11){
+					loginSuccess(activity,response);
+				}else {
+					//绑定手机
+					Intent intent = new Intent(activity,UserBindMobileActivity.class);
+					intent.putExtra("UserResponse",response);
+					activity.startActivity(intent);
+				}
 			} else {
 				activity.progress.dismiss();
 				activity.showErrorToast(response.getMessage());
 			}
 		}
-	};
+	}
 	private SMShandler smshandler = new SMShandler(this);
 	private static class SMShandler extends Handler {
 
@@ -246,19 +239,39 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 				activity.showErrorToast("验证码错误");
 			}
 		}
-	};
+	}
+
+
+	private static void loginSuccess(UserRegMobileActivity activity, UserResponse response){
+		// 保存用户信息并开启推送
+		activity.getITopicApplication().getMyUserBeanManager()
+				.storeUserInfoAndNotity(response.getData());
+
+		// 展开数据库
+		DBReq.getInstence(activity.getITopicApplication());
+		activity.progress.show();
+		Log.d("lei","开始登录环信"+System.currentTimeMillis());
+		activity.getITopicApplication().getHuanXinManager().loginHuanXinService(activity, response.getData().getUserid(),response.getData().getName(), activity);
+		UserInfo info = new UserInfo();
+		info.setUserId(response.getData().getUserid());
+		info.setUserName(response.getData().getName());
+		info.setAvatar(response.getData().getAvatar().findOriginalUrl());
+		UserUtil.setUserInfo(info);
+		EventBus.getDefault().post(new LoginSuccessEvent());
+	}
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_user_reg_mobile);
 		if (!EventBus.getDefault().isRegistered(this)){
-			EventBus.getDefault().isRegistered(this);
+			EventBus.getDefault().register(this);
 		}
 		initView();
 		initData();
 		initListener();
 	}
+
 
 	private void initData() {
 		Intent intent = getIntent();
@@ -603,6 +616,9 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 		}
 		super.onDestroy();
 		SMSSDK.unregisterAllEventHandler();
+		if (EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().unregister(this);
+		}
 	}
 	
 	
@@ -615,5 +631,10 @@ public class UserRegMobileActivity extends BaseActivity implements HuanXinManage
 							InputMethodManager.HIDE_NOT_ALWAYS);
 		}
 		return super.onTouchEvent(event);
+	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void onBindMobile (BindMobileEvent event){
+		loginSuccess(this,event.getResponse());
 	}
 }

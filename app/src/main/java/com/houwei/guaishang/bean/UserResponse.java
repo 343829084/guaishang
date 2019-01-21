@@ -1,7 +1,9 @@
 package com.houwei.guaishang.bean;
 
 
-public class UserResponse extends BaseResponse {
+import java.io.Serializable;
+
+public class UserResponse extends BaseResponse implements Serializable {
 
 	private UserBean data;
 
