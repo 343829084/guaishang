@@ -144,7 +144,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 					s = s.replace("file://","");
 				}
 				intent.putExtra("url",s);
-				startActivityForResult(intent,REQ_CODE_Mosaic);
+				startActivity(intent);
 				break;
 			case R.id.tuya:
 

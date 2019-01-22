@@ -33,6 +33,7 @@ import android.widget.ImageView.ScaleType;
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.event.ReFreshPhotoEvent;
 import com.houwei.guaishang.event.RefreshTopicEvent;
+import com.houwei.guaishang.event.TakePhotoEvent;
 import com.houwei.guaishang.layout.PhotoPopupWindow;
 import com.houwei.guaishang.layout.PhotoPopupWindow.SelectPhotoListener;
 import com.houwei.guaishang.tools.BitmapUtil;
@@ -240,7 +241,10 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 	@Override
 	public void onCamera(View v) {
 		// TODO Auto-generated method stub
-		pickPhotoFromCamera();
+//		pickPhotoFromCamera();
+
+		Intent intent = new Intent(this,PhotoEditActivity.class);
+		startActivity(intent);
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -249,9 +253,9 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 		 super.onActivityResult(requestCode, resultCode, data);
 		if (resultCode == RESULT_OK) {
 			switch (requestCode) {
-			case BasePhotoActivity.PHOTO_CAMERA_WITH_DATA://拍照成功
-				selectedPicture.add(camera_pic_path);
-				break;
+//			case BasePhotoActivity.PHOTO_CAMERA_WITH_DATA://拍照成功
+//				selectedPicture.add(camera_pic_path);
+//				break;
 
 			default://从相册选择图片集合
 				selectedPicture = (ArrayList<String>) data
@@ -430,6 +434,12 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 		resetAdapter();
 
 	}
-
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void takePhoto(TakePhotoEvent event){
+        selectedPicture.add(event.getUrl());
+        progress.show();
+        // 在子线程中处理，并展示
+        new Thread(new CompressRun(selectedPicture)).start();
+    }
 
 }

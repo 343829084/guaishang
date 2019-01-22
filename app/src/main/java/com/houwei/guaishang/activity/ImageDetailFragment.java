@@ -118,10 +118,13 @@ public class ImageDetailFragment extends Fragment {
 //
 //			return;
 		}
-		
-		
-		
-		ImageLoader.getInstance().displayImage(mImageUrl, mImageView, options,new ImageLoadingListener() {
+
+		setImage(mImageUrl);
+	}
+
+	public void setImage(String url){
+		mImageUrl = url;
+		ImageLoader.getInstance().displayImage(url, mImageView, options,new ImageLoadingListener() {
 			@Override
 			public void onLoadingStarted(String imageUri, View view) {
 				progressBar.setVisibility(View.VISIBLE);
@@ -131,21 +134,21 @@ public class ImageDetailFragment extends Fragment {
 			public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
 				String message = "";
 				switch (failReason.getType()) {
-				case IO_ERROR:
-					message = "下载错误";
-					break;
-				case DECODING_ERROR:
-					message = "图片无法显示";
-					break;
-				case NETWORK_DENIED:
-					message = "网络有问题，无法下载";
-					break;
-				case OUT_OF_MEMORY:
-					message = "图片太大无法显示";
-					break;
-				case UNKNOWN:
-					message = "未知的错误";
-					break;
+					case IO_ERROR:
+						message = "下载错误";
+						break;
+					case DECODING_ERROR:
+						message = "图片无法显示";
+						break;
+					case NETWORK_DENIED:
+						message = "网络有问题，无法下载";
+						break;
+					case OUT_OF_MEMORY:
+						message = "图片太大无法显示";
+						break;
+					case UNKNOWN:
+						message = "未知的错误";
+						break;
 				}
 //				Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
 				progressBar.setVisibility(View.GONE);
@@ -160,13 +163,9 @@ public class ImageDetailFragment extends Fragment {
 			@Override
 			public void onLoadingCancelled(String imageUri, View view) {
 				// TODO Auto-generated method stub
-				
+
 			}
 		});
-
-		
-		
-		
 	}
 
 }

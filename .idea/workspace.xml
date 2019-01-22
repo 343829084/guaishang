@@ -15,17 +15,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list id="f3ae708e-0587-4078-8f1a-b080d5329726" name="nocommit" comment="" />
     <list default="true" id="b9984587-a524-4aa1-8c31-c92df8144bd5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/TakePhotoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_4577dc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/photo_edit_activity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/SelectPictureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/SelectPictureActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_picture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_picture.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
     </list>
+    <list id="f3ae708e-0587-4078-8f1a-b080d5329726" name="nocommit" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +60,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserBindMobileActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserBindMobileActivity.java">
+      <file leaf-file-name="BasePhotoGridActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="255" column="64" selection-start-line="255" selection-start-column="64" selection-end-line="255" selection-end-column="64" />
+              <folding>
+                <element signature="e#3937#3938#0" expanded="true" />
+                <element signature="e#3976#3977#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo_edit_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/photo_edit_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="84" selection-end-column="14" />
+              <folding>
+                <element signature="e#2053#2067#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoEditActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="161" column="48" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,85 +100,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java">
+      <file leaf-file-name="TakePhotoEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/TakePhotoEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="173" column="23" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectPictureActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/SelectPictureActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <element signature="e#4600#5134#0" expanded="true" />
-                <element signature="e#5133#5134#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_select_picture.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_picture.xml">
+      <file leaf-file-name="ImageDetailFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicReleaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="332" column="16" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
-              <folding>
-                <element signature="e#3459#3460#0" expanded="true" />
-                <element signature="e#3521#3522#0" expanded="true" />
-                <element signature="e#11143#11731#0" expanded="true" />
-                <element signature="e#11730#11731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePhotoGridActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="415" column="19" selection-start-line="415" selection-start-column="19" selection-end-line="415" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bottom_photo_select_popupwindow.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_photo_select_popupwindow.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotoPopupWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/PhotoPopupWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="91" column="28" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="28" />
-              <folding>
-                <element signature="e#1191#1493#0" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="149">
+              <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -155,8 +126,8 @@
       <file leaf-file-name="GalleryActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="243" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -164,8 +135,36 @@
       <file leaf-file-name="activity_gallery.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            <state relative-caret-position="152">
+              <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bg_corner_4577dc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_corner_4577dc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bg_4577dc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_4577dc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tuya_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tuya_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -179,14 +178,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>发布订单</find>
-      <find>thumbPictures</find>
       <find>selectedPicture</find>
       <find>mImageView</find>
       <find>mImageUrl</find>
@@ -213,8 +211,10 @@
       <find>onSelectPhotoListener</find>
       <find>tn_select</find>
       <find>btn_ok</find>
-      <find>onCamera</find>
       <find>ok</find>
+      <find>onCamera</find>
+      <find>PHOTO_CAMERA_WITH_DATA)</find>
+      <find>REQ_CODE_Mosaic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2714,24 +2714,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/view/AdvancedDoodleView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicDemo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/OpreratePhotoEvent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mosaic.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/tuya_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/listitem_topic.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/tools/ShareSDKUtilsReg.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/bind_mobile_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/BaseResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/bean/UserResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/BindMobileEvent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserRegMobileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/UserBindMobileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_select_picture.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/SelectPictureActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/TakePhotoEvent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/bg_4577dc.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/photo_edit_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml" />
       </list>
     </option>
@@ -2839,7 +2844,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="guaishang" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DD" type="b2602c69:ProjectViewProjectNode" />
@@ -2874,7 +2896,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.houwei.guaishang" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="mos&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java&#10;tuya&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java&#10;Ga&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;seleac&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.SelectPictureActivity&#10;topicrelease&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java&#10;topicrel&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java&#10;CaptureActivity&#9;null&#9;null&#10;Gall&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;Jum&#9;PSI&#9;JAVA://com.houwei.guaishang.util.LoginJumperUtil&#10;userrei&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.UserRegInfoBaseActivity&#10;Uc&#9;FILE&#9;jar://C:/Users/Administrator/.android/build-cache/1cfc5f7899176ca64b6154f9bccacb7ca261ccba/output/jars/classes.jar!/com/yalantis/ucrop/UCropActivity.class&#10;topic&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;ga&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;mo&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java&#10;topi&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;Gallery&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;main&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.MainActivity&#10;topica&#9;PSI&#9;JAVA://com.houwei.guaishang.layout.TopicAdapter&#10;topicada&#9;PSI&#9;JAVA://com.houwei.guaishang.layout.TopicAdapter&#10;five&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/res/layout/float_five.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Ga&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/res/layout/activity_gallery.xml&#10;tuya&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/res/layout/tuya_activity.xml&#10;mos&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java&#10;seleac&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.SelectPictureActivity&#10;topicrelease&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java&#10;topicrel&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/TopicReleaseActivity.java&#10;CaptureActivity&#9;null&#9;null&#10;Gall&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;Jum&#9;PSI&#9;JAVA://com.houwei.guaishang.util.LoginJumperUtil&#10;userrei&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.UserRegInfoBaseActivity&#10;Uc&#9;FILE&#9;jar://C:/Users/Administrator/.android/build-cache/1cfc5f7899176ca64b6154f9bccacb7ca261ccba/output/jars/classes.jar!/com/yalantis/ucrop/UCropActivity.class&#10;topic&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;ga&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;mo&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/MainActivity.java&#10;topi&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/layout/TopicAdapter.java&#10;Gallery&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java&#10;main&#9;PSI&#9;JAVA://com.houwei.guaishang.activity.MainActivity&#10;topica&#9;PSI&#9;JAVA://com.houwei.guaishang.layout.TopicAdapter&#10;topicada&#9;PSI&#9;JAVA://com.houwei.guaishang.layout.TopicAdapter&#10;five&#9;FILE&#9;file://D:/AndroidProject/DD/app/src/main/res/layout/float_five.xml" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -2884,17 +2906,18 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AndroidProject\DD\app\src\main\res\drawable-hdpi" />
-      <recent name="D:\AndroidProject\DD\app\src\main\res\layout" />
-      <recent name="D:\AndroidProject\DD\app\src\main\java\com\houwei\guaishang\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.houwei.guaishang.activity" />
       <recent name="com.houwei.guaishang.view" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidProject\DD\app\src\main\res\drawable" />
       <recent name="D:\AndroidProject\DD\app\src\main\res\drawable-hdpi" />
+      <recent name="D:\AndroidProject\DD\app\src\main\res\layout" />
+      <recent name="D:\AndroidProject\DD\app\src\main\java\com\houwei\guaishang\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3084,7 +3107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548060220904</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="图片编辑">
+      <created>1548139676011</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548139676011</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3099,20 +3129,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="5" visible="true" weight="0.31042847" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.34587812" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.5609319" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.15053764" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.17921147" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7589041" visible="true" weight="0.26596606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68163264" visible="true" weight="0.26596606" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.28494623" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.07168459" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38172042" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.0" />
-      <window_info id="Structure" order="1" sideWeight="0.24109589" side_tool="true" visible="true" weight="0.26596606" />
+      <window_info id="Structure" order="1" sideWeight="0.31836733" side_tool="true" visible="true" weight="0.26596606" />
       <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5483871" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3315412" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -3163,7 +3193,8 @@
     <MESSAGE value="商品列表bug" />
     <MESSAGE value="增加时间戳" />
     <MESSAGE value="绑定手机号功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="绑定手机号功能" />
+    <MESSAGE value="图片编辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片编辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3181,7 +3212,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java</url>
-          <line>411</line>
+          <line>415</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -3193,7 +3224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java</url>
-          <line>368</line>
+          <line>372</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -3247,7 +3278,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java</url>
-          <line>68</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -3259,7 +3290,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java</url>
-          <line>52</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -3317,59 +3348,41 @@
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="41" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/util/Closer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Andorid/Sdk/sources/android-25/android/net/Uri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="449" column="22" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/Andorid/Sdk/sources/android-25/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="3191" selection-start-line="3191" selection-end-line="3191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.android/build-cache/dd5f9308bad1b91e18c5cea5a18568d09056734c/output/jars/classes.jar!/cn/hzw/doodle/DoodleActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.android/build-cache/dd5f9308bad1b91e18c5cea5a18568d09056734c/output/jars/classes.jar!/cn/hzw/doodle/DoodleColor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -3406,13 +3419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.android/build-cache/dd5f9308bad1b91e18c5cea5a18568d09056734c/output/jars/classes.jar!/cn/hzw/doodle/core/IDoodlePen.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -3424,17 +3430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="90" column="71" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
-          <folding>
-            <element signature="e#5060#5061#0" expanded="true" />
-            <element signature="e#5095#5096#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3451,16 +3446,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/cut.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.android/build-cache/1cfc5f7899176ca64b6154f9bccacb7ca261ccba/output/jars/classes.jar!/com/yalantis/ucrop/UCropActivity.class">
@@ -3523,16 +3508,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tuya_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bind_mobile_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -3550,16 +3525,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6517">
-          <caret line="343" column="66" selection-start-line="343" selection-start-column="66" selection-end-line="343" selection-end-column="66" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
@@ -3733,13 +3698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="415" column="19" selection-start-line="415" selection-start-column="19" selection-end-line="415" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/SelectPictureActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -3751,17 +3709,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/TuyaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/MosaicActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding>
+            <element signature="e#5060#5061#0" expanded="true" />
+            <element signature="e#5095#5096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="344" column="62" selection-start-line="344" selection-start-column="62" selection-end-line="344" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar!/org/greenrobot/eventbus/EventBus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/ImageDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/event/TakePhotoEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/PhotoEditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="161" column="48" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/BasePhotoGridActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="255" column="64" selection-start-line="255" selection-start-column="64" selection-end-line="255" selection-end-column="64" />
+          <folding>
+            <element signature="e#3937#3938#0" expanded="true" />
+            <element signature="e#3976#3977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tuya_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/houwei/guaishang/activity/GalleryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="243" selection-end-column="5" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_corner_4577dc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_4577dc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/photo_edit_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="84" selection-end-column="14" />
+          <folding>
+            <element signature="e#2053#2067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        <state relative-caret-position="152">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
