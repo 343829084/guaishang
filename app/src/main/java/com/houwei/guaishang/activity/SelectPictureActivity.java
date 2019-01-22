@@ -37,9 +37,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.houwei.guaishang.R;
+import com.houwei.guaishang.event.ReFreshPhotoEvent;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class SelectPictureActivity extends BaseActivity {
 
@@ -63,7 +68,7 @@ public class SelectPictureActivity extends BaseActivity {
 	private ImageLoader loader;
 	private DisplayImageOptions options;
 	private ContentResolver mContentResolver;
-	private Button btn_select, btn_ok;
+	private Button btn_select, btn_ok,btn_Edit;
 	private ListView listview;
 	private FolderAdapter folderAdapter;
 	private ImageFloder imageAll, currentImageFolder;
@@ -79,6 +84,9 @@ public class SelectPictureActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_select_picture);
+		if (!EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().register(this);
+		}
 		selectedPicture = (ArrayList<String>) getIntent().getSerializableExtra(SelectPictureActivity.INTENT_SELECTED_PICTURE);
 		context = this;
 		mContentResolver = getContentResolver();
@@ -86,6 +94,14 @@ public class SelectPictureActivity extends BaseActivity {
 		options = getITopicApplication().getOtherManage().getRectDisplayImageOptions();
 		MAX_DEFAULT_NUM = getIntent().getIntExtra("MaxLimit", MAX_DEFAULT_NUM);
 		initView();
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		if (EventBus.getDefault().isRegistered(this)){
+			EventBus.getDefault().unregister(this);
+		}
 	}
 
 	public int getMaxLimit(){
@@ -152,8 +168,27 @@ public class SelectPictureActivity extends BaseActivity {
 		mDirPaths.add(imageAll);
 		btn_ok = (Button) findViewById(R.id.btn_ok);
 		btn_select = (Button) findViewById(R.id.btn_select);
+		btn_Edit = (Button) findViewById(R.id.btn_edit);
 		btn_ok.setText("完成" + selectedPicture.size() + "/"+ getMaxLimit());
 
+
+		btn_Edit.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(SelectPictureActivity.this, GalleryActivity.class);
+				ArrayList<String> urls = new ArrayList<String>();
+				for (String string : selectedPicture) {
+					if (string.startsWith("file://")) {
+						urls.add(string);
+					} else {
+						urls.add("file://" + string);
+					}
+				}
+				intent.putExtra(GalleryActivity.EXTRA_IMAGE_URLS, urls);
+				intent.putExtra(GalleryActivity.EXTRA_IMAGE_INDEX, 0);
+				startActivity(intent);
+			}
+		});
 
 		gridview = (GridView) findViewById(R.id.gridview);
 		adapter = new PictureAdapter();
@@ -407,4 +442,24 @@ public class SelectPictureActivity extends BaseActivity {
 		}
 	}
 
+
+
+
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void refreshPhoto(ReFreshPhotoEvent event){
+		if (event == null){
+			return;
+		}
+
+		ArrayList<String> urls = event.getUrls();
+
+		for (int i = 0; i < urls.size(); i++) {
+			String s = urls.get(i);
+			if (s.startsWith("file://")){
+				s = s.replace("file://","");
+			}
+			selectedPicture.set(i,s);
+		}
+	}
 }

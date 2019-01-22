@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\fastjson-1.1.39.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_514f6b5b58a845e1f61bae9569451f9e37368f8d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\alipaysecsdk.jar"
         jumboMode="false"
         optimize="true"
@@ -36,33 +18,6 @@
         revision="25.0.3"
         sha1="36a27b335ec315cfecd420c8ad72e9559b1404fa">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\beecloud-2.1.3_826968d1f56f90af1223a15833266263b43570e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\happy-dns-0.2.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c39e5b6125fc7e09cde2ffeeaea94f14afbed30d">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\happy-dns-0.2.8_fa7e82954072d975ee2d619847cede711e89dafd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\universal-image-loader-1.9.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="111169c43b8a601f571585f75d998e6027e48ff4">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2_5313d87dac5fce4da7b209a970ee97ef5cee1b16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,12 +57,84 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a5cdfa8887b52fc79d86c9c81acdb6e9e2a53417">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_d12b8cf6df362abe6ae2ded5e0235432a0ff0b8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\fastjson-1.1.39.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_514f6b5b58a845e1f61bae9569451f9e37368f8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\happy-dns-0.2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c39e5b6125fc7e09cde2ffeeaea94f14afbed30d">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\happy-dns-0.2.8_fa7e82954072d975ee2d619847cede711e89dafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="111169c43b8a601f571585f75d998e6027e48ff4">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2_5313d87dac5fce4da7b209a970ee97ef5cee1b16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobCommons\2019.0122.0008\4daa3e438aaf9ab522bbdf7c00e5f5790c40eb7\MobCommons-2019.0122.0008.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="04daa3e438aaf9ab522bbdf7c00e5f5790c40eb7">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobCommons-2019.0122.0008_5d27fcdc00c7cf66aacd09de29bc6a39cf8b16bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\android-gif-drawable.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="30c3594e7c65ad498d4e30d1d72c84794f10f695">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-gif-drawable_2e907c92a52894258758e0ecf229dcfc3af1e845\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobGUI\2019.0121.1713\751ca927d176a98cddf73e4af3a797e292b08e8b\MobGUI-2019.0121.1713.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751ca927d176a98cddf73e4af3a797e292b08e8b">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobGUI-2019.0121.1713_75b7cec70214e87e6c5c0de6720418621020a395\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,21 +147,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mob\MobTools\2019.0121.1713\7f5d33cfbe2344642d2a7b2a62ba271ecf2f95d6\MobTools-2019.0121.1713.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7f5d33cfbe2344642d2a7b2a62ba271ecf2f95d6">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\MobTools-2019.0121.1713_e04a8fa7683b4ff210b96b6725a5cb9f4d432200\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\com.baidu.tts_2.3.1.20170808_e39ea89.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="99489d834dfda6c1090abc3ab8870093999b8d79">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.baidu.tts_2.3.1.20170808_e39ea89_5321e7597c6bddbb4537e714255d549b341a6fc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\BaiduLBS_Android.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a5cdfa8887b52fc79d86c9c81acdb6e9e2a53417">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_d12b8cf6df362abe6ae2ded5e0235432a0ff0b8a\classes.dex" />
     </item>
 
 </items>

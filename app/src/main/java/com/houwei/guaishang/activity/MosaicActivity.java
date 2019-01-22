@@ -7,6 +7,7 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -60,7 +61,12 @@ public class MosaicActivity extends Activity implements View.OnClickListener {
         if (getIntent() != null){
             url = getIntent().getStringExtra("url");
         }
+
         Bitmap bitmap = BitmapFactory.decodeFile(url);
+
+        if (bitmap == null){
+            return;
+        }
 
         doodleView = new DoodleView(this, bitmap, new IDoodleListener() {
             @Override

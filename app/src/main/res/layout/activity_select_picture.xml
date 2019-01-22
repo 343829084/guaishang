@@ -58,7 +58,19 @@
                 android:text="/所有图片"
                 android:textColor="@color/blue_color"
                 android:textSize="16sp" />
-           
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:onClick="select"
+                android:text="/编辑"
+                android:layout_toRightOf="@+id/btn_select"
+                android:textColor="@color/blue_color"
+                android:textSize="16sp" />
+           
         </RelativeLayout>
 
         <ListView

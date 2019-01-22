@@ -412,7 +412,9 @@ public class BasePhotoGridActivity extends BaseActivity implements SelectPhotoLi
 		if (event == null){
 			return;
 		}
-
+		if (thumbPictures.size() == 0){
+			return;
+		}
 		ArrayList<String> urls = event.getUrls();
 
 		thumbPictures.clear();

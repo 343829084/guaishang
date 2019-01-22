@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -47,7 +48,7 @@ public class TuyaActivity extends Activity implements View.OnClickListener {
         if (getIntent() != null){
             url = getIntent().getStringExtra("url");
         }
-        if (url.startsWith("file://")){
+        if (!TextUtils.isEmpty(url) && url.startsWith("file://")){
             url = url.replace("file://","");
         }
         bitmap = BitmapFactory.decodeFile(url);

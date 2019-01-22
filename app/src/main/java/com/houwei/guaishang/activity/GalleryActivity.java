@@ -46,7 +46,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 	private HackyViewPager mPager;
 	private int pagerPosition;
 
-	private TextView cut,tuya,mosaic;
+	private TextView cut,tuya,mosaic,sure;
 	private ArrayList<String> urls;
 	private ImagePagerAdapter mAdapter;
 	@Override
@@ -59,6 +59,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 		cut = (TextView) findViewById(R.id.cut);
 		tuya = (TextView) findViewById(R.id.tuya);
 		mosaic = (TextView) findViewById(R.id.mosaic);
+		sure = (TextView) findViewById(R.id.sure);
 
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
 		urls = (ArrayList<String>) getIntent().getSerializableExtra(EXTRA_IMAGE_URLS);
@@ -102,6 +103,7 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 		cut.setOnClickListener(this);
 		tuya.setOnClickListener(this);
 		mosaic.setOnClickListener(this);
+		sure.setOnClickListener(this);
 	}
 
 	@Override
@@ -126,10 +128,14 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 			case R.id.cut:
 				String destinationFileName = FileUtils.getTempDirPath()+ File.separator +"SampleCropImage"+System.currentTimeMillis()+".jpg";
 				File file = new File(destinationFileName);
-				UCrop.of(Uri.parse(urls.get(pagerPosition)), Uri.fromFile(file))
+
+				UCrop uCrop = UCrop.of(Uri.parse(urls.get(pagerPosition)), Uri.fromFile(file))
 						.withAspectRatio(16, 9)
-						.withMaxResultSize(500, 500)
-						.start(this);
+						.withMaxResultSize(500, 500);
+				UCrop.Options options = new UCrop.Options();
+				options.setShowCropGrid(false);
+				uCrop.withOptions(options);
+				uCrop.start(this);
 				break;
 			case R.id.mosaic:
 				Intent intent = new Intent(this,MosaicActivity.class);
@@ -162,6 +168,9 @@ public class GalleryActivity extends FragmentActivity implements View.OnClickLis
 //				params.mPaintUnitSize = DoodleView.DEFAULT_SIZE;
 //				// 启动涂鸦页面
 //				DoodleActivity.startActivityForResult(this, params, REQ_CODE_DOODLE);
+				break;
+			case R.id.sure:
+				finish();
 				break;
 		}
 	}
