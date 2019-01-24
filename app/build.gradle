@@ -20,8 +20,8 @@ android {
         applicationId "com.houwei.guaishang"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 5
-        versionName "5.0"
+        versionCode 6
+        versionName "6.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
