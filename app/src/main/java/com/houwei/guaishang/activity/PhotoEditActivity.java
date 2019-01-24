@@ -158,7 +158,11 @@ public class PhotoEditActivity extends BaseActivity {
                 break;
             case R.id.sure:
                 TakePhotoEvent event = new TakePhotoEvent();
-                event.setUrl(camera_pic_path);
+                String eventUrl = camera_pic_path;
+                if (eventUrl.startsWith("file://")){
+                    eventUrl = eventUrl.replace("file://","");
+                }
+                event.setUrl(eventUrl);
                 EventBus.getDefault().post(event);
                 finish();
                 break;
