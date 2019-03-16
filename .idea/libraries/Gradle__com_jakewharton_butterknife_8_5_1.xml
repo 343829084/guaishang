@@ -5,6 +5,8 @@
       <root url="file://$USER_HOME$/.android/build-cache/df79b4b65fcf73fca8c97e782f34a0722030547d/output/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/8.5.1/16724f486072e3ab970fc47ccff6f9013061fa6/butterknife-8.5.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

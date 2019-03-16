@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.android/build-cache/967c83f5b26ffe1de47031b5f110acad13a74773/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lzy.net/okrx2/2.0.2/1c33a496ab097664d66f90460ed80550a50ad926/okrx2-2.0.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

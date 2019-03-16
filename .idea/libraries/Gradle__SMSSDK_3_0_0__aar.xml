@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: SMSSDK-3.0.0:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/9715c6e4a19c0dfa0c6249ca0b783ae08139563d/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/9715c6e4a19c0dfa0c6249ca0b783ae08139563d/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/f4e0589145de3f9346642f4f074b95e5d2a2f69a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f4e0589145de3f9346642f4f074b95e5d2a2f69a/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

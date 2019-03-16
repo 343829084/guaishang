@@ -6,6 +6,8 @@
       <root url="jar://$USER_HOME$/.android/build-cache/1b8c7e0ebd253efc6fd66472d1fddf739f214f0a/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.jiguang.sdk/jcore/1.1.9/3ea077d604b441285e0f68a2ea94fed464aae155/jcore-1.1.9-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

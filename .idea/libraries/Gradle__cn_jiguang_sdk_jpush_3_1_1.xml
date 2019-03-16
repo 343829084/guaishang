@@ -6,6 +6,8 @@
       <root url="file://$USER_HOME$/.android/build-cache/8b37550db2235768de31cc1a1540012b7973d1be/output/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.jiguang.sdk/jpush/3.1.1/3bbfff462429532ab44dc27cb1db295686141793/jpush-3.1.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

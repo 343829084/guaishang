@@ -2,11 +2,17 @@ package com.houwei.guaishang.manager;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.support.multidex.MultiDex;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.stetho.Stetho;
+import com.fanjun.keeplive.KeepLive;
+import com.fanjun.keeplive.config.ForegroundNotification;
+import com.fanjun.keeplive.config.ForegroundNotificationClickListener;
+import com.fanjun.keeplive.config.KeepLiveService;
+import com.houwei.guaishang.R;
 import com.houwei.guaishang.tools.ApplicationProvider;
 import com.houwei.guaishang.view.MyImageLoader;
 import com.lzy.imagepicker.ImagePicker;
@@ -70,7 +76,7 @@ public class ITopicApplication extends MobApplication {
 		imagePicker.setSaveRectangle(true);  //true 按照矩形保存，false 按照裁剪框形状保存
 		imagePicker.setFocusWidth(800);   //裁剪框的宽度。单位像素（圆形自动取宽高最小值）
 		imagePicker.setFocusHeight(800);  //裁剪框的高度。单位像素（圆形自动取宽高最小值）
-
+		keepAlive();
 
 //
 
@@ -162,5 +168,41 @@ public class ITopicApplication extends MobApplication {
 	protected void attachBaseContext(Context base) {
 		super.attachBaseContext(base);
 		MultiDex.install(this);
+	}
+
+
+
+	private void keepAlive(){
+		//定义前台服务的默认样式。即标题、描述和图标
+		ForegroundNotification foregroundNotification = new ForegroundNotification("怪商抢单","测试保活", R.mipmap.logo,
+				//定义前台服务的通知点击事件
+				new ForegroundNotificationClickListener() {
+
+					@Override
+					public void foregroundNotificationClick(Context context, Intent intent) {
+					}
+				});
+		//启动保活服务
+		KeepLive.startWork(this, KeepLive.RunMode.ENERGY, foregroundNotification,
+				//你需要保活的服务，如socket连接、定时任务等，建议不用匿名内部类的方式在这里写
+				new KeepLiveService() {
+					/**
+					 * 运行中
+					 * 由于服务可能会多次自动启动，该方法可能重复调用
+					 */
+					@Override
+					public void onWorking() {
+
+					}
+					/**
+					 * 服务终止
+					 * 由于服务可能会被多次终止，该方法可能重复调用，需同onWorking配套使用，如注册和注销broadcast
+					 */
+					@Override
+					public void onStop() {
+
+					}
+				}
+		);
 	}
 }

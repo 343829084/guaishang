@@ -8,6 +8,8 @@
       <root url="jar://$USER_HOME$/.android/build-cache/86d1aae7e95e9be99da45d8622b2ed022386fb80/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.makeramen/roundedimageview/2.3.0/a74d35b08232b1e1fe0c50eeb4a27d43d6a53e1b/roundedimageview-2.3.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

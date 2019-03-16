@@ -8,6 +8,7 @@ import android.text.ClipboardManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
@@ -19,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RatingBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TextView.BufferType;
 
@@ -137,7 +139,6 @@ public class TopicAdapter extends BaseAdapter {
             holder = new ViewHolder();
             convertView = LayoutInflater.from(mContext).inflate(R.layout.listitem_topic, null);
              View finalConvertView = convertView;
-
             holder.avator = (ImageView) convertView.findViewById(R.id.avator);
             holder.imageMyOrder = (ImageView) convertView.findViewById(R.id.image_myorder);
             holder.header_name = (TextView) convertView.findViewById(R.id.header_name);
@@ -161,6 +162,15 @@ public class TopicAdapter extends BaseAdapter {
             holder.progressBar = (ProgressBar) convertView.findViewById(R.id.progress_bar);
             holder.price = (TextView) convertView.findViewById(R.id.price);
             holder.time = (TextView) convertView.findViewById(R.id.time);
+            holder.dealAvator = convertView.findViewById(R.id.deal_avator);
+            holder.dealName = convertView.findViewById(R.id.deal_name);
+            holder.dealLayout = convertView.findViewById(R.id.deal_layout);
+            holder.dealLayout.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    return true;
+                }
+            });
 //            holder.chat_btn = (Button) convertView.findViewById(R.id.chat_btn);
 //            holder.linearLayoutForListView = (LinearLayoutForListView) convertView.findViewById(R.id.linearLayoutForListView);
 //            holder.linearLayoutForListView.setDisableDivider(true);
@@ -176,6 +186,15 @@ public class TopicAdapter extends BaseAdapter {
             holder.ratingBar.setVisibility(View.VISIBLE);
             holder.progressView.setVisibility(View.GONE);
             holder.VProdectLayout.setVisibility(View.GONE);
+            Payment payment = bean.getPayment();
+            if (payment != null
+                    && !TextUtils.isEmpty(payment.getCycle())
+                    && !TextUtils.isEmpty(payment.getPrice())
+            ){
+                holder.dealLayout.setVisibility(View.VISIBLE);
+            }else {
+                holder.dealLayout.setVisibility(View.GONE);
+            }
 //            if (Integer.valueOf(bean.getNowRob()) > 0) {
 //                holder.progressBar.setVisibility(View.VISIBLE);
 //            }
@@ -312,6 +331,7 @@ public class TopicAdapter extends BaseAdapter {
         //imageLoader.displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator);
 //        imageLoader.displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator, mContext.getITopicApplication().getOtherManage().getCircleOptionsDisplayImageOptions());
         ImageLoader.getInstance().displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator);
+        ImageLoader.getInstance().displayImage(bean.getMemberAvatar().findSmallUrl(), holder.dealAvator);
         String url = bean.getCover();
 //        imageLoader.displayImage(url, holder.imgTitle, mContext.getITopicApplication().getOtherManage().getRectDisplayImageOptions());
         if (bean.getPicture() != null && bean.getPicture().size() > 0) {
@@ -373,6 +393,7 @@ public class TopicAdapter extends BaseAdapter {
         holder.ratingBar.setIsIndicator(true);
         holder.header_location.setText(location);
         holder.header_name.setText(bean.getMemberName());
+        holder.dealName.setText(bean.getMemberName());
         holder.header_time.setText(bean.getTimeString());
 //        holder.header_time.setText(bean.getTimeString());
 //        holder.linearLayoutForListView.setVisibility((bean.getComments() == null || bean.getComments().isEmpty()) ? View.GONE : View.VISIBLE);
@@ -670,7 +691,9 @@ public class TopicAdapter extends BaseAdapter {
         private FloatButton order_btn;
         private TextView order_count;
         private RatingBar ratingBar;
-
+        private RelativeLayout dealLayout;
+        private ImageView dealAvator;
+        private TextView dealName;
     }
 
     private DisplayImageOptions kkk(Context context) {

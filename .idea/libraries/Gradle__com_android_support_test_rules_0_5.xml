@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.test:rules-0.5">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/c8ec6067457899db9e4af6ed366d32534cfc21d6/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/c8ec6067457899db9e4af6ed366d32534cfc21d6/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c7e9ed7072c1703d5cbb9a2010d2619280be3499/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c7e9ed7072c1703d5cbb9a2010d2619280be3499/output/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-javadoc.jar!/" />
+      <root url="jar://D:/Andorid/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
+      <root url="jar://D:/Andorid/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
