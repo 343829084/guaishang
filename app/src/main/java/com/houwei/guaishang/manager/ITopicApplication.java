@@ -183,7 +183,7 @@ public class ITopicApplication extends MobApplication {
 					}
 				});
 		//启动保活服务
-		KeepLive.startWork(this, KeepLive.RunMode.ENERGY, foregroundNotification,
+		KeepLive.startWork(this, KeepLive.RunMode.ROGUE, foregroundNotification,
 				//你需要保活的服务，如socket连接、定时任务等，建议不用匿名内部类的方式在这里写
 				new KeepLiveService() {
 					/**

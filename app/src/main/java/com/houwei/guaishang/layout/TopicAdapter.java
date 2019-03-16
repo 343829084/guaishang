@@ -192,6 +192,8 @@ public class TopicAdapter extends BaseAdapter {
                     && !TextUtils.isEmpty(payment.getPrice())
             ){
                 holder.dealLayout.setVisibility(View.VISIBLE);
+                holder.dealName.setText(payment.getName());
+                ImageLoader.getInstance().displayImage(HttpUtil.IP_NOAPI+payment.getAvatar(), holder.dealAvator);
             }else {
                 holder.dealLayout.setVisibility(View.GONE);
             }
@@ -331,7 +333,7 @@ public class TopicAdapter extends BaseAdapter {
         //imageLoader.displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator);
 //        imageLoader.displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator, mContext.getITopicApplication().getOtherManage().getCircleOptionsDisplayImageOptions());
         ImageLoader.getInstance().displayImage(bean.getMemberAvatar().findSmallUrl(), holder.avator);
-        ImageLoader.getInstance().displayImage(bean.getMemberAvatar().findSmallUrl(), holder.dealAvator);
+
         String url = bean.getCover();
 //        imageLoader.displayImage(url, holder.imgTitle, mContext.getITopicApplication().getOtherManage().getRectDisplayImageOptions());
         if (bean.getPicture() != null && bean.getPicture().size() > 0) {
@@ -393,7 +395,6 @@ public class TopicAdapter extends BaseAdapter {
         holder.ratingBar.setIsIndicator(true);
         holder.header_location.setText(location);
         holder.header_name.setText(bean.getMemberName());
-        holder.dealName.setText(bean.getMemberName());
         holder.header_time.setText(bean.getTimeString());
 //        holder.header_time.setText(bean.getTimeString());
 //        holder.linearLayoutForListView.setVisibility((bean.getComments() == null || bean.getComments().isEmpty()) ? View.GONE : View.VISIBLE);

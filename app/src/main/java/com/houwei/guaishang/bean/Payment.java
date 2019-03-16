@@ -11,7 +11,9 @@ public class Payment implements Serializable {
     private int status;
     private String price;
     private String created_at;
-    private String id;
+    private String userid;
+    private String name;
+    private String avatar;
     public Payment() {
     }
 
@@ -47,11 +49,27 @@ public class Payment implements Serializable {
         this.created_at = created_at;
     }
 
-    public String getId() {
-        return id;
+    public String getUserid() {
+        return userid;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 }
