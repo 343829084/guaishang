@@ -201,6 +201,7 @@ public class TopicAdapter extends BaseAdapter {
 //                holder.progressBar.setVisibility(View.VISIBLE);
 //            }
         }else {
+            holder.dealLayout.setVisibility(View.GONE);
 //           已订单
 //           付款     付款     基   获取付款
 //            holder.progressBar.setVisibility(View.GONE);

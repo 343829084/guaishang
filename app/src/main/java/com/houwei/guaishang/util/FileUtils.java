@@ -422,7 +422,7 @@ public class FileUtils {
      * @param filePath 保存路径
      * @param size 压缩率
      */
-    public static void saveBitmap(Bitmap bmp, String filePath,int size) {
+    public static void saveBitmap(Bitmap bmp, String filePath,int size,SaveImageCallBack saveImageCallBack) {
         File file = new File(filePath);
         if (file != null && file.exists()) {
             file.delete();
@@ -432,11 +432,17 @@ public class FileUtils {
             bmp.compress(CompressFormat.PNG, size, out);
             out.flush();
             out.close();
+            if (saveImageCallBack != null){
+                saveImageCallBack.finish();
+            }
         } catch (FileNotFoundException e) {
         } catch (IOException e) {
         }
     }
 
+    public interface SaveImageCallBack{
+        void finish();
+    }
 
     public static int calculateInSampleSize(BitmapFactory.Options options,
                                             int reqWidth, int reqHeight) {
@@ -948,7 +954,8 @@ public class FileUtils {
         }
         Uri uri;
         if (Build.VERSION.SDK_INT >= 24){
-            uri = FileProvider.getUriForFile(context,context.getPackageName()+".fileprovider",file);
+            String authority = context.getPackageName()+".fileprovider";
+            uri = FileProvider.getUriForFile(context,authority,file);
         }else {
             uri = Uri.fromFile(file);
         }

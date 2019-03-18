@@ -30,21 +30,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\easemobchat_2.2.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="6cec5fd2dd2e1804a9c54ddedbb848d855b0ea61">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\easemobchat_2.2.6_c9f703e5eab2e8d328cc7b5c6acc9ca91ad26ffe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\happy-dns-0.2.8.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="c39e5b6125fc7e09cde2ffeeaea94f14afbed30d">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\happy-dns-0.2.8_fa7e82954072d975ee2d619847cede711e89dafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\easemobchat_2.2.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6cec5fd2dd2e1804a9c54ddedbb848d855b0ea61">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\easemobchat_2.2.6_c9f703e5eab2e8d328cc7b5c6acc9ca91ad26ffe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,21 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\alipaysdk.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="0c3384f9877b711c3f0b6556ce9ec7f63dc2426e">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaysdk_14e789b6d78aaccf639676388800504ab19dd0f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_65e1a9eed9cf6b56334546407051e9043d79851b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\android-gif-drawable.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="30c3594e7c65ad498d4e30d1d72c84794f10f695">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-gif-drawable_2e907c92a52894258758e0ecf229dcfc3af1e845\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
     </item>
     <item
         is-multidex="true"

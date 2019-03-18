@@ -59,7 +59,7 @@ public class TuyaActivity extends Activity implements View.OnClickListener {
             @Override
             public void onSaved(IDoodle doodle, Bitmap doodleBitmap, Runnable callback) {
                 String path = FileUtils.getTempDirPath() +File.separator+"tuya"+System.currentTimeMillis()+".jpg";
-                FileUtils.saveBitmap(doodleBitmap,path,1);
+                FileUtils.saveBitmap(doodleBitmap,path,1,null);
                 EventBus.getDefault().post(new OpreratePhotoEvent(path));
                 finish();
             }
