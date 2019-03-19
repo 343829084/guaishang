@@ -19,8 +19,8 @@ android {
         applicationId "com.houwei.guaishang"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 6
-        versionName "6.0"
+        versionCode 7
+        versionName "7.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
@@ -43,7 +43,6 @@ android {
     }*/
     buildTypes {
         release {
-            minifyEnabled false
             signingConfig signingConfigs.debug
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -176,4 +175,5 @@ dependencies {
     compile 'com.github.yalantis:ucrop:2.2.2-native'
     compile 'com.github.1993hzw:Doodle:5.3'
     compile 'com.fanjun:keeplive:1.1.6'
+    compile'com.yanzhenjie:permission:1.0.8'
 }

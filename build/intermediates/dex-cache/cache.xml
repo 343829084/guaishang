@@ -30,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\happy-dns-0.2.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="c39e5b6125fc7e09cde2ffeeaea94f14afbed30d">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\happy-dns-0.2.8_fa7e82954072d975ee2d619847cede711e89dafd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\easemobchat_2.2.6.jar"
         jumboMode="false"
         optimize="true"
@@ -48,21 +39,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\fastjson-1.1.39.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_514f6b5b58a845e1f61bae9569451f9e37368f8d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\beecloud-2.1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="36a27b335ec315cfecd420c8ad72e9559b1404fa">
         <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\beecloud-2.1.3_826968d1f56f90af1223a15833266263b43570e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\0fd3fdd2e39f45b3b4f77bbdfed8a58fa4b7d0a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="284e4a41a5b9f1b8c97b16b685af7b99724bca2d">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_481ed29ad70326d265df677089efbc785f211649\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaysecsdk_b66ee26bd5812e87e21277fc427b813bd90cb201\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\happy-dns-0.2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="c39e5b6125fc7e09cde2ffeeaea94f14afbed30d">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\happy-dns-0.2.8_fa7e82954072d975ee2d619847cede711e89dafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProject\DD\app\libs\fastjson-1.1.39.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="4d002c8b49ff59d6272a8d0a0057d1548d3895ac">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.39_514f6b5b58a845e1f61bae9569451f9e37368f8d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,15 +111,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\alipaysecsdk.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="7413c074c9edf523050267b93d0875151dc4b644">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaysecsdk_b66ee26bd5812e87e21277fc427b813bd90cb201\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidProject\DD\app\libs\wechat-sdk-android-with-mta-1.1.6.jar"
         jumboMode="false"
         optimize="true"
@@ -111,12 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidProject\DD\app\libs\alipayutdid.jar"
+        jar="C:\Users\Administrator\.android\build-cache\cb830c02b5c73279e8404b56a3d637941d0b57ef\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
-        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
-        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipayutdid_1c3eaca1c6dea7ec86f472e815be637b04b05739\classes.dex" />
+        sha1="c75007d82461aecc56df64e675148a883096c790">
+        <dex dex="D:\AndroidProject\DD\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8ed9189d49d703bfcd3f815a1e3bb202a99eac1\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1,5 +1,7 @@
 package com.houwei.guaishang.preview;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -30,6 +32,7 @@ import com.houwei.guaishang.R;
 import com.houwei.guaishang.activity.BaseActivity;
 import com.houwei.guaishang.tools.ToastUtils;
 import com.houwei.guaishang.util.FileUtils;
+import com.houwei.guaishang.util.PermissionUtil;
 import com.houwei.guaishang.widget.PsiDialog;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -83,21 +86,24 @@ public class PreviewActivity extends BaseActivity {
         }
     }
     private void downLoadImage(){
-        Uri uri  = Uri.parse(mUrlList.get(mLocation));
-        ImageRequest imageRequest =ImageRequestBuilder.
-                newBuilderWithSource(uri).
-                setProgressiveRenderingEnabled(true).
-                build();
-        DataSource<CloseableReference<CloseableImage>> dataSource = Fresco.getImagePipeline()
-                .fetchDecodedImage(imageRequest, PreviewActivity.this);
-
-        dataSource.subscribe(new BaseBitmapDataSubscriber() {
+        PermissionUtil.g().requestPermissions(this,new PermissionUtil.PermissionCallBack() {
             @Override
-            protected void onNewResultImpl(@Nullable Bitmap bitmap) {
-                final String filepath = FileUtils.getTempDirPath();
-                final String fileName = System.currentTimeMillis()+".jpg";
-                final String path = filepath+File.separator+fileName;
-                savaImage(bitmap,path);
+            public void success() {
+                Uri uri  = Uri.parse(mUrlList.get(mLocation));
+                ImageRequest imageRequest =ImageRequestBuilder.
+                        newBuilderWithSource(uri).
+                        setProgressiveRenderingEnabled(true).
+                        build();
+                DataSource<CloseableReference<CloseableImage>> dataSource = Fresco.getImagePipeline()
+                        .fetchDecodedImage(imageRequest, PreviewActivity.this);
+
+                dataSource.subscribe(new BaseBitmapDataSubscriber() {
+                    @Override
+                    protected void onNewResultImpl(@Nullable Bitmap bitmap) {
+                        final String filepath = FileUtils.getTempDirPath();
+                        final String fileName = System.currentTimeMillis()+".jpg";
+                        final String path = filepath+File.separator+fileName;
+                        savaImage(bitmap,path);
 //               FileUtils.saveBitmap(bitmap, path, 1, new FileUtils.SaveImageCallBack() {
 //                   @Override
 //                   public void finish() {
@@ -109,19 +115,26 @@ public class PreviewActivity extends BaseActivity {
 //                       }
 //                   }
 //               });
-                if (dialog != null){
-                    dialog.dismiss();
-                }
+                        if (dialog != null){
+                            dialog.dismiss();
+                        }
+                    }
+
+                    @Override
+                    protected void onFailureImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
+                        ToastUtils.toastForShort(PreviewActivity.this,"保存失败");
+                        if (dialog != null){
+                            dialog.dismiss();
+                        }
+                    }
+                },CallerThreadExecutor.getInstance());
             }
 
             @Override
-            protected void onFailureImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
-                ToastUtils.toastForShort(PreviewActivity.this,"保存失败");
-                if (dialog != null){
-                    dialog.dismiss();
-                }
+            public void fail() {
+
             }
-        },CallerThreadExecutor.getInstance());
+        }, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE);
     }
 
 
@@ -247,6 +260,7 @@ public class PreviewActivity extends BaseActivity {
                         @Override
                         public void onPositiveButtonClick(View view) {
                             ToastUtils.toastForShort(PreviewActivity.this,"取消");
+                            dialog.dismiss();
                         }
                     },"确定","取消");
                     dialog.show();
