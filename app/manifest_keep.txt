@@ -1,0 +1,33 @@
+# view AndroidManifest.xml #generated:53
+-keep class com.mob **{
+**;
+};
+-keep class com.houwei.guaishang.**{
+*;
+}
+-keep class com.lzy.imagepicker.**{
+*;
+}
+-keep class com.baidu.**{
+*;
+}
+-keep class com.facebook.**{
+*;
+}
+
+-keep class com.fanjun.keeplive.**{
+*;
+}
+
+-keep class com.umeng.**{
+*;
+}
+
+-keep class cn.beecloud.**{
+*;
+}
+-keep class cn.jpush.android.api.**{
+*;
+}
+-keep class com.houwei.guaishang.manager.ITopicApplication { <init>(...); }
+

@@ -75,6 +75,9 @@ public class JsonUtil {
 	 */
 	public static <T> T getObject(String json, Class<T> clazz) {
 		T t = null;
+		if (TextUtils.isEmpty(json)){
+			return null;
+		}
 		try {
 			t = JSON.parseObject(json, clazz);
 		} catch (Exception e) {

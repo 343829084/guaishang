@@ -125,14 +125,16 @@ public class MyUserBeanManager {
 	public void checkUserInfo() {
 		SharedPreferences pref = mContext.getSharedPreferences("USER",
 				Activity.MODE_PRIVATE);
-		instanceUser = JsonUtil.getObject(pref.getString("USERJSON", ""),
-				UserBean.class);
-		if (instanceUser == null) {
-			storeMineUserID(mContext, null);
-		} else {
-			// 展开数据库
-			storeMineUserID(mContext, instanceUser.getUserid());
-			DBReq.getInstence(mContext);
+		if (pref != null) {
+			instanceUser = JsonUtil.getObject(pref.getString("USERJSON", ""),
+					UserBean.class);
+			if (instanceUser == null) {
+				storeMineUserID(mContext, null);
+			} else {
+				// 展开数据库
+				storeMineUserID(mContext, instanceUser.getUserid());
+				DBReq.getInstence(mContext);
+			}
 		}
 	}
 

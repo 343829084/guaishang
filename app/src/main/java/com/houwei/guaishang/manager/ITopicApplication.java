@@ -4,10 +4,11 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
+import android.support.v4.app.NotificationCompat;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.facebook.drawee.backends.pipeline.Fresco;
-import com.facebook.stetho.Stetho;
 import com.fanjun.keeplive.KeepLive;
 import com.fanjun.keeplive.config.ForegroundNotification;
 import com.fanjun.keeplive.config.ForegroundNotificationClickListener;
@@ -15,18 +16,15 @@ import com.fanjun.keeplive.config.KeepLiveService;
 import com.houwei.guaishang.R;
 import com.houwei.guaishang.activity.MainActivity;
 import com.houwei.guaishang.tools.ApplicationProvider;
-import com.houwei.guaishang.view.MyImageLoader;
-import com.lzy.imagepicker.ImagePicker;
-import com.lzy.imagepicker.view.CropImageView;
-import com.mob.MobApplication;
 import com.mob.MobSDK;
+import com.mob.tools.proguard.ProtectedMemberKeeper;
 import com.umeng.analytics.MobclickAgent;
 
 
 import cn.beecloud.BeeCloud;
 import cn.jpush.android.api.JPushInterface;
 
-public class ITopicApplication extends MobApplication {
+public class ITopicApplication extends MultiDexApplication implements ProtectedMemberKeeper {
 
 	private static Application application;
 
@@ -55,7 +53,6 @@ public class ITopicApplication extends MobApplication {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		MultiDex.install(this);
 		MobSDK.init(this,"15b5b9e067b56","7b60e80917dd1d9b1f90223b02215b9b");
 		application = this;
 		//极光初始化
@@ -67,24 +64,11 @@ public class ITopicApplication extends MobApplication {
 
 //		okgo初始化
 //		OkGo.getInstance().init(this);
-		ImagePicker imagePicker = ImagePicker.getInstance();
-		imagePicker.setImageLoader(new MyImageLoader());   //设置图片加载器
-		imagePicker.setMultiMode(true);  //图片选择模式 默认多选
-		imagePicker.setShowCamera(true);  //显示拍照按钮
-		imagePicker.setCrop(false);        //允许裁剪（单选才有效）
-		imagePicker.setSelectLimit(7);    //选中数量限制
-		imagePicker.setStyle(CropImageView.Style.RECTANGLE);  //裁剪框的形状
-		imagePicker.setSaveRectangle(true);  //true 按照矩形保存，false 按照裁剪框形状保存
-		imagePicker.setFocusWidth(800);   //裁剪框的宽度。单位像素（圆形自动取宽高最小值）
-		imagePicker.setFocusHeight(800);  //裁剪框的高度。单位像素（圆形自动取宽高最小值）
 		keepAlive();
-
-//
+////
 
 //		PublicStaticData.myShareSDK= new ShareSDK();
 //		PublicStaticData.myShareSDK.initSDK(getApplicationContext());
-
-		MobSDK.init(this);
 		SDKInitializer.initialize(getApplicationContext());//百度地图
 		Fresco.initialize(this);
 	}
@@ -174,7 +158,7 @@ public class ITopicApplication extends MobApplication {
 
 
 	private void keepAlive(){
-		ForegroundNotification foregroundNotification = new ForegroundNotification("怪商抢单","测试保活", R.mipmap.logo,
+		ForegroundNotification foregroundNotification = new ForegroundNotification("怪商抢单 -管件抢单神器！","", R.mipmap.logo,
 				new ForegroundNotificationClickListener() {
 
 					@Override

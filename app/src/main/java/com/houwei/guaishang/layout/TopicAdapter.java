@@ -162,9 +162,9 @@ public class TopicAdapter extends BaseAdapter {
             holder.progressBar = (ProgressBar) convertView.findViewById(R.id.progress_bar);
             holder.price = (TextView) convertView.findViewById(R.id.price);
             holder.time = (TextView) convertView.findViewById(R.id.time);
-            holder.dealAvator = convertView.findViewById(R.id.deal_avator);
-            holder.dealName = convertView.findViewById(R.id.deal_name);
-            holder.dealLayout = convertView.findViewById(R.id.deal_layout);
+            holder.dealAvator = (ImageView) convertView.findViewById(R.id.deal_avator);
+            holder.dealName = (TextView) convertView.findViewById(R.id.deal_name);
+            holder.dealLayout = (RelativeLayout) convertView.findViewById(R.id.deal_layout);
             holder.dealLayout.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {

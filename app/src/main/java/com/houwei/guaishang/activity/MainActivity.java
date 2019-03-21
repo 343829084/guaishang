@@ -1,6 +1,7 @@
 package com.houwei.guaishang.activity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -15,6 +16,10 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 
 import com.baidu.tts.tools.SharedPreferencesUtils;
+import com.fanjun.keeplive.KeepLive;
+import com.fanjun.keeplive.config.ForegroundNotification;
+import com.fanjun.keeplive.config.ForegroundNotificationClickListener;
+import com.fanjun.keeplive.config.KeepLiveService;
 import com.google.gson.Gson;
 import com.houwei.guaishang.MessageEvent;
 import com.houwei.guaishang.R;
@@ -41,9 +46,12 @@ import com.houwei.guaishang.tools.HttpUtil;
 import com.houwei.guaishang.tools.JsonParser;
 import com.houwei.guaishang.tools.VoiceUtils;
 import com.houwei.guaishang.util.DeviceCardInfoUtils;
+import com.houwei.guaishang.view.MyImageLoader;
 import com.houwei.guaishang.view.PublishOrderDialog;
 import com.houwei.guaishang.widget.PsiDialog;
+import com.lzy.imagepicker.ImagePicker;
 import com.lzy.imagepicker.bean.ImageItem;
+import com.lzy.imagepicker.view.CropImageView;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
 import org.greenrobot.eventbus.EventBus;
@@ -116,6 +124,7 @@ public class MainActivity extends MainHuanXinActivity implements UserStateChange
 		}
 //                                主题活动
 		setContentView(R.layout.activity_main);
+		initImagePicker();
 		rxPermissions = new RxPermissions(this);
 //       时间总线   获取默认   注册
 		EventBus.getDefault().register(this);
@@ -131,6 +140,33 @@ public class MainActivity extends MainHuanXinActivity implements UserStateChange
 		readPhoneAndMessage();
 //		ShareSDK.initSDK(this);
 		bindServcice();
+//		keepAlive();
+	}
+
+
+	private void keepAlive() {
+		ForegroundNotification foregroundNotification = new ForegroundNotification("怪商抢单", "测试保活", R.mipmap.logo,
+				new ForegroundNotificationClickListener() {
+
+					@Override
+					public void foregroundNotificationClick(Context context, Intent intent) {
+						Intent intent1 = new Intent(context, MainActivity.class);
+						context.startActivity(intent1);
+					}
+				});
+	}
+
+	private void initImagePicker(){
+		ImagePicker imagePicker = ImagePicker.getInstance();
+		imagePicker.setImageLoader(new MyImageLoader());   //设置图片加载器
+		imagePicker.setMultiMode(true);  //图片选择模式 默认多选
+		imagePicker.setShowCamera(true);  //显示拍照按钮
+		imagePicker.setCrop(false);        //允许裁剪（单选才有效）
+		imagePicker.setSelectLimit(7);    //选中数量限制
+		imagePicker.setStyle(CropImageView.Style.RECTANGLE);  //裁剪框的形状
+		imagePicker.setSaveRectangle(true);  //true 按照矩形保存，false 按照裁剪框形状保存
+		imagePicker.setFocusWidth(800);   //裁剪框的宽度。单位像素（圆形自动取宽高最小值）
+		imagePicker.setFocusHeight(800);  //裁剪框的高度。单位像素（圆形自动取宽高最小值）
 	}
 
 	private void bindServcice(){
