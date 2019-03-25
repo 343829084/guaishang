@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: SMSSDKGUI-3.0.0:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/5c8e98a08e618121099c52f2f8d08dfc3e0cfa3f/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/5c8e98a08e618121099c52f2f8d08dfc3e0cfa3f/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/166f9b69fd1150d40cf1d00b5729496aae59df4f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/166f9b69fd1150d40cf1d00b5729496aae59df4f/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
