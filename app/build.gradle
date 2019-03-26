@@ -19,8 +19,8 @@ android {
         applicationId "com.houwei.guaishang"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 8
-        versionName "8.0"
+        versionCode 9
+        versionName "9.0"
         multiDexEnabled true
         setMultiDexKeepFile file("manifest_keep.txt")
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
