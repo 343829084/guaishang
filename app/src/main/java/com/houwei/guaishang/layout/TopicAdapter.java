@@ -239,7 +239,7 @@ public class TopicAdapter extends BaseAdapter {
             if (max != 0) {
                 holder.progressBar.setProgress(progress / max);
             }
-            if(progress==max){
+            if(progress==max && !TextUtils.equals(mContext.getUserID(),memberId)){
 //                      订单 按钮     已结束状态
                 holder.order_btn.setStatu(3);
 //                      订单 按钮   设置简单
